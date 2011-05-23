@@ -471,11 +471,29 @@ class Ajax_backup extends Controller {
     }
 
     public function validate() {
+        $this->json_data = true;
         if($name = $this->input->post('name')) {
             if( in_array( $name, $this->backup->get_jobs() ) ) {
                 $this->json_data = false;
             } else {
                 $this->json_data = true;
+            }
+        }
+    }
+
+    public function test_conn() {
+        $this->json_data = $_POST;
+        return;
+        $this->json_data = true;
+        $proto = $this->input->post('protocol');
+        if( $proto == 'ftp' ) {
+            $host = $this->input->post('host');
+            $user = $this->input->post('user');
+            $pass = $this->input->post('pass');
+            try {
+                $this->json_data = $this->backup->test_ftp($host, $user, $pass);
+            } catch( Exception $e ) {
+                // nothing atm
             }
         }
     }

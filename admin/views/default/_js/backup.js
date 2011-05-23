@@ -226,10 +226,17 @@ $(function(){
     var create_buttonpane = dialogs['create'].dialog('widget').children('.ui-dialog-buttonpane');
     var edit_buttonpane = dialogs['edit'].dialog('widget').children('.ui-dialog-buttonpane');
 
+    create_buttonpane.find('.ui-prev-button').click(function(){
+        $(this).button('enable');
+        $("#fn-backup-create").formwizard('back');
+    });
+    create_buttonpane.find('.ui-next-button').click(function(){
+        $(this).button('enable');
+        $("#fn-backup-create").formwizard('next');
+    });
+
     $("#fn-backup-create").formwizard(
         {
-            resetForm: true,
-            historyEnabled: !true,
             focusFirstInput: true,
             validationEnabled: true,
             formPluginEnabled: true,
@@ -237,109 +244,133 @@ $(function(){
             next: create_buttonpane.find('.ui-next-button'),
             textSubmit: $.message("backup-create-button-finish"),
             showBackOnFirstStep: true,
-            afterNext: function(wizardData) {
-                switch( wizardData.currentStep ) {
-                case "fn-backup-create-form-step-2":
-                    $("#fn-backup-create-selection-custom-browse").button('disable')
-                    break;
-                case "fn-backup-create-form-step-3":
-                    $('#fn-backup-create-protocol').change();
-                    break;
-                case "fn-backup-create-form-step-4":
-                    $('.fn-backup-schedule').change();
-                    break;
-                case "fn-backup-create-form-step-5":
-                    $("#fn-backup-create-security-enable").change();
-                    break;
+            remoteAjax: {
+                'fn-backup-create-form-step-3': {
+                    'type': 'POST',
+                    'url': config.prefix + "/ajax_backup/test_conn",
+                    'dataType': 'json',
+                    'success': function(data) {
+                        $.alert(data);
+                    }
                 }
             },
-            afterBack: function(wizardData) {
-                switch( wizardData.currentStep ) {
-                case "fn-backup-create-form-step-4":
-                    $('.fn-backup-schedule').change();
-                    break;
-                }
-            }
-        },
-        {
-            'rules': {
-                'name': {
-                    'required': true,
-                    'remote': {
-                        'type': 'POST',
-                        'url': config.prefix + "/ajax_backup/validate"
+            validationOptions: {
+                'rules': {
+                    'name': {
+                        'required': true,
+                        'remote': {
+                            'type': 'POST',
+                            'dataType': 'json',
+                            'url': config.prefix + "/ajax_backup/validate"
+                        }
+                    },
+                    'target-device': {
+                        'required': function(element) {
+                            return $('#fn-backup-create-protocol option:selected').val() == 'file';
+                        }
+                    },
+                    'target-hostname': {
+                        'required': function(element) {
+                            return $('#fn-backup-create-protocol option:selected').val() != 'file';
+                        }
+                    },
+                    'target-username': {
+                        'required': function(element) {
+                            return $('#fn-backup-create-protocol option:selected').val() != 'file';
+                        }
+                    },
+                    'target-password': {
+                        'required': function(element) {
+                            return $('#fn-backup-create-protocol option:selected').val() != 'file';
+                        }
+                    },
+                    'selection': {
+                        'required': true
+                    },
+                    'protocol': {
+                        'required': true
+                    },
+                    'schedule-type': {
+                        'required': true
+                    },
+                    'security-password': {
+                        'required': function(element) {
+                            return $('#fn-backup-create-security-enable').is(':checked');
+                        }
+                    },
+                    'security-password2': {
+                        'equalTo': '#fn-backup-create-security-password'
                     }
-                },
-                'target-device': {
-                    'required': function(element) {
-                        return $('#fn-backup-create-protocol option:selected').val() == 'file';
-                    }
-                },
-                'target-hostname': {
-                    'required': function(element) {
-                        return $('#fn-backup-create-protocol option:selected').val() != 'file';
-                    }
-                },
-                'target-username': {
-                    'required': function(element) {
-                        return $('#fn-backup-create-protocol option:selected').val() != 'file';
-                    }
-                },
-                'target-password': {
-                    'required': function(element) {
-                        return $('#fn-backup-create-protocol option:selected').val() != 'file';
-                    }
-                },
-                'selection': {
-                    'required': true
-                },
-                'protocol': {
-                    'required': true
-                },
-                'schedule-type': {
-                    'required': true
-                },
-                'security-password': {
-                    'required': function(element) {
-                        return $('#fn-backup-create-security-enable').is(':checked');
-                    }
-                },
-                'security-password2': {
-                    'equalTo': '#fn-backup-create-security-password'
-                }
 
-            },
-            'messages': {
-                'name': {
-                    'remote': jQuery.format("{0} is already in use")
-                }
-            }
-        },
-        {
-            'url': config.prefix + "/ajax_backup/create",
-            'type': 'post',
-            'dataType': 'json',
-            'beforeSubmit': function(arr, $form, options) {
-                var $custom = $('#fn-backup-create-selection-custom-selection');
-                $.each(
-                    $custom.data('selection'),
-                    function() {
-                        arr.push({'name': 'dirs[]', 'value': this});
+                },
+                'messages': {
+                    'name': {
+                        'remote': jQuery.format("{0} is already in use")
                     }
-                );
-                console.log(arr);
-                //               $.throbber.show();
-
-                return true;
+                }
             },
-            'reset': true,
-            'success': function( data ) {
-                $.throbber.hide();
-                dialogs['create'].dialog('close');
-                update_backup_jobs_table();
+            formOptions: {
+                'url': config.prefix + "/ajax_backup/create",
+                'type': 'post',
+                'dataType': 'json',
+                'beforeSubmit': function(arr, $form, options) {
+                    var $custom = $('#fn-backup-create-selection-custom-selection');
+                    $.each(
+                        $custom.data('selection'),
+                        function() {
+                            arr.push({'name': 'dirs[]', 'value': this});
+                        }
+                    );
+                    console.log(arr);
+                    //               $.throbber.show();
+
+                    return true;
+                },
+                'resetForm': true,
+                'success': function( data ) {
+                    $.throbber.hide();
+                    dialogs['create'].dialog('close');
+                    update_backup_jobs_table();
+                }
             }
         }
     );
+
+    $('#fn-backup-create').bind('step_shown', function( event, data ) {
+        if(data.isFirstStep) {
+            create_buttonpane.find('.ui-prev-button').attr('disabled', 'disabled');
+        } else {
+            create_buttonpane.find('.ui-prev-button').removeAttr('disabled');
+        }
+        if(data.isLastStep) {
+            create_buttonpane.find('.ui-next-button').text($.message("Submit"));
+        } else {
+            create_buttonpane.find('.ui-next-button').text($.message("Next"));
+        }
+
+        if(!data.isBackNavigation) {
+            switch( data.currentStep ) {
+            case "fn-backup-create-form-step-2":
+                $("#fn-backup-create-selection-custom-browse").button('disable')
+                break;
+            case "fn-backup-create-form-step-3":
+                $('#fn-backup-create-protocol').change();
+                break;
+            case "fn-backup-create-form-step-4":
+                $('.fn-backup-schedule').change();
+                break;
+            case "fn-backup-create-form-step-5":
+                $("#fn-backup-create-security-enable").change();
+                break;
+            }
+        } else {
+            switch( data.currentStep ) {
+            case "fn-backup-create-form-step-4":
+                $('.fn-backup-schedule').change();
+                break;
+            }
+        };
+    });
 
     $("#fn-backup-edit").formwizard(
         {
