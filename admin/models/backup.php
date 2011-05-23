@@ -538,19 +538,5 @@ class Backup extends Model {
 		// we just wont close this process...
     }
 
-    public function test_ftp( $host, $user, $pass ) {
-        $conn = @ftp_connect($host);
-        if($conn) {
-            if(@ftp_login($conn, $user, $pass)) {
-                @ftp_close($conn);
-                return true;
-            } else {
-                @ftp_close($conn);
-                return false;
-            }
-            return false;
-        }
-    }
-
 
 }
