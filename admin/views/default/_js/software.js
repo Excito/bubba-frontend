@@ -1,9 +1,6 @@
 function print_versions() {
 
-    $.post("/admin/settings/fwupdate", {
-        action: 'get_versions'
-    },
-    function(data) {
+    $.post("/admin/ajax_settings/get_versions", {}, function(data) {
 
         $("#package_versions_body").empty();
         jQuery.each(data, function(package_name, package_version) {

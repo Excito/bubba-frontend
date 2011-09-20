@@ -74,31 +74,32 @@ class Ajax_Settings extends Controller {
 		$this->json_data["nbrdisks"] = sizeof($usable_disks);
 	}
 
+  function get_versions() {
+      $versions = get_package_version(array("bubba","bubba3-kernel","bubba-frontend","bubba-backend","bubba-album","filetransferdaemon","squeezecenter"));
+      $this->session->set_userdata("version",$versions['bubba']);
+      $this->json_data = $versions;
+    }
+
     function update(){
         $this->load->helper('bubba_socket');
-        $output = '';
         switch( $this->input->post( 'action' ) ) {
         case 'upgrade':
             $enable_hotfix = $this->input->post('hotfix');
             update_bubbacfg( 'admin', 'hotfix', $enable_hotfix );
             apt_upgrade_packages($enable_hotfix);
             $output = apt_query_progress();
+            $this->json_data = json_decode($output);
             break;
         case 'install':
             apt_install_package( $this->input->post( 'package' ) );
             $output = apt_query_progress();
+            $this->json_data = json_decode($output);
             break;
         case 'progress':
             $output = apt_query_progress();
-            break;
-        case 'get_versions':
-            $versions = get_package_version(array("bubba","bubba3-kernel","bubba-frontend","bubba-backend","bubba-album","filetransferdaemon","squeezecenter"));
-            $this->session->set_userdata("version",$versions['bubba']);
-            $output = json_encode($versions);
+            $this->json_data = json_decode($output);
             break;
         }
-        syslog( LOG_DEBUG, $output );
-        $this->output->set_output($output);
     }
   function _output($output) {
   	if(isset($this->json_data) && sizeof($this->json_data)) {
