@@ -20,7 +20,6 @@ function print_versions() {
 $(document).ready(function() {
 
     print_versions();
-});
 
 $("#update").submit(function() {
     action = $('#apt_type').val();
@@ -168,4 +167,5 @@ $("#update").submit(function() {
         }
     });
     return false;
+});
 });
