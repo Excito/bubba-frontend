@@ -1,15 +1,9 @@
-bubba-frontend (2.3.0.99.99.99.2) hugo; urgency=low
-
-  * document ready
-
- -- Carl Fürstenberg <carl@excito.com>  Tue, 20 Sep 2011 12:19:32 +0200
-
-bubba-frontend (2.3.0.99.99.99.1) hugo; urgency=low
+bubba-frontend (2.3.0.99.99.99.28) hugo; urgency=low
 
   * Rewritten system updater
   * use separate version and eensure json formating
 
- -- Carl Fürstenberg <carl@excito.com>  Tue, 20 Sep 2011 12:11:26 +0200
+ -- Carl Fürstenberg <carl@excito.com>  Wed, 28 Sep 2011 17:08:58 +0200
 
 bubba-frontend (2.3.0.2) vincent hugo; urgency=low
 
