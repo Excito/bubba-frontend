@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre4) vincent; urgency=low
+
+  * Bumping sapi generation to 2.4 and below
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 04 Oct 2011 13:18:30 +0200
+
 bubba-frontend (2.4~pre3) vincent; urgency=low
 
   * Adding intl to sapi list
