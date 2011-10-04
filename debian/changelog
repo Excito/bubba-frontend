@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre2) vincent; urgency=low
+
+  * Adding missing php module (php5-intl)
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 04 Oct 2011 13:04:27 +0200
+
 bubba-frontend (2.4~pre1) vincent; urgency=low
 
   * Fix for layout for manage album users dialog (Closes #1726)
