@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre7) vincent; urgency=low
+
+  * Add lost+found to hidden dirs in backup dir listing
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 04 Oct 2011 13:39:12 +0200
+
 bubba-frontend (2.4~pre6) vincent; urgency=low
 
   * Trig first backup entry to display, closes: 1698
