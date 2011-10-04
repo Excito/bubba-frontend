@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre3) vincent; urgency=low
+
+  * Adding intl to sapi list
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 04 Oct 2011 13:14:07 +0200
+
 bubba-frontend (2.4~pre2) vincent; urgency=low
 
   * Adding missing php module (php5-intl)
