@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-22 21:04+0200\n"
+"POT-Creation-Date: 2011-10-04 15:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,15 +61,15 @@ msgctxt "button"
 msgid "Add to album"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:536
+#: admin/views/default/_js/backup.js:539
 msgid "Are you sure you want to permanently remove this backup job?"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:574
+#: admin/views/default/_js/backup.js:577
 msgid "Are you sure you want to run this backup job now?"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:657
+#: admin/views/default/_js/backup.js:660
 msgid "Are you sure? Any existing files will be overwritten."
 msgstr ""
 
@@ -82,13 +82,13 @@ msgstr ""
 msgid "Backup job %s failed"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:591
+#: admin/views/default/_js/backup.js:594
 msgid ""
 "Backup job has been initialized to be executed at this particlular moment in "
 "time."
 msgstr ""
 
-#: admin/views/default/_js/backup.js:553
+#: admin/views/default/_js/backup.js:556
 msgid "Backup job was removed from the system"
 msgstr ""
 
@@ -110,11 +110,11 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:252 admin/views/default/_js/backup.js:366
+#: admin/views/default/_js/backup.js:255 admin/views/default/_js/backup.js:369
 msgid "Complete"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:658
+#: admin/views/default/_js/backup.js:661
 msgid "Confirm restore"
 msgstr ""
 
@@ -226,7 +226,7 @@ msgstr ""
 msgid "Failed"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:756
+#: admin/views/default/_js/backup.js:759
 msgid "File/Directory selector"
 msgstr ""
 
@@ -251,7 +251,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:681
+#: admin/views/default/_js/backup.js:684
 #: admin/views/default/_js/mail_retrieve.js:142
 #: admin/views/default/_js/mail_retrieve.js:143
 #: admin/views/default/_js/user.js:96
@@ -262,7 +262,7 @@ msgstr ""
 msgid "No more system messages available"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:236
+#: admin/views/default/_js/backup.js:239
 msgid "Only alphanumreric values are allowed for the name"
 msgstr ""
 
@@ -270,7 +270,7 @@ msgstr ""
 msgid "Pictures added"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:242
+#: admin/views/default/_js/backup.js:245
 msgid "Please enter a valid hostname or IPv4 address"
 msgstr ""
 
@@ -290,7 +290,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:537 admin/views/default/_js/backup.js:540
+#: admin/views/default/_js/backup.js:540 admin/views/default/_js/backup.js:543
 msgid "Remove backup job"
 msgstr ""
 
@@ -311,19 +311,19 @@ msgstr ""
 msgid "Restore"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:641
+#: admin/views/default/_js/backup.js:644
 msgid "Restore backed up data"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:644
+#: admin/views/default/_js/backup.js:647
 msgid "Restore selected files and directories"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:578
+#: admin/views/default/_js/backup.js:581
 msgid "Run backup job"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:575
+#: admin/views/default/_js/backup.js:578
 msgid "Run backup job now"
 msgstr ""
 
@@ -331,7 +331,7 @@ msgstr ""
 msgid "Run now"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:759
+#: admin/views/default/_js/backup.js:762
 msgctxt "button"
 msgid "Select"
 msgstr ""
@@ -426,7 +426,7 @@ msgstr ""
 msgid "Viewer updated"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:661
+#: admin/views/default/_js/backup.js:664
 #: admin/views/default/_js/mail_retrieve.js:142
 #: admin/views/default/_js/mail_retrieve.js:143
 #: admin/views/default/_js/user.js:96
@@ -464,6 +464,6 @@ msgstr ""
 msgid "why?"
 msgstr ""
 
-#: admin/views/default/_js/backup.js:434
+#: admin/views/default/_js/backup.js:437
 msgid "{0} is already in use"
 msgstr ""

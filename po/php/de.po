@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
         "Report-Msgid-Bugs-To: info@excito.com\n"
-        "POT-Creation-Date: 2011-08-13 19:27+0200\n"
+        "POT-Creation-Date: 2011-10-04 15:26+0200\n"
         "PO-Revision-Date: 2011-08-13 18:41+0200\n"
         "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,8 +145,8 @@ msgstr  "Erweiterte Firewall-Einstellungen"
 msgid   "Advanced wireless settings"
 msgstr  "Erweiterte Wireless-Einstellungen"
 
-#: admin/views/default/backup/backup_view.php:315
-#: admin/views/default/backup/backup_view.php:635
+#: admin/views/default/backup/backup_view.php:341
+#: admin/views/default/backup/backup_view.php:687
 msgid   "Age of timeline"
 msgstr  "Age of timeline"
 
@@ -178,6 +178,31 @@ msgstr  "Album aktualisiert"
 msgctxt "menu"
 msgid   "Albums"
 msgstr  "Albumname"
+
+#: admin/views/default/backup/backup_view.php:77
+#: admin/views/default/backup/backup_view.php:423
+msgid   "All music (/home/storage/music)"
+msgstr  ""
+
+#: admin/views/default/backup/backup_view.php:80
+#: admin/views/default/backup/backup_view.php:426
+msgid   "All photos (/home/storage/photos)"
+msgstr  ""
+
+#: admin/views/default/backup/backup_view.php:71
+#: admin/views/default/backup/backup_view.php:417
+msgid   "All user's data (/home/&lt;all users&gt;)"
+msgstr  ""
+
+#: admin/views/default/backup/backup_view.php:74
+#: admin/views/default/backup/backup_view.php:420
+msgid   "All user's email (/home/&lt;all users&gt;/Mail)"
+msgstr  ""
+
+#: admin/views/default/backup/backup_view.php:83
+#: admin/views/default/backup/backup_view.php:429
+msgid   "All videos (/home/storage/video)"
+msgstr  ""
 
 #: admin/views/default/downloads/downloads_list_view.php:36
 msgid   "Allocating disk"
@@ -259,7 +284,7 @@ msgstr  "Datensicherung"
 msgid   "Backup and restore settings"
 msgstr  "Einstellungen sichern und wiederherstellen"
 
-#: admin/views/default/backup/backup_view.php:415
+#: admin/views/default/backup/backup_view.php:467
 msgid   "Backup destination (step 2 of 4)"
 msgstr  "Ziel der Datensicherung (Schritt 2 von 4)"
 
@@ -267,7 +292,7 @@ msgstr  "Ziel der Datensicherung (Schritt 2 von 4)"
 msgid   "Backup jobs"
 msgstr  "Übersicht der geplanten Datensicherungen"
 
-#: admin/views/default/backup/backup_view.php:500
+#: admin/views/default/backup/backup_view.php:552
 msgid   "Backup schedule (step 3 of 4)"
 msgstr  "Backup Plan (Schritt 3 von 4)"
 
@@ -283,8 +308,8 @@ msgstr  "BitTorrent"
 msgid   "Broadcast SSID"
 msgstr  "Übertragung SSID"
 
-#: admin/views/default/backup/backup_view.php:84
-#: admin/views/default/backup/backup_view.php:404
+#: admin/views/default/backup/backup_view.php:110
+#: admin/views/default/backup/backup_view.php:456
 msgid   "Browse"
 msgstr  "Blättern"
 
@@ -335,7 +360,7 @@ msgid   "Choose a name for this job (step 1 of 5)"
 msgstr  "Wählen Sie einen Namen für die geplante Datensicherung (Schritt 1 "
         "von 5)"
 
-#: admin/views/default/backup/backup_view.php:95
+#: admin/views/default/backup/backup_view.php:121
 msgid   "Choose backup destination (step 3 of 5)"
 msgstr  "Wählen Sie das Ziel der Datensicherung (Schritt 3 von 5)"
 
@@ -419,10 +444,6 @@ msgstr  "Die Erstellung der RAID-Array wird <strong>sämtliche Daten</strong> "
         " einschließlich 'storage') und die ausgewählte externe Festplatte "
         "löschen"
 
-#: admin/views/default/settings/settings_software_view.php:34
-msgid   "Current package versions"
-msgstr  "Aktuelle Paketversionen"
-
 #: admin/views/default/disk/disk_raid_view.php:38
 #, php-format
 msgid   "Current recover progress is %d%% and is estimated to finish in %d "
@@ -442,6 +463,16 @@ msgstr  "Der aktuelle Wiederherstellungsfortschritt ist %d%% und wird in "
 msgid   "Current timezone is"
 msgstr  "Aktuelle Zeitzone ist"
 
+#: admin/views/default/settings/settings_software_view.php:2
+#, fuzzy
+msgid   "Current version"
+msgstr  "Aktuelle Paketversionen"
+
+#: admin/views/default/backup/backup_view.php:89
+#: admin/views/default/backup/backup_view.php:435
+msgid   "Custom selection"
+msgstr  ""
+
 #: admin/views/default/services/services_view.php:30
 msgid   "DAAP streaming"
 msgstr  "DAAP Streaming"
@@ -454,15 +485,15 @@ msgstr  "DHCP-Leases"
 msgid   "DLNA streaming"
 msgstr  "DLNA Streaming"
 
-#: admin/views/default/backup/backup_view.php:275
-#: admin/views/default/backup/backup_view.php:595
+#: admin/views/default/backup/backup_view.php:301
+#: admin/views/default/backup/backup_view.php:647
 msgid   "Daily at"
 msgstr  "Täglich um"
 
 #: admin/views/default/filemanager/filemanager_index_view.php:9
 #: admin/views/default/backup/backup_view.php:30
-#: admin/views/default/backup/backup_view.php:711
-#: admin/views/default/backup/backup_view.php:780
+#: admin/views/default/backup/backup_view.php:763
+#: admin/views/default/backup/backup_view.php:832
 msgid   "Date"
 msgstr  ""
 
@@ -470,13 +501,13 @@ msgstr  ""
 msgid   "Date and time"
 msgstr  "Datum und Sprache"
 
-#: admin/views/default/backup/backup_view.php:210
-#: admin/views/default/backup/backup_view.php:530
+#: admin/views/default/backup/backup_view.php:236
+#: admin/views/default/backup/backup_view.php:582
 msgid   "Day of the month"
 msgstr  "Tag im Monat"
 
-#: admin/views/default/backup/backup_view.php:245
-#: admin/views/default/backup/backup_view.php:565
+#: admin/views/default/backup/backup_view.php:271
+#: admin/views/default/backup/backup_view.php:617
 msgid   "Day of the week"
 msgstr  "Wochentag"
 
@@ -513,17 +544,22 @@ msgstr  "Beschreibung"
 msgid   "Destination"
 msgstr  "Ziel"
 
+#: admin/views/default/settings/settings_software_view.php:6
+#, fuzzy
+msgid   "Detailed information"
+msgstr  "Datenträger-Information"
+
 #: admin/views/default/disk/disk_view.php:7
 msgid   "Device"
 msgstr  "Gerät"
 
-#: admin/views/default/backup/backup_view.php:119
-#: admin/views/default/backup/backup_view.php:439
+#: admin/views/default/backup/backup_view.php:145
+#: admin/views/default/backup/backup_view.php:491
 msgid   "Device to use as target for the backup"
 msgstr  "Ziel der Datensicherung"
 
-#: admin/views/default/backup/backup_view.php:192
-#: admin/views/default/backup/backup_view.php:512
+#: admin/views/default/backup/backup_view.php:218
+#: admin/views/default/backup/backup_view.php:564
 msgid   "Disabled (manually run by pressing \"Run now\")"
 msgstr  ""
 
@@ -620,8 +656,8 @@ msgstr  "Easyfind Name"
 msgid   "Easyfind options"
 msgstr  "Easyfind-Optionen"
 
-#: admin/views/default/backup/backup_view.php:378
-#: admin/views/default/backup/backup_view.php:698
+#: admin/views/default/backup/backup_view.php:404
+#: admin/views/default/backup/backup_view.php:750
 msgid   "Edit backup job"
 msgstr  "Geplante Datensicherung ändern"
 
@@ -671,8 +707,8 @@ msgstr  "DNS-Dienst aktivieren"
 msgid   "Enable jumbo frames."
 msgstr  "Jumbo-Rahmen aktivieren."
 
-#: admin/views/default/backup/backup_view.php:341
-#: admin/views/default/backup/backup_view.php:661
+#: admin/views/default/backup/backup_view.php:367
+#: admin/views/default/backup/backup_view.php:713
 msgid   "Encrypt the backup on target for increased security"
 msgstr  "Verschlüsselung der Datensicherung um die Sicherheit zu erhöhen"
 
@@ -831,7 +867,7 @@ msgid   "Extending user storage space"
 msgstr  ""
 
 #: admin/views/default/network/network_fw_view.php:144
-#: admin/views/default/backup/backup_view.php:105
+#: admin/views/default/backup/backup_view.php:131
 msgid   "FTP"
 msgstr  "FTP"
 
@@ -946,7 +982,7 @@ msgctxt "menu"
 msgid   "Filemanager"
 msgstr  "Dateimanager"
 
-#: admin/views/default/backup/backup_view.php:386
+#: admin/views/default/backup/backup_view.php:412
 msgid   "Files to backup (step 1 of 4)"
 msgstr  "Zu sichernde Daten (Schritt 1 von 4)"
 
@@ -1027,18 +1063,18 @@ msgstr  "Host"
 msgid   "Hostname"
 msgstr  "Hostname"
 
-#: admin/views/default/backup/backup_view.php:221
-#: admin/views/default/backup/backup_view.php:256
-#: admin/views/default/backup/backup_view.php:280
-#: admin/views/default/backup/backup_view.php:541
-#: admin/views/default/backup/backup_view.php:576
-#: admin/views/default/backup/backup_view.php:600
+#: admin/views/default/backup/backup_view.php:247
+#: admin/views/default/backup/backup_view.php:282
+#: admin/views/default/backup/backup_view.php:306
+#: admin/views/default/backup/backup_view.php:593
+#: admin/views/default/backup/backup_view.php:628
+#: admin/views/default/backup/backup_view.php:652
 msgid   "Hour of the day"
 msgstr  "Tageszeit"
 
 #: admin/controllers/ajax_backup.php:45
-#: admin/views/default/backup/backup_view.php:300
-#: admin/views/default/backup/backup_view.php:620
+#: admin/views/default/backup/backup_view.php:326
+#: admin/views/default/backup/backup_view.php:672
 msgid   "Hourly"
 msgstr  "Stündlich"
 
@@ -1069,18 +1105,18 @@ msgstr  "Bild aus Album entfernen"
 msgid   "Image updated"
 msgstr  "Bild aktualisiert"
 
-#: admin/views/default/settings/settings_software_view.php:19
-msgid   "Include hotfixes and system specific updates"
-msgstr  "Hotfixes und systemspezifische Updates einschließen"
-
 #: admin/views/default/upload/upload_index_view.php:85
 msgid   "Initializing"
 msgstr  "Wird initialisiert"
 
-#: admin/views/default/settings/settings_software_view.php:4
-#: admin/views/default/settings/settings_software_view.php:10
+#: admin/views/default/settings/settings_software_view.php:33
 #, php-format
 msgid   "Install %s"
+msgstr  "%s installieren"
+
+#: admin/views/default/settings/settings_software_view.php:28
+#, fuzzy, php-format
+msgid   "Install package %s"
 msgstr  "%s installieren"
 
 #: admin/views/default/settings/settings_netupdate_view.php:17
@@ -1139,8 +1175,8 @@ msgstr  "Ungültige Benutzer/Kennwort-Kombination."
 msgid   "Job name"
 msgstr  "Name der Planung"
 
-#: admin/views/default/backup/backup_view.php:309
-#: admin/views/default/backup/backup_view.php:629
+#: admin/views/default/backup/backup_view.php:335
+#: admin/views/default/backup/backup_view.php:681
 msgid   "Keep timeline length of"
 msgstr  "Ältere Datensicherungen eine Zeit lang behalten, aber wie folgt "
         "überschreiben"
@@ -1209,7 +1245,7 @@ msgstr  "Legacy-Modus (802.11a)"
 msgid   "Legacy mode (802.11g)"
 msgstr  "Legacy-Modus (802.11g)"
 
-#: admin/views/default/backup/backup_view.php:107
+#: admin/views/default/backup/backup_view.php:133
 msgid   "Local (USB/eSATA)"
 msgstr  ""
 
@@ -1282,8 +1318,8 @@ msgstr  "Gemischter Modus (802.11n + 802.11g)"
 msgid   "Mode"
 msgstr  "Modus"
 
-#: admin/views/default/backup/backup_view.php:205
-#: admin/views/default/backup/backup_view.php:525
+#: admin/views/default/backup/backup_view.php:231
+#: admin/views/default/backup/backup_view.php:577
 msgid   "Monthly on the"
 msgstr  ""
 
@@ -1300,12 +1336,12 @@ msgstr  ""
 #: admin/views/default/filemanager/filemanager_index_view.php:70
 #: admin/views/default/filemanager/filemanager_index_view.php:83
 #: admin/views/default/backup/backup_view.php:8
-#: admin/views/default/backup/backup_view.php:710
-#: admin/views/default/backup/backup_view.php:779
+#: admin/views/default/backup/backup_view.php:762
+#: admin/views/default/backup/backup_view.php:831
 msgid   "Name"
 msgstr  "Name"
 
-#: admin/controllers/settings.php:806
+#: admin/controllers/settings.php:803
 #, php-format
 msgid   "Name '%s' is not valid"
 msgstr  ""
@@ -1447,11 +1483,11 @@ msgctxt "menu"
 msgid   "PIM"
 msgstr  ""
 
-#: admin/views/default/settings/settings_software_view.php:38
+#: admin/views/default/settings/settings_software_view.php:12
 msgid   "Package name"
 msgstr  "Paketname"
 
-#: admin/views/default/settings/settings_software_view.php:39
+#: admin/views/default/settings/settings_software_view.php:13
 msgid   "Package version"
 msgstr  "Paketversion"
 
@@ -1478,16 +1514,16 @@ msgstr  "Partitionen"
 #: admin/views/default/mail/mail_server_view.php:70
 #: admin/views/default/mail/mail_retrieve_view.php:60
 #: admin/views/default/network/network_wlan_view.php:54
-#: admin/views/default/backup/backup_view.php:346
-#: admin/views/default/backup/backup_view.php:666
+#: admin/views/default/backup/backup_view.php:372
+#: admin/views/default/backup/backup_view.php:718
 #: admin/views/default/login_view.php:35
 msgid   "Password"
 msgstr  "Password"
 
 #: admin/controllers/users.php:317 admin/controllers/filemanager.php:107
 #: admin/views/default/filemanager/filemanager_index_view.php:17
-#: admin/views/default/backup/backup_view.php:722
-#: admin/views/default/backup/backup_view.php:792
+#: admin/views/default/backup/backup_view.php:774
+#: admin/views/default/backup/backup_view.php:844
 msgid   "Permission denied"
 msgstr  "Erlaubnis abgelehnt"
 
@@ -1511,7 +1547,8 @@ msgstr  ""
 
 #: admin/controllers/ajax_network.php:41 admin/controllers/ajax_network.php:42
 #: admin/controllers/ajax_network.php:43
-msgid   "Please see the manual on how to connect your computer to B3."
+#, php-format
+msgid   "Please see the manual on how to connect your computer to %s."
 msgstr  ""
 
 #: admin/views/default/network/network_profile_view.php:13
@@ -1533,10 +1570,6 @@ msgstr  "Bitte warten..."
 #: admin/views/default/network/network_fw_view.php:187
 msgid   "Port forward to internal network"
 msgstr  "Vorwärts an internes Netzwerk übertragen"
-
-#: admin/views/default/settings/settings_software_head_view.php:38
-msgid   "Preparing to"
-msgstr  "Vorbereiten für"
 
 #: admin/views/default/network/network_lan_view.php:177
 #: admin/views/default/network/network_wan_view.php:79
@@ -1577,8 +1610,8 @@ msgstr  "Profil"
 #: admin/views/default/mail/mail_retrieve_view.php:43
 #: admin/views/default/network/network_fw_view.php:218
 #: admin/views/default/network/network_fw_view.php:290
-#: admin/views/default/backup/backup_view.php:99
-#: admin/views/default/backup/backup_view.php:419
+#: admin/views/default/backup/backup_view.php:125
+#: admin/views/default/backup/backup_view.php:471
 msgid   "Protocol"
 msgstr  "Protokoll"
 
@@ -1703,8 +1736,8 @@ msgstr  "Ausgewähltes Bild aus dem Album entfernen?"
 msgid   "Rename"
 msgstr  "Umbenennen"
 
-#: admin/views/default/backup/backup_view.php:358
-#: admin/views/default/backup/backup_view.php:678
+#: admin/views/default/backup/backup_view.php:384
+#: admin/views/default/backup/backup_view.php:730
 msgid   "Repeat password"
 msgstr  "Password wiederholen"
 
@@ -1729,16 +1762,16 @@ msgstr  "Neustart von %s"
 msgid   "Restore"
 msgstr  "Wiederherstellen"
 
-#: admin/views/default/backup/backup_view.php:744
+#: admin/views/default/backup/backup_view.php:796
 msgid   "Restore file to it’s original place"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:757
+#: admin/views/default/backup/backup_view.php:809
 msgid   "Restore to other place"
 msgstr  "Datenwiederherstellung in einem anderen Verzeichniss zur manuellen "
         "Untersuchung (in Bezug auf /home/admin)"
 
-#: admin/views/default/settings/settings_software_view.php:44
+#: admin/views/default/settings/settings_software_view.php:18
 msgid   "Retreiving package information"
 msgstr  "Paketinformation wird abgerufen"
 
@@ -1761,7 +1794,7 @@ msgid   "Running"
 msgstr  ""
 
 #: admin/views/default/network/network_fw_view.php:112
-#: admin/views/default/backup/backup_view.php:106
+#: admin/views/default/backup/backup_view.php:132
 msgid   "SSH"
 msgstr  "SSH"
 
@@ -1769,11 +1802,11 @@ msgstr  "SSH"
 msgid   "Schedule"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:651
+#: admin/views/default/backup/backup_view.php:703
 msgid   "Security (step 4 of 4)"
 msgstr  "Sicherheit (Schritt 4 von 4)"
 
-#: admin/views/default/backup/backup_view.php:331
+#: admin/views/default/backup/backup_view.php:357
 msgid   "Security (step 5 of 5)"
 msgstr  "Sicherheit (Schritt 5 von 5)"
 
@@ -1781,7 +1814,7 @@ msgstr  "Sicherheit (Schritt 5 von 5)"
 msgid   "Seeding"
 msgstr  "Seeding"
 
-#: admin/views/default/backup/backup_view.php:180
+#: admin/views/default/backup/backup_view.php:206
 msgid   "Select backup schedule (step 4 of 5)"
 msgstr  "wahl der Backup Planung (Schritt 4 von 5)"
 
@@ -1889,12 +1922,11 @@ msgstr  "Herunterfahren von %s"
 
 #: admin/views/default/downloads/downloads_list_view.php:50
 #: admin/views/default/filemanager/filemanager_index_view.php:10
-#: admin/views/default/backup/backup_view.php:781
+#: admin/views/default/backup/backup_view.php:833
 msgid   "Size"
 msgstr  "Größe"
 
 #: admin/views/default/stat/stat_view.php:52
-#: admin/views/default/settings/settings_software_view.php:4
 msgid   "Software update"
 msgstr  "Softwareupdate"
 
@@ -1955,6 +1987,11 @@ msgstr  "Schritt 3/4: Benutzer erstellen"
 msgid   "Step 4/4: Network setup"
 msgstr  "Schritt 4/4: Netzwerk-Setup"
 
+#: admin/views/default/backup/backup_view.php:86
+#: admin/views/default/backup/backup_view.php:432
+msgid   "Storage (/home/storage)"
+msgstr  ""
+
 #: admin/views/default/services/services_view.php:24
 msgid   "Streaming"
 msgstr  "Streaming"
@@ -2007,28 +2044,28 @@ msgstr  "Systemeinstellungen wurden erfolgreich wiederhergestellt"
 msgid   "Target"
 msgstr  "Ziel"
 
-#: admin/views/default/backup/backup_view.php:114
-#: admin/views/default/backup/backup_view.php:434
+#: admin/views/default/backup/backup_view.php:140
+#: admin/views/default/backup/backup_view.php:486
 msgid   "Target device"
 msgstr  "Ziel"
 
-#: admin/views/default/backup/backup_view.php:165
-#: admin/views/default/backup/backup_view.php:485
+#: admin/views/default/backup/backup_view.php:191
+#: admin/views/default/backup/backup_view.php:537
 msgid   "Target directory"
 msgstr  "Zielordner"
 
-#: admin/views/default/backup/backup_view.php:126
-#: admin/views/default/backup/backup_view.php:446
+#: admin/views/default/backup/backup_view.php:152
+#: admin/views/default/backup/backup_view.php:498
 msgid   "Target server"
 msgstr  "Ziel Server"
 
-#: admin/views/default/backup/backup_view.php:152
-#: admin/views/default/backup/backup_view.php:472
+#: admin/views/default/backup/backup_view.php:178
+#: admin/views/default/backup/backup_view.php:524
 msgid   "Target server password"
 msgstr  "Kennwort des Zielservers"
 
-#: admin/views/default/backup/backup_view.php:139
-#: admin/views/default/backup/backup_view.php:459
+#: admin/views/default/backup/backup_view.php:165
+#: admin/views/default/backup/backup_view.php:511
 msgid   "Target server username"
 msgstr  "Benutzername des Zielservers"
 
@@ -2043,8 +2080,8 @@ msgid   "The external RAID disk (<strong>%s</strong>) in the RAID array has "
 msgstr  "Die externe RAID-Festplatte (<strong>%s</strong>) in der RAID-Array "
         "hat versagt"
 
-#: admin/views/default/backup/backup_view.php:324
-#: admin/views/default/backup/backup_view.php:644
+#: admin/views/default/backup/backup_view.php:350
+#: admin/views/default/backup/backup_view.php:696
 msgid   "The longer timeline the more space will be required on target"
 msgstr  "Je länger Sie die Zeitlinie wählen, desto mehr Speicherplatz wird "
         "auf dem Datenspeicher benötigt"
@@ -2110,18 +2147,21 @@ msgid   "This page should not be reached"
 msgstr  "Diese Seite konnte nicht erreicht werden"
 
 #: admin/controllers/ajax_network.php:43
+#, php-format
 msgid   "This will restore default network configuration aswell as restarting "
-        "the network on B3."
+        "the network on %s."
 msgstr  ""
 
 #: admin/controllers/ajax_network.php:42
+#, php-format
 msgid   "This will set network configuration to router mode and restart the "
-        "network on B3."
+        "network on %s."
 msgstr  ""
 
 #: admin/controllers/ajax_network.php:41
+#, php-format
 msgid   "This will set network configuration to server mode and restart the "
-        "network on B3."
+        "network on %s."
 msgstr  ""
 
 #: admin/views/default/settings/settings_wizard_view.php:58
@@ -2250,7 +2290,8 @@ msgstr  "Easyfind aktualisieren"
 msgid   "Update hostname and workgroup"
 msgstr  "Hostname und Arbeitsgruppe aktualisieren"
 
-#: admin/views/default/settings/settings_software_view.php:15
+#: admin/views/default/settings/settings_software_view.php:28
+#: admin/views/default/settings/settings_software_view.php:37
 msgid   "Update system"
 msgstr  "System aktualisieren"
 
@@ -2425,8 +2466,8 @@ msgstr  "WWW"
 msgid   "Warning"
 msgstr  "Warnung"
 
-#: admin/views/default/backup/backup_view.php:240
-#: admin/views/default/backup/backup_view.php:560
+#: admin/views/default/backup/backup_view.php:266
+#: admin/views/default/backup/backup_view.php:612
 msgid   "Weekly each"
 msgstr  "Wöchentlich"
 
@@ -2459,28 +2500,28 @@ msgstr  "Arbeitsgruppe"
 msgid   "YYYYMMDD"
 msgstr  "JJJJMMTT"
 
-#: admin/views/default/backup/backup_view.php:317
-#: admin/views/default/backup/backup_view.php:637
+#: admin/views/default/backup/backup_view.php:343
+#: admin/views/default/backup/backup_view.php:689
 msgid   "a day"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:322
-#: admin/views/default/backup/backup_view.php:642
+#: admin/views/default/backup/backup_view.php:348
+#: admin/views/default/backup/backup_view.php:694
 msgid   "a decade"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:319
-#: admin/views/default/backup/backup_view.php:639
+#: admin/views/default/backup/backup_view.php:345
+#: admin/views/default/backup/backup_view.php:691
 msgid   "a month"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:318
-#: admin/views/default/backup/backup_view.php:638
+#: admin/views/default/backup/backup_view.php:344
+#: admin/views/default/backup/backup_view.php:690
 msgid   "a week"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:321
-#: admin/views/default/backup/backup_view.php:641
+#: admin/views/default/backup/backup_view.php:347
+#: admin/views/default/backup/backup_view.php:693
 msgid   "a year"
 msgstr  ""
 
@@ -2488,15 +2529,15 @@ msgstr  ""
 msgid   "album-users-add-account-validation-error"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:216
-#: admin/views/default/backup/backup_view.php:251
-#: admin/views/default/backup/backup_view.php:536
-#: admin/views/default/backup/backup_view.php:571
+#: admin/views/default/backup/backup_view.php:242
+#: admin/views/default/backup/backup_view.php:277
+#: admin/views/default/backup/backup_view.php:588
+#: admin/views/default/backup/backup_view.php:623
 msgid   "at"
 msgstr  "um"
 
-#: admin/views/default/backup/backup_view.php:103
-#: admin/views/default/backup/backup_view.php:423
+#: admin/views/default/backup/backup_view.php:129
+#: admin/views/default/backup/backup_view.php:475
 msgid   "backup-title-protocol"
 msgstr  ""
 
@@ -2512,8 +2553,8 @@ msgstr  "Dateimanager"
 msgid   "filemanager-rename-file-not-exists-error"
 msgstr  ""
 
-#: admin/views/default/backup/backup_view.php:320
-#: admin/views/default/backup/backup_view.php:640
+#: admin/views/default/backup/backup_view.php:346
+#: admin/views/default/backup/backup_view.php:692
 msgid   "half a year"
 msgstr  ""
 
@@ -2549,10 +2590,6 @@ msgstr  "Seeds"
 #: admin/views/default/services/services_view.php:37
 msgid   "to install squeezecenter"
 msgstr  "zur Installation von Squeezecenter"
-
-#: admin/views/default/settings/settings_software_head_view.php:38
-msgid   "update system"
-msgstr  "System aktualisieren"
 
 #: admin/controllers/users.php:161
 msgid   "users-add-account-error"
@@ -2592,11 +2629,20 @@ msgstr  "Ihr-easyfind-Name"
 #~ msgstr       "Alle eingegebenen Werte können später mithilfe der "
 #~      "Verwaltungs-Interface einfach geändert werden."
 
+#~ msgid        "Include hotfixes and system specific updates"
+#~ msgstr       "Hotfixes und systemspezifische Updates einschließen"
+
 #~ msgid        "N only mode (802.11n only)"
 #~ msgstr       "Ausschließlich N-Modus (ausschließlich 802.11n)"
 
+#~ msgid        "Preparing to"
+#~ msgstr       "Vorbereiten für"
+
 #~ msgid        "Welcome to %s"
 #~ msgstr       "Willkommen zu %s"
+
+#~ msgid        "update system"
+#~ msgstr       "System aktualisieren"
 
 #~ msgid        "wizard-msg2"
 #~ msgstr       "wizard-msg2"

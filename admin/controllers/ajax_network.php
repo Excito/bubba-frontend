@@ -36,12 +36,12 @@ class Ajax_network extends Controller {
         }
         $this->json_data['change'] = true;
         $this->json_data['show_alert'] = true;
-        $this->json_data['alert_msg'] = "";
+		$this->json_data['alert_msg'] = "";
 
-				$server_restart_msg = _("This will set network configuration to server mode and restart the network on B3.")."<br/>"._("Changing network parameters may require a restart of your computer.")."<br/><br/>"._("Please see the manual on how to connect your computer to B3.");
-		$router_restart_msg = _("This will set network configuration to router mode and restart the network on B3.")."<br/>"._("Changing network parameters may require a restart of your computer.")."<br/><br/>"._("Please see the manual on how to connect your computer to B3.");
-				$auto_restart_msg = _("This will restore default network configuration aswell as restarting the network on B3.")."<br/>"._("Changing network parameters may require a restart of your computer.")."<br/><br/>"._("Please see the manual on how to connect your computer to B3.");
-				
+		$server_restart_msg = sprintf(_("This will set network configuration to server mode and restart the network on %s."), NAME)."<br/>"._("Changing network parameters may require a restart of your computer.")."<br/><br/>".sprintf(_("Please see the manual on how to connect your computer to %s."), NAME);
+		$router_restart_msg = sprintf(_("This will set network configuration to router mode and restart the network on %s."), NAME)."<br/>"._("Changing network parameters may require a restart of your computer.")."<br/><br/>".sprintf(_("Please see the manual on how to connect your computer to %s."), NAME);
+		$auto_restart_msg = sprintf(_("This will restore default network configuration aswell as restarting the network on %s."), NAME)."<br/>"._("Changing network parameters may require a restart of your computer.")."<br/><br/>".sprintf(_("Please see the manual on how to connect your computer to %s."), NAME);
+
         switch ($old_profile) {
         case "router":
             switch ($new_profile) {

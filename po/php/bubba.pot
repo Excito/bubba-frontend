@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-22 21:04+0200\n"
+"POT-Creation-Date: 2011-10-04 15:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -436,10 +436,6 @@ msgid ""
 "selected external disk"
 msgstr ""
 
-#: admin/views/default/settings/settings_software_view.php:34
-msgid "Current package versions"
-msgstr ""
-
 #: admin/views/default/disk/disk_raid_view.php:38
 #, php-format
 msgid ""
@@ -456,6 +452,10 @@ msgstr ""
 #: admin/views/default/settings/settings_wizard_view.php:32
 #: admin/views/default/settings/settings_datetime_view.php:9
 msgid "Current timezone is"
+msgstr ""
+
+#: admin/views/default/settings/settings_software_view.php:2
+msgid "Current version"
 msgstr ""
 
 #: admin/views/default/backup/backup_view.php:89
@@ -532,6 +532,10 @@ msgstr ""
 
 #: admin/views/default/settings/settings_backuprestore_view.php:7
 msgid "Destination"
+msgstr ""
+
+#: admin/views/default/settings/settings_software_view.php:6
+msgid "Detailed information"
 msgstr ""
 
 #: admin/views/default/disk/disk_view.php:7
@@ -1067,18 +1071,18 @@ msgstr ""
 msgid "Image updated"
 msgstr ""
 
-#: admin/views/default/settings/settings_software_view.php:19
-msgid "Include hotfixes and system specific updates"
-msgstr ""
-
 #: admin/views/default/upload/upload_index_view.php:85
 msgid "Initializing"
 msgstr ""
 
-#: admin/views/default/settings/settings_software_view.php:4
-#: admin/views/default/settings/settings_software_view.php:10
+#: admin/views/default/settings/settings_software_view.php:33
 #, php-format
 msgid "Install %s"
+msgstr ""
+
+#: admin/views/default/settings/settings_software_view.php:28
+#, php-format
+msgid "Install package %s"
 msgstr ""
 
 #: admin/views/default/settings/settings_netupdate_view.php:17
@@ -1301,7 +1305,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: admin/controllers/settings.php:806
+#: admin/controllers/settings.php:803
 #, php-format
 msgid "Name '%s' is not valid"
 msgstr ""
@@ -1442,11 +1446,11 @@ msgctxt "menu"
 msgid "PIM"
 msgstr ""
 
-#: admin/views/default/settings/settings_software_view.php:38
+#: admin/views/default/settings/settings_software_view.php:12
 msgid "Package name"
 msgstr ""
 
-#: admin/views/default/settings/settings_software_view.php:39
+#: admin/views/default/settings/settings_software_view.php:13
 msgid "Package version"
 msgstr ""
 
@@ -1504,7 +1508,8 @@ msgstr ""
 
 #: admin/controllers/ajax_network.php:41 admin/controllers/ajax_network.php:42
 #: admin/controllers/ajax_network.php:43
-msgid "Please see the manual on how to connect your computer to B3."
+#, php-format
+msgid "Please see the manual on how to connect your computer to %s."
 msgstr ""
 
 #: admin/views/default/network/network_profile_view.php:13
@@ -1525,10 +1530,6 @@ msgstr ""
 
 #: admin/views/default/network/network_fw_view.php:187
 msgid "Port forward to internal network"
-msgstr ""
-
-#: admin/views/default/settings/settings_software_head_view.php:38
-msgid "Preparing to"
 msgstr ""
 
 #: admin/views/default/network/network_lan_view.php:177
@@ -1723,7 +1724,7 @@ msgstr ""
 msgid "Restore to other place"
 msgstr ""
 
-#: admin/views/default/settings/settings_software_view.php:44
+#: admin/views/default/settings/settings_software_view.php:18
 msgid "Retreiving package information"
 msgstr ""
 
@@ -1870,7 +1871,6 @@ msgid "Size"
 msgstr ""
 
 #: admin/views/default/stat/stat_view.php:52
-#: admin/views/default/settings/settings_software_view.php:4
 msgid "Software update"
 msgstr ""
 
@@ -2083,21 +2083,24 @@ msgid "This page should not be reached"
 msgstr ""
 
 #: admin/controllers/ajax_network.php:43
+#, php-format
 msgid ""
 "This will restore default network configuration aswell as restarting the "
-"network on B3."
+"network on %s."
 msgstr ""
 
 #: admin/controllers/ajax_network.php:42
+#, php-format
 msgid ""
 "This will set network configuration to router mode and restart the network "
-"on B3."
+"on %s."
 msgstr ""
 
 #: admin/controllers/ajax_network.php:41
+#, php-format
 msgid ""
 "This will set network configuration to server mode and restart the network "
-"on B3."
+"on %s."
 msgstr ""
 
 #: admin/views/default/settings/settings_wizard_view.php:58
@@ -2224,7 +2227,8 @@ msgstr ""
 msgid "Update hostname and workgroup"
 msgstr ""
 
-#: admin/views/default/settings/settings_software_view.php:15
+#: admin/views/default/settings/settings_software_view.php:28
+#: admin/views/default/settings/settings_software_view.php:37
 msgid "Update system"
 msgstr ""
 
@@ -2514,10 +2518,6 @@ msgstr ""
 
 #: admin/views/default/services/services_view.php:37
 msgid "to install squeezecenter"
-msgstr ""
-
-#: admin/views/default/settings/settings_software_head_view.php:38
-msgid "update system"
 msgstr ""
 
 #: admin/controllers/users.php:161

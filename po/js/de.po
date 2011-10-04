@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
         "Report-Msgid-Bugs-To: info@excito.com\n"
-        "POT-Creation-Date: 2011-08-13 19:27+0200\n"
+        "POT-Creation-Date: 2011-10-04 15:26+0200\n"
         "PO-Revision-Date: 2011-08-12 22:22+0200\n"
         "Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,26 +52,26 @@ msgstr  "Neuen Viewer hinzufügen"
 msgid   "Add new viewer to the photo album"
 msgstr  "Neuen Benutzer an das System hinzufügen"
 
-#: admin/views/default/_js/filemanager.js:359
+#: admin/views/default/_js/filemanager.js:364
 #, fuzzy
 msgid   "Add to album"
 msgstr  "Zu Fotoalben hinzufügen"
 
-#: admin/views/default/_js/filemanager.js:480
+#: admin/views/default/_js/filemanager.js:147
 msgctxt "button"
 msgid   "Add to album"
 msgstr  "Zu Fotoalben hinzufügen"
 
-#: admin/views/default/_js/backup.js:536
+#: admin/views/default/_js/backup.js:539
 msgid   "Are you sure you want to permanently remove this backup job?"
 msgstr  "Sind Sie sicher, dass Sie die Ausführung dieses Backups entfernen "
         "wollen?"
 
-#: admin/views/default/_js/backup.js:574
+#: admin/views/default/_js/backup.js:577
 msgid   "Are you sure you want to run this backup job now?"
 msgstr  "Sind Sie sicher, dass Sie das Backup nun starten wollen?"
 
-#: admin/views/default/_js/backup.js:657
+#: admin/views/default/_js/backup.js:660
 msgid   "Are you sure? Any existing files will be overwritten."
 msgstr  "Sind Sie sicher, dass Sie die Daten wiederherstellen wollen? Dies "
         "wird die aktuellen Daten mit denen des Backups überschreiben"
@@ -85,12 +85,12 @@ msgstr  "Zurück"
 msgid   "Backup job %s failed"
 msgstr  "Datensicherung abgebrochen"
 
-#: admin/views/default/_js/backup.js:591
+#: admin/views/default/_js/backup.js:594
 msgid   "Backup job has been initialized to be executed at this particlular "
         "moment in time."
 msgstr  "Die Ausführung des Backups wurde entsprechend terminiert."
 
-#: admin/views/default/_js/backup.js:553
+#: admin/views/default/_js/backup.js:556
 msgid   "Backup job was removed from the system"
 msgstr  "Die Ausführung des Backups wurde verworfen"
 
@@ -98,12 +98,12 @@ msgstr  "Die Ausführung des Backups wurde verworfen"
 msgid   "Cancel"
 msgstr  ""
 
-#: admin/views/default/_js/filemanager.js:349
+#: admin/views/default/_js/filemanager.js:354
 #, fuzzy
 msgid   "Change permissions"
 msgstr  "Zugriffsrechte ändern"
 
-#: admin/views/default/_js/filemanager.js:481
+#: admin/views/default/_js/filemanager.js:148
 #, fuzzy
 msgctxt "button"
 msgid   "Change permissions"
@@ -114,12 +114,12 @@ msgstr  "Zugriffsrechte ändern"
 msgid   "Close"
 msgstr  "Schließen"
 
-#: admin/views/default/_js/backup.js:252 admin/views/default/_js/backup.js:366
+#: admin/views/default/_js/backup.js:255 admin/views/default/_js/backup.js:369
 #, fuzzy
 msgid   "Complete"
 msgstr  "Fertigstellen"
 
-#: admin/views/default/_js/backup.js:658
+#: admin/views/default/_js/backup.js:661
 #, fuzzy
 msgid   "Confirm restore"
 msgstr  "Wiederherstellen bestätigen"
@@ -129,7 +129,7 @@ msgctxt "button"
 msgid   "Copy"
 msgstr  "Kopieren"
 
-#: admin/views/default/_js/filemanager.js:329
+#: admin/views/default/_js/filemanager.js:334
 msgid   "Copy files"
 msgstr  "Dateien kopieren"
 
@@ -139,25 +139,25 @@ msgctxt "button"
 msgid   "Create"
 msgstr  "Neuen Ordner"
 
-#: admin/views/default/_js/filemanager.js:267
+#: admin/views/default/_js/filemanager.js:272
 #, fuzzy
 msgid   "Create folder"
 msgstr  "Neuen Ordner"
 
-#: admin/views/default/_js/filemanager.js:477
+#: admin/views/default/_js/filemanager.js:144
 #, fuzzy
 msgctxt "button"
 msgid   "Create folder"
 msgstr  "Neuen Ordner"
 
-#: admin/views/default/_js/filemanager.js:369
+#: admin/views/default/_js/filemanager.js:374
 #: admin/views/default/_js/mail_retrieve.js:123
 #: admin/views/default/_js/mail_retrieve.js:185
 #, fuzzy
 msgid   "Delete"
 msgstr  "Löschen"
 
-#: admin/views/default/_js/filemanager.js:478
+#: admin/views/default/_js/filemanager.js:145
 msgctxt "button"
 msgid   "Delete"
 msgstr  "Löschen"
@@ -209,7 +209,7 @@ msgstr  "Viewer löschen"
 msgid   "Delete viewer"
 msgstr  "Viewer löschen"
 
-#: admin/views/default/_js/filemanager.js:287
+#: admin/views/default/_js/filemanager.js:292
 #, fuzzy
 msgid   "Download as zip"
 msgstr  "Als ZIP herunterladen"
@@ -244,7 +244,7 @@ msgstr  "E-Mail-Konto aktualisiert"
 msgid   "Failed"
 msgstr  "Fehler"
 
-#: admin/views/default/_js/backup.js:756
+#: admin/views/default/_js/backup.js:759
 msgid   "File/Directory selector"
 msgstr  ""
 
@@ -261,7 +261,7 @@ msgctxt "button"
 msgid   "Move"
 msgstr  "Verschieben"
 
-#: admin/views/default/_js/filemanager.js:319
+#: admin/views/default/_js/filemanager.js:324
 msgid   "Move files"
 msgstr  "Dateien verschieben"
 
@@ -269,7 +269,7 @@ msgstr  "Dateien verschieben"
 msgid   "Next"
 msgstr  "Weiter"
 
-#: admin/views/default/_js/backup.js:681
+#: admin/views/default/_js/backup.js:684
 #: admin/views/default/_js/mail_retrieve.js:142
 #: admin/views/default/_js/mail_retrieve.js:143
 #: admin/views/default/_js/user.js:96
@@ -280,7 +280,7 @@ msgstr  "Nein"
 msgid   "No more system messages available"
 msgstr  ""
 
-#: admin/views/default/_js/backup.js:236
+#: admin/views/default/_js/backup.js:239
 msgid   "Only alphanumreric values are allowed for the name"
 msgstr  ""
 
@@ -288,7 +288,7 @@ msgstr  ""
 msgid   "Pictures added"
 msgstr  "Bilder hinzugefügt"
 
-#: admin/views/default/_js/backup.js:242
+#: admin/views/default/_js/backup.js:245
 msgid   "Please enter a valid hostname or IPv4 address"
 msgstr  ""
 
@@ -308,18 +308,18 @@ msgstr  "Mit Abmeldung fortfahren?"
 msgid   "Remove"
 msgstr  "Entfernen"
 
-#: admin/views/default/_js/backup.js:537 admin/views/default/_js/backup.js:540
+#: admin/views/default/_js/backup.js:540 admin/views/default/_js/backup.js:543
 #, fuzzy
 msgid   "Remove backup job"
 msgstr  "Yea"
 
-#: admin/views/default/_js/filemanager.js:479
+#: admin/views/default/_js/filemanager.js:146
 #, fuzzy
 msgctxt "button"
 msgid   "Rename"
 msgstr  "Umbenennen"
 
-#: admin/views/default/_js/filemanager.js:339
+#: admin/views/default/_js/filemanager.js:344
 msgid   "Rename files"
 msgstr  "Dateien umbenennen"
 
@@ -332,21 +332,21 @@ msgstr  "Wiederherstellen"
 msgid   "Restore"
 msgstr  "Wiederherstellen"
 
-#: admin/views/default/_js/backup.js:641
+#: admin/views/default/_js/backup.js:644
 msgid   "Restore backed up data"
 msgstr  "Daten des Backups wiederherstellen"
 
-#: admin/views/default/_js/backup.js:644
+#: admin/views/default/_js/backup.js:647
 #, fuzzy
 msgid   "Restore selected files and directories"
 msgstr  "Ausgewählte Daten und Ordner wiederherstellen"
 
-#: admin/views/default/_js/backup.js:578
+#: admin/views/default/_js/backup.js:581
 #, fuzzy
 msgid   "Run backup job"
 msgstr  "Backup starten"
 
-#: admin/views/default/_js/backup.js:575
+#: admin/views/default/_js/backup.js:578
 msgid   "Run backup job now"
 msgstr  "Backup starten"
 
@@ -354,7 +354,7 @@ msgstr  "Backup starten"
 msgid   "Run now"
 msgstr  "Starten"
 
-#: admin/views/default/_js/backup.js:759
+#: admin/views/default/_js/backup.js:762
 msgctxt "button"
 msgid   "Select"
 msgstr  ""
@@ -363,14 +363,14 @@ msgstr  ""
 msgid   "Shut down"
 msgstr  ""
 
-#: admin/views/default/_js/filemanager.js:205
+#: admin/views/default/_js/filemanager.js:210
 #, fuzzy
 msgid   "Succeeded to copy the file or folder"
 msgid_plural    "Succeeded to copy the files and folders"
 msgstr[0]       "Datei/Ordner erfolgreich umbenannt"
 msgstr[1]       "Datei/Ordner erfolgreich umbenannt"
 
-#: admin/views/default/_js/filemanager.js:207
+#: admin/views/default/_js/filemanager.js:212
 #, fuzzy
 msgid   "Succeeded to move the file or folder"
 msgid_plural    "Succeeded to move the files and folders"
@@ -429,7 +429,7 @@ msgstr  "Einstellungen aktualisieren"
 msgid   "Update viewer"
 msgstr  "Viewer aktualisieren"
 
-#: admin/views/default/_js/filemanager.js:277
+#: admin/views/default/_js/filemanager.js:282
 #, fuzzy
 msgid   "Upload file"
 msgstr  "Dateien zu B3 hochladen"
@@ -457,14 +457,14 @@ msgstr  "Viewer gelöscht"
 msgid   "Viewer updated"
 msgstr  "Viewer gelöscht"
 
-#: admin/views/default/_js/backup.js:661
+#: admin/views/default/_js/backup.js:664
 #: admin/views/default/_js/mail_retrieve.js:142
 #: admin/views/default/_js/mail_retrieve.js:143
 #: admin/views/default/_js/user.js:96
 msgid   "Yes"
 msgstr  "Ja"
 
-#: admin/views/default/_js/filemanager.js:250
+#: admin/views/default/_js/filemanager.js:255
 #, javascript-format
 msgid   "You are about to copy one item. Go to the desired folder and press "
         "<span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to "
@@ -475,7 +475,7 @@ msgid_plural    "You are about to copy %d items. Go to the desired folder and "
 msgstr[0]       ""
 msgstr[1]       ""
 
-#: admin/views/default/_js/filemanager.js:246
+#: admin/views/default/_js/filemanager.js:251
 #, javascript-format
 msgid   "You are about to move one item. Go to the desired folder and press "
         "<span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to "
@@ -495,7 +495,7 @@ msgstr  ""
 msgid   "why?"
 msgstr  "Warum?"
 
-#: admin/views/default/_js/backup.js:434
+#: admin/views/default/_js/backup.js:437
 msgid   "{0} is already in use"
 msgstr  ""
 

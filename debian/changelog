@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre8) vincent; urgency=low
+
+  * Change last of the B3 → NAME updates
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 04 Oct 2011 15:28:55 +0200
+
 bubba-frontend (2.4~pre7) vincent; urgency=low
 
   * Add lost+found to hidden dirs in backup dir listing
