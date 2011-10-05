@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
 "PO-Revision-Date: 2011-10-05 14:07+0100\n"
 "Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +31,13 @@ msgstr "Datei- und Ordnerfunktionen"
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:14
 #: admin/views/default/help/en/filemanager.html:14
-msgid "Click files or folders and use the icons in the file function bar to perform different actions. The functions from left to right are:"
-msgstr "Klicken Sie auf Dateien oder Ordner und verwenden Sie die Symbole in der Dateifunktionsleiste, um verschiedene Aktionen durchzuführen. Folgende Funktionen stehen zur Verfügung (von links nach rechts):"
+msgid ""
+"Click files or folders and use the icons in the file function bar to perform "
+"different actions. The functions from left to right are:"
+msgstr ""
+"Klicken Sie auf Dateien oder Ordner und verwenden Sie die Symbole in der "
+"Dateifunktionsleiste, um verschiedene Aktionen durchzuführen. Folgende "
+"Funktionen stehen zur Verfügung (von links nach rechts):"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_filemanager.html:17
@@ -96,23 +101,32 @@ msgstr "Fotoalbum"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/filemanager.html:2
-#| msgid ""
-#| "From the File manager you are able to reach your files on {PLATFORM} even "
-#| "if you are away from home."
-msgid "From the File manager you are able to reach your files on {PLATFORM} even if you are away from home."
-msgstr "Im Dateimanager können Sie auf Ihre Dateien auf {PLATFORM} zugreifen - sogar von unterwegs."
+msgid ""
+"From the File manager you are able to reach your files on {PLATFORM} even if "
+"you are away from home."
+msgstr ""
+"Im Dateimanager können Sie auf Ihre Dateien auf {PLATFORM} zugreifen - sogar "
+"von unterwegs."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/filemanager.html:8
-msgid "Navigate into a folder by clicking the arrow to the right of the folder name or double clicking it, navigate up one level by clicking the left arrow or click the /home/username/ line."
-msgstr "Navigieren Sie zu einem Ordner, indem Sie auf den Pfeil rechts neben dem Ordnernamen anklicken oder auf den Ordnernamen doppelklicken, und navigieren Sie eine Ebene nach oben, indem Sie den Pfeil links anklicken oder in die Zeile /home/username/ klicken."
+msgid ""
+"Navigate into a folder by clicking the arrow to the right of the folder name "
+"or double clicking it, navigate up one level by clicking the left arrow or "
+"click the /home/username/ line."
+msgstr ""
+"Navigieren Sie zu einem Ordner, indem Sie auf den Pfeil rechts neben dem "
+"Ordnernamen anklicken oder auf den Ordnernamen doppelklicken, und navigieren "
+"Sie eine Ebene nach oben, indem Sie den Pfeil links anklicken oder in die "
+"Zeile /home/username/ klicken."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/filemanager.html:40
-#| msgid ""
-#| "Logged in as administrator you are not able to add photos to the "
-#| "{PLATFORM} photo album. Log in with your standard user to add and manage "
-#| "photos and your albums."
-msgid "Logged in as administrator you are not able to add photos to the {PLATFORM} photo album. Log in with your standard user to add and manage photos and your albums."
-msgstr "Als Administrator sind Sie nicht berechtigt, Fotos in das {PLATFORM}-Fotoalbum einzufügen. Loggen Sie sich als Ihr Standardbenutzer ein, um Fotos hinzuzufügen und Fotos und Alben zu verwalten."
-
+msgid ""
+"Logged in as administrator you are not able to add photos to the {PLATFORM} "
+"photo album. Log in with your standard user to add and manage photos and "
+"your albums."
+msgstr ""
+"Als Administrator sind Sie nicht berechtigt, Fotos in das {PLATFORM}-"
+"Fotoalbum einzufügen. Loggen Sie sich als Ihr Standardbenutzer ein, um Fotos "
+"hinzuzufügen und Fotos und Alben zu verwalten."
