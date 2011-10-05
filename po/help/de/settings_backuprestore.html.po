@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 14:47+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -29,18 +29,13 @@ msgstr "Backup- und Wiederherstellungseinstellungen"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_backuprestore.html:5
-#, fuzzy
-#| msgid ""
-#| "'Backup settings' will backup all your {PLATFORM} settings, nice to have "
-#| "in case you reinstall {PLATFORM} or move the settings to another "
-#| "{PLATFORM} unit. The following settings will be saved :"
 msgid ""
 "'Backup settings' will backup all your {PLATFORM} settings, nice to have in "
 "case you reinstall {PLATFORM} or move the settings to another {PLATFORM} "
 "unit. The following settings will be saved :"
 msgstr ""
-"\\'Backup-Einstellungen\\' sichert alle {PLATFORM}-Einstellungen, diese "
-"Funktion ist nützlich, wenn Sie {PLATFORM} neu installieren müssen oder Ihre "
+"'Backup-Einstellungen' sichert alle {PLATFORM}-Einstellungen, diese Funktion "
+"ist nützlich, wenn Sie {PLATFORM} neu installieren müssen oder Ihre "
 "Einstellungen auf ein anderes {PLATFORM} übertragen möchten. Folgende "
 "Einstellungen werden gespeichert:"
 
@@ -89,10 +84,6 @@ msgstr "Sicherung erstellen"
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/settings_backuprestore.html:25
-#, fuzzy
-#| msgid ""
-#| "Insert an external storage device (USB memory or USB disk) into "
-#| "{PLATFORM}."
 msgid ""
 "Insert an external storage device (USB memory or USB disk) into {PLATFORM}."
 msgstr ""
@@ -114,21 +105,12 @@ msgstr ""
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/settings_backuprestore.html:36
-#, fuzzy
-#| msgid ""
-#| "Insert the storage device containing the backup file into {PLATFORM}."
 msgid "Insert the storage device containing the backup file into {PLATFORM}."
 msgstr ""
 "Schließen Sie das Speichergerät mit der Sicherungsdatei an {PLATFORM} an."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/settings_backuprestore.html:38
-#, fuzzy
-#| msgid ""
-#| "Observe that the current users on {PLATFORM} will be removed and the "
-#| "users stored in the backup file will be restored. Although the user data "
-#| "from current users on {PLATFORM} will be left intact in the /home/[user] "
-#| "catalogue."
 msgid ""
 "Observe that the current users on {PLATFORM} will be removed and the users "
 "stored in the backup file will be restored. Although the user data from "
@@ -147,10 +129,6 @@ msgstr "Drücken Sie auf Wiederherstellen."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/settings_backuprestore.html:43
-#, fuzzy
-#| msgid ""
-#| "You might need to reconnect your {PLATFORM} depending on how your "
-#| "restored network settings are configured."
 msgid ""
 "You might need to reconnect your {PLATFORM} depending on how your restored "
 "network settings are configured."

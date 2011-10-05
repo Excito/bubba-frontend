@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 15:20+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,19 @@ msgstr ""
 #: admin/views/default/help/en/settings_trafficsettings.html:15
 #, fuzzy
 msgid "<i>Update</i> saves your changes."
-msgstr "speichert Ihre Änderungen."
+msgstr ""
+"#-#-#-#-#  network_wan.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Aktualisieren</i> speichert Ihre Änderungen.\n"
+"#-#-#-#-#  network_lan.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Aktualisieren</i> speichert Ihre Änderungen.\n"
+"#-#-#-#-#  network_wlan.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Aktualisieren</i> speichert Ihre Änderungen.\n"
+"#-#-#-#-#  settings_trafficsettings.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Aktualisieren</i> speichert Ihre Änderungen.\n"
+"#-#-#-#-#  network.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Aktualisieren</i> - speichert Ihre Änderungen.\n"
+"#-#-#-#-#  network_fw.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Aktualisieren</i> speichert Ihre Änderungen."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/settings_trafficsettings.html:2
@@ -38,8 +50,8 @@ msgid ""
 "To control the maximum upload / download speed on your torrents adjust the "
 "'Traffic' setting."
 msgstr ""
-"Ändern Sie die \\'Traffic\\'-Einstellungen, um die maximalen Upload-/"
-"Download-Geschwindigkeiten für Ihre Torrents einzustellen."
+"Ändern Sie die 'Traffic'-Einstellungen, um die maximalen Upload-/Download-"
+"Geschwindigkeiten für Ihre Torrents einzustellen."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_trafficsettings.html:8
@@ -49,9 +61,9 @@ msgid ""
 "value. Use 'Max download speed' in the same manner."
 msgstr ""
 "Bei einer beschränkten Breitbandverbindung sollte z. B. der Uplink nicht "
-"vollständig belegt werden. Stellen Sie dann die \\'Max. Upload-"
-"Geschwindigkeit\\' auf den gewünschten Wert ein. Verwenden Sie \\'Max. "
-"Download-Geschwindigkeit\\' analog."
+"vollständig belegt werden. Stellen Sie dann die 'Max. Upload-"
+"Geschwindigkeit' auf den gewünschten Wert ein. Verwenden Sie 'Max. Download-"
+"Geschwindigkeit' analog."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_trafficsettings.html:12

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-06 15:42+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -18,10 +18,6 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk_raid.html:2
-#, fuzzy
-#| msgid ""
-#| "The RAID function in {PLATFORM} combines the /home partition and one "
-#| "external hard disk into a single logical unit."
 msgid ""
 "The RAID function in {PLATFORM} combines the /home partition and one "
 "external hard disk into a single logical unit."
@@ -36,27 +32,15 @@ msgstr "Importante"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/disk_raid.html:9
-#, fuzzy
-#| msgid ""
-#| "The process will destroy all user data - both on the internal and "
-#| "external disk."
 msgid ""
 "<strong>Warning!</strong> The process will destroy all user data - both on "
 "the internal and external disk."
 msgstr ""
-"El proceso destruirá todos los datos de usuario - tanto en el disco interno "
-"como en el externo."
+"<strong>¡Precaución!</strong> El proceso destruirá todos los datos de "
+"usuario - tanto en el disco interno como en el externo."
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/disk_raid.html:11
-#, fuzzy
-#| msgid ""
-#| "An old RAID disk will automatically be connected and included into the "
-#| "{PLATFORM} system upon boot, even though you have not set up your "
-#| "{PLATFORM} for a RAID extension. It is impossible to remove the extension "
-#| "without reinstallation. To format an old external RAID extended disk, "
-#| "connect the disk to a already running {PLATFORM}. Then choose 'Format' in "
-#| "the 'Disk -&gt; Information' menu."
 msgid ""
 "An old RAID disk will automatically be connected and included into the "
 "{PLATFORM} system upon boot, even though you have not set up your {PLATFORM} "
@@ -70,14 +54,10 @@ msgstr ""
 "{PLATFORM} para una extensión RAID. Es imposible eliminar la extensión sin "
 "reinstalación. Para formatear un disco externo RAID antigüo, conecta el "
 "disco a un sistema {PLATFORM} ya arrancado. Entonces elige 'Formatear' en el "
-"menú 'Información -&gt; de disco' menu."
+"menú 'Información -> de disco' menu."
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/disk_raid.html:14
-#, fuzzy
-#| msgid ""
-#| "To get out the most of your disks, use an external disk in the same size "
-#| "as your internal disk in {PLATFORM}."
 msgid ""
 "To get out the most of your disks, use an external disk in the same size as "
 "your internal disk in {PLATFORM}."
@@ -96,11 +76,6 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/disk_raid.html:18
-#, fuzzy
-#| msgid ""
-#| "It will take some time to create or restore a RAID array. For a 1TB disk "
-#| "it will take about 4 hours. This is handheld in the background of the "
-#| "{PLATFORM} system and will not be indicated to the user."
 msgid ""
 "It will take some time to create or restore a RAID array. For a 1TB disk it "
 "will take about 4 hours. This is handheld in the background of the "
@@ -112,10 +87,6 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/disk_raid.html:20
-#, fuzzy
-#| msgid ""
-#| "To reuse your {PLATFORM} standalone without the RAID setup you have to "
-#| "reinstall your {PLATFORM} system."
 msgid ""
 "To reuse your {PLATFORM} standalone without the RAID setup you have to "
 "reinstall your {PLATFORM} system."
@@ -176,26 +147,23 @@ msgstr "Estado del RAID"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk_raid.html:44
-#, fuzzy
-#| msgid ""
-#| "- shows the total disk space, i.e. the smallest available disk (the "
-#| "{PLATFORM} /home partition or the external eSATA disk) in the array."
 msgid ""
 "<strong>List of RAID arrays</strong> - shows the total disk space, i.e. the "
 "smallest available disk (the {PLATFORM} /home partition or the external "
 "eSATA disk) in the array."
 msgstr ""
-"- muestra el espacio en disco total, p.e. el del menor disco disponible (la "
-"partición /home {PLATFORM} o el disco externo eSATA) del conjunto."
+"<strong>Lista de grupos RAID</strong> - muestra el espacio en disco total, p."
+"e. el del menor disco disponible (la partición /home {PLATFORM} o el disco "
+"externo eSATA) del conjunto."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk_raid.html:47
-#, fuzzy
-#| msgid "- shows the disks attached to the RAID system."
 msgid ""
 "<strong>List of RAID disks</strong> - shows the disks attached to the RAID "
 "system."
-msgstr "- muestra los discos agregados al grupo RAID."
+msgstr ""
+"<strong>Lista de discos RAID</strong> - muestra los discos agregados al "
+"grupo RAID."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/disk_raid.html:50
@@ -213,8 +181,6 @@ msgstr ""
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk_raid.html:56
-#, fuzzy
-#| msgid "Disconnect the broken external disk from the backside of {PLATFORM}."
 msgid "Disconnect the broken external disk from the backside of {PLATFORM}."
 msgstr "Desconecta el disco externo averiado de la trasera de {PLATFORM}."
 
@@ -228,10 +194,8 @@ msgstr ""
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk_raid.html:60
 #: admin/views/default/help/en/disk_raid.html:78
-#, fuzzy
-#| msgid "Click 'Create RAID array'"
 msgid "Click on '<strong>Recover RAID array</strong>'."
-msgstr "Haz clic en 'Crear RAID'"
+msgstr "Haz clic en '<strong>Recuperar grupo RAID</strong>"
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk_raid.html:62
@@ -252,18 +216,10 @@ msgstr ""
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk_raid.html:66
 #: admin/views/default/help/en/disk_raid.html:84
-#, fuzzy
-#| msgid ""
-#| "Press 'Close' to continue working with {PLATFORM}. The synchronization is "
-#| "in progress and will take a while."
 msgid ""
 "Press 'Close' to continue working with {PLATFORM}. The synchronization is in "
 "progress and will take a while."
 msgstr ""
-"#-#-#-#-#  FIXME:0  #-#-#-#-#\n"
-"Pulsa 'Cerrar' para continuar trabajando con {PLATFORM}. La sincronización "
-"está en progreso y llevará un rato.\n"
-"#-#-#-#-#  FIXME:0  #-#-#-#-#\n"
 "Pulsa 'Cerrar' para continuar trabajando con {PLATFORM}. La sincronización "
 "está en progreso y le llevará un buen rato."
 
@@ -274,11 +230,6 @@ msgstr "Recuperar un disco interno"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk_raid.html:73
-#, fuzzy
-#| msgid ""
-#| "If you have a disk failure on your internal disk in {PLATFORM} you have "
-#| "to start by exchanging the disk and reinstalling via an USB memory. Then "
-#| "update {PLATFORM} to the latest software."
 msgid ""
 "If you have a disk failure on your internal disk in {PLATFORM} you have to "
 "start by exchanging the disk and reinstalling via an USB memory. Then update "

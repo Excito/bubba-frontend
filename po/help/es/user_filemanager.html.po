@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-06 16:16+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -18,10 +18,6 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:2
-#, fuzzy
-#| msgid ""
-#| "From the File manager you are able to reach your files on {PLATFORM} "
-#| "eaven if you are away from home."
 msgid ""
 "From the File manager you are able to reach your files on {PLATFORM} eaven "
 "if you are away from home."
@@ -55,16 +51,10 @@ msgstr "Acciones de fichero y carpeta"
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:14
 #: admin/views/default/help/en/filemanager.html:14
-#, fuzzy
 msgid ""
 "Click files or folders and use the icons in the file function bar to perform "
 "different actions. The functions from left to right are:"
 msgstr ""
-"#-#-#-#-#  filemanager.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Selecciona ficheros o carpetas y utiliza los icones en la barra de funciones "
-"para realizar diferentes acciones. Las funciones de izquierda a derecha "
-"son:\n"
-"#-#-#-#-#  user_filemanager.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Haz clic en ficheros or carpetas y utiliza los iconos de la barra de "
 "funcioón de fichero para realizar diferentes acciones. Las funciones de "
 "izquierda a derecha son:"
@@ -131,10 +121,6 @@ msgstr "álbum de fotos"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:40
-#, fuzzy
-#| msgid ""
-#| "To view your photos in {PLATFORM}s photo album you have to place the "
-#| "photos in the home/storage/pictures catalog."
 msgid ""
 "To view your photos in {PLATFORM}s photo album you have to place the photos "
 "in the home/storage/pictures catalog."
@@ -144,10 +130,6 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:43
-#, fuzzy
-#| msgid ""
-#| "Then select the files or folders and use the \"Add to album\" icon in the "
-#| "file function bar to add your photos to the {PLATFORM} photo album."
 msgid ""
 "Then select the files or folders and use the \"Add to album\" icon in the "
 "file function bar to add your photos to the {PLATFORM} photo album."
@@ -158,10 +140,6 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:46
-#, fuzzy
-#| msgid ""
-#| "Continue to the Album manager (via {PLATFORM}s start page) to publish the "
-#| "photos."
 msgid ""
 "Continue to the Album manager (via {PLATFORM}s start page) to publish the "
 "photos."

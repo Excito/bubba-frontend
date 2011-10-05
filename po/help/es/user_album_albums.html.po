@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-06 16:14+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,6 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_album_albums.html:2
-#, fuzzy
-#| msgid ""
-#| "Share your digital photos with friends and family! With {PLATFORM} you "
-#| "get easy to use, out of the box photo album! All you need is your digital "
-#| "pictures!"
 msgid ""
 "Share your digital photos with friends and family! With {PLATFORM} you get "
 "easy to use, out of the box photo album! All you need is your digital "
@@ -38,12 +33,12 @@ msgstr "Añadir invitados al álbum"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_album_albums.html:8
-#, fuzzy
-#| msgid "to add users for private viewing of photo albums."
 msgid ""
 "Click the menu item <b>Album viewers</b> to add users for private viewing of "
 "photo albums."
-msgstr "para añadir usuarios que puedan ver el álbum de fotos."
+msgstr ""
+"Selecciona el elemento de menú <b>invitados a álbum</b> para añadir usuarios "
+"que puedan ver el álbum de fotos."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/user_album_albums.html:11
@@ -52,10 +47,6 @@ msgstr "Añadir álbumes"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_album_albums.html:14
-#, fuzzy
-#| msgid ""
-#| "Every user on {PLATFORM} can create and publish photo albums, except for "
-#| "the administrator."
 msgid ""
 "Every user on {PLATFORM} can create and publish photo albums, except for the "
 "administrator."
@@ -65,10 +56,6 @@ msgstr ""
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_album_albums.html:17
-#, fuzzy
-#| msgid ""
-#| "Copy the folders containing your pictures to \\{PLATFORM}\\storage"
-#| "\\pictures, with for example the built in Filemanager or Windows Explorer."
 msgid ""
 "Copy the folders containing your pictures to \\{PLATFORM}\\storage"
 "\\pictures, with for example the built in Filemanager or Windows Explorer."
@@ -78,8 +65,6 @@ msgstr ""
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_album_albums.html:19
-#, fuzzy
-#| msgid "Log in as your standard user on {PLATFORM}."
 msgid "Log in as your standard user on {PLATFORM}."
 msgstr "Conéctate con tu usuario standard a {PLATFORM}."
 
@@ -107,16 +92,12 @@ msgstr ""
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_album_albums.html:29
-#, fuzzy
-#| msgid ""
-#| ". Decide if the added albums should be public or private. By default all "
-#| "added albums are private."
 msgid ""
 "Open the <strong>Album manager</strong>. Decide if the added albums should "
 "be public or private. By default all added albums are private."
 msgstr ""
-". Decide si los álbumes añadidos deben ser públicos o privados. Por defecto "
-"todos los álbumes son privados."
+"Abre el <strong>Gestor de álbumes</strong>. Decide si los álbumes añadidos "
+"deben ser públicos o privados. Por defecto todos los álbumes son privados."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_album_albums.html:31
@@ -134,10 +115,6 @@ msgstr ""
 
 #. type: Content of: <ol><li><ul><li>
 #: admin/views/default/help/en/user_album_albums.html:35
-#, fuzzy
-#| msgid ""
-#| "Or click 'Public' if you want the album to be open to anyone who can "
-#| "access your {PLATFORM}, then click Update."
 msgid ""
 "Or click 'Public' if you want the album to be open to anyone who can access "
 "your {PLATFORM}, then click Update."

@@ -76,7 +76,7 @@ class Filemanager extends Controller{
 			$root = $this->input->post('root');
 			$newname = $this->input->post('name');
 			if( ! file_exists( $path ) ) {
-				$error = _("filemanager-rename-file-not-exists-error");
+				$error = sprintf(_("Requested file %s to rename doesn't exists"), $path);
 			}
 			if(!$error){
 				$user=$this->session->userdata("user");

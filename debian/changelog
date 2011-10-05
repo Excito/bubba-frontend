@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre12) vincent; urgency=low
+
+  * Update translations
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 06 Oct 2011 18:06:06 +0200
+
 bubba-frontend (2.4~pre8) vincent; urgency=low
 
   * Change last of the B3 → NAME updates

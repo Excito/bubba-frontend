@@ -126,7 +126,7 @@ default:
 								<select
 									id="fn-backup-create-protocol"
 									name="protocol"
-									title="<?=_("backup-title-protocol")?>"
+									title="<?=_("Protocol")?>"
 									>
 									<option value="ftp" selected="selected"><?=_("FTP")?></option>
 									<option value="ssh"><?=_("SSH")?></option>
@@ -271,7 +271,8 @@ default:
 									title="<?=_("Day of the week")?>"
 									>
 									<?foreach(range(1,7) as $day):?>
-									<option <?if($day===1):?>selected="selected"<?endif?> value="<?=_("weekday-$day")?>"><?=get_weekday($day)?></option>
+                                    <?$weekday=get_weekday($day)?>
+									<option <?if($day===1):?>selected="selected"<?endif?> value="<?=$weekday?>"><?=$weekday?></option>
 									<?endforeach?>
 								</select>
 								<label for="fn-backup-create-schedule-weekhour"><?=_("at")?></label>
@@ -472,7 +473,7 @@ default:
 								<select
 									id="fn-backup-edit-protocol"
 									name="protocol"
-									title="<?=_("backup-title-protocol")?>"
+									title="<?=_("Protocol")?>"
 									>
 									<option value="ftp" selected="selected">FTP</option>
 									<option value="ssh">SSH</option>
@@ -617,7 +618,8 @@ default:
 									title="<?=_("Day of the week")?>"
 									>
 									<?foreach(range(1,7) as $day):?>
-									<option <?if($day===1):?>selected="selected"<?endif?> value="<?=_("weekday-$day")?>"><?=get_weekday($day)?></option>
+                                    <?$weekday=get_weekday($day)?>
+									<option <?if($day===1):?>selected="selected"<?endif?> value="<?=$weekday?>"><?=$weekday?></option>
 									<?endforeach?>
 								</select>
 								<label for="fn-backup-edit-schedule-weekhour"><?=_("at")?></label>

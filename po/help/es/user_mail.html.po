@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-06 16:18+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -26,17 +26,11 @@ msgstr "Correo"
 #. type: Content of: <p>
 #: admin/views/default/help/en/mail.html:5
 #: admin/views/default/help/en/user_mail.html:5
-#, fuzzy
 msgid ""
 "{PLATFORM} will fetch your email from all your different external email "
 "accounts you may have. The email will be stored on {PLATFORM} and available "
 "via IMAP or webmail, wherever you are."
 msgstr ""
-"#-#-#-#-#  mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"{PLATFORM} recupera tu correo de todas tus diferentes cuentas que tengas. El "
-"correo se almacena en {PLATFORM} y está disponible via IMAP o webmail, estés "
-"donde estés.\n"
-"#-#-#-#-#  user_mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "{PLATFORM} se encargará de recuperar tu correo desde todas las cuentas de "
 "correo externas que puedas tener. El correo se almacenará en {PLATFORM} y "
 "está disponible vía IMAP o webmail, donde quiera que estés."
@@ -44,24 +38,14 @@ msgstr ""
 #. type: Content of: <p>
 #: admin/views/default/help/en/mail.html:8
 #: admin/views/default/help/en/user_mail.html:8
-#, fuzzy
 msgid "Active email accounts will be shown here."
-msgstr ""
-"#-#-#-#-#  mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Muestra las cuentas de correo activas.\n"
-"#-#-#-#-#  user_mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Las cuentas de correo activas se mostrarán aquí."
+msgstr "Las cuentas de correo activas se mostrarán aquí."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/mail.html:11
 #: admin/views/default/help/en/user_mail.html:11
-#, fuzzy
 msgid "Set up {PLATFORM} for retrieving email"
-msgstr ""
-"#-#-#-#-#  mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Configura {PLATFORM} para recuperar correo electrónico\n"
-"#-#-#-#-#  user_mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Configura {PLATFORM} para recibir correo"
+msgstr "Configura {PLATFORM} para recuperar correo electrónico"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/mail.html:14
@@ -72,9 +56,11 @@ msgid ""
 "external account, click here. Fill in the information given to you by your "
 "email account provider."
 msgstr ""
-"#-#-#-#-#  mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"- Para comenzar a descargar el correo desde una cuenta externa, entra aquí. "
-"Rellena la información facilitada por tu proveedor de correo.\n"
-"#-#-#-#-#  user_mail.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"- Para comenzar a recuperar correo de una cuenta externa, Haz clic aquí. "
-"Rellena la información facilitada por el proveedor de tu cuenta de correo."
+"#-#-#-#-#  user_mail.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<strong>Añade nueva cuenta de correo</strong> - Para comenzar a recuperar "
+"correo de una cuenta externa, Haz clic aquí. Rellena la información "
+"facilitada por el proveedor de tu cuenta de correo.\n"
+"#-#-#-#-#  mail.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<strong>Añade nueva cuenta de correo</strong> - Para comenzar a descargar el "
+"correo desde una cuenta externa, entra aquí. Rellena la información "
+"facilitada por tu proveedor de correo."

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-06 16:16+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -18,10 +18,8 @@ msgstr ""
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/user_login.html:2
-#, fuzzy
-#| msgid "Welcome to {PLATFORM}!"
 msgid "Welcome to {PLATFORM}!"
-msgstr "Bienvenido a {PLATFORM}!"
+msgstr "¡Bienvenido a {PLATFORM}!"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_login.html:5

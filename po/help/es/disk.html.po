@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-06 15:42+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -34,23 +34,18 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:8
-#, fuzzy
-#| msgid ""
-#| "- Shows disk name, size, disk type and a graphical overview of the "
-#| "partitions."
 msgid ""
 "<strong>Disk information</strong> - Shows disk name, size, disk type and a "
 "graphical overview of the partitions."
 msgstr ""
-"- Muestra nombre de disco, tamaño, tipo y disposición gráfica de las "
-"particiones."
+"<strong>Información de disco</strong> - Muestra nombre de disco, tamaño, "
+"tipo y disposición gráfica de las particiones."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:11
-#, fuzzy
-#| msgid "- Description of the partitions."
 msgid "<strong>Partition information</strong> - Description of the partitions."
-msgstr "- Descripción de las particiones."
+msgstr ""
+"<strong>Información de partición</strong>  - Descripción de las particiones."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/disk.html:14
@@ -60,7 +55,7 @@ msgstr "Discos externos"
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:17
 msgid "<strong>Connecting</strong>"
-msgstr ""
+msgstr "<strong>Conectando</strong>"
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk.html:20
@@ -69,12 +64,12 @@ msgstr "Inserta un disco externo, USB o disco eSATA."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk.html:22
-#, fuzzy
-#| msgid "' to the right of the partition you which to connect"
 msgid ""
 "Press '<strong>Connect</strong>' to the right of the partition you which to "
 "connect"
-msgstr "' a la derecha de la partición que quieres conectar"
+msgstr ""
+"Pulsa '<strong>Conectar</strong>' a la derecha de la partición que quieres "
+"conectar"
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk.html:24
@@ -87,10 +82,8 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:28
-#, fuzzy
-#| msgid "Disconnecting"
 msgid "<strong>Disconnecting</strong>"
-msgstr "Desconectando"
+msgstr "<strong>Desconectando</strong>"
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk.html:31

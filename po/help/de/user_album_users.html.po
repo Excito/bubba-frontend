@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 15:24+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -38,10 +38,6 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_album_users.html:9
-#, fuzzy
-#| msgid ""
-#| "Remember that the {PLATFORM} users and photo album viewers are not the "
-#| "same."
 msgid ""
 "Remember that the {PLATFORM} users and photo album viewers are not the same."
 msgstr ""
@@ -51,7 +47,7 @@ msgstr ""
 #. type: Content of: <ul><li><ol><li>
 #: admin/views/default/help/en/user_album_users.html:13
 msgid "Click 'Add viewer'."
-msgstr "Klicken Sie auf \\'Betrachter hinzufügen\\'."
+msgstr "Klicken Sie auf 'Betrachter hinzufügen'."
 
 #. type: Content of: <ul><li><ol><li>
 #: admin/views/default/help/en/user_album_users.html:15

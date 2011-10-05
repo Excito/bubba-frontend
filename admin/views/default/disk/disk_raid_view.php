@@ -62,10 +62,10 @@
 			    <?=sprintf(_("The external RAID disk (<strong>%s</strong>) in the RAID array has malfunctioned"), $stat['device'])?>.
 			</p>
     	    <p>
-			    <?=_("Please replace the disk (also press \"Remove" below to acknowledge the removal of the disk)")?>.
+			    <?=_("Please replace the disk (also press \"Remove\" below to acknowledge the removal of the disk)")?>.
 			</p>
 		    <p>
-			<?=_("When the disk has been replaced, press \"Recover RAID array" to add the new disk to the array")?>.
+			<?=_("When the disk has been replaced, press \"Recover RAID array\" to add the new disk to the array")?>.
 			</p>
 		</div>
 	<?endif?>

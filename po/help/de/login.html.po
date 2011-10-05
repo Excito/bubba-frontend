@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 14:20+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -18,30 +18,20 @@ msgstr ""
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/login.html:2
-#, fuzzy
-#| msgid "{PLATFORM} administration"
 msgid "{PLATFORM} administration"
 msgstr "{PLATFORM}-Administration"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/login.html:5
-#, fuzzy
-#| msgid ""
-#| "Logged in as administrator you have access to the system settings. Click "
-#| "the"
 msgid ""
 "Logged in as administrator you have access to the system settings. Click the "
 "<strong>gear wheel</strong> to administrate your {PLATFORM}."
 msgstr ""
 "Als Administrator haben Sie Zugriff auf die Systemeinstellungen. Klicken Sie "
-"auf das"
+"auf das <strong>Zahnrad</strong>, um Ihr {PLATFORM} zu verwalten."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/login.html:8
-#, fuzzy
-#| msgid ""
-#| "Only use the administrator login to manage {PLATFORM}'s settings. Your "
-#| "everyday use should be done with another user."
 msgid ""
 "Only use the administrator login to manage {PLATFORM}'s settings. Your "
 "everyday use should be done with another user."

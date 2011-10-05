@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: 2011-08-09 16:24+0100\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 15:38+0100\n"
 "Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -30,27 +30,21 @@ msgid ""
 msgstr ""
 "Hier finden Sie den Status der internen und externen Disks und "
 "Speichergeräte. Wenn ein neues Gerät angeschlossen wird, müssen Sie auf "
-"\\'Verbinden\\' drücken, damit das Gerät benutzt werden kann."
+"'Verbinden' drücken, damit das Gerät benutzt werden kann."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:8
-#, fuzzy
-#| msgid ""
-#| "- Shows disk name, size, disk type and a graphical overview of the "
-#| "partitions."
 msgid ""
 "<strong>Disk information</strong> - Shows disk name, size, disk type and a "
 "graphical overview of the partitions."
 msgstr ""
-"- Zeigt den Disknamen, die Größe, den Disktyp und eine grafische Übersicht "
-"der Partitionen an."
+"<strong>Diskdaten</strong> - Zeigt den Disknamen, die Größe, den Disktyp und "
+"eine grafische Übersicht der Partitionen an."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:11
-#, fuzzy
-#| msgid "- Description of the partitions."
 msgid "<strong>Partition information</strong> - Description of the partitions."
-msgstr "- Beschreibung der Partitionen."
+msgstr "<strong>Partitionsdaten</strong> - Beschreibung der Partitionen."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/disk.html:14
@@ -80,15 +74,13 @@ msgid ""
 "Now you will reach your files in the 'storage/extern' catalogue or by using "
 "for example Windows explorer."
 msgstr ""
-"Nun können Sie auf Ihre Dateien im \\'Speicher/Extern\\'-Katalog oder z. B. "
-"mit dem Windows Explorer öffnen."
+"Nun können Sie auf Ihre Dateien im 'Speicher/Extern'-Katalog oder z. B. mit "
+"dem Windows Explorer öffnen."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:28
-#, fuzzy
-#| msgid "Disconnecting"
 msgid "<strong>Disconnecting</strong>"
-msgstr "Verbindung trennen"
+msgstr "<strong>Verbindung trennen</strong>"
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk.html:31
@@ -97,8 +89,8 @@ msgid ""
 "'Disconnect' first to ensure that it is safe to unplug the device."
 msgstr ""
 "Bevor eine externe Disk, ein USB- oder ein eSATA-Laufwerk getrennt wird, "
-"müssen Sie durch Anklicken von \\'Trennen\\' sicherstellen, dass das Gerät "
-"ohne Datenverlust oder Beschädigung getrennt werden kann."
+"müssen Sie durch Anklicken von 'Trennen' sicherstellen, dass das Gerät ohne "
+"Datenverlust oder Beschädigung getrennt werden kann."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/disk.html:33

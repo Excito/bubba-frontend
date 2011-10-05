@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 15:26+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,6 @@ msgstr "Downloads"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_downloads.html:5
-#, fuzzy
-#| msgid ""
-#| "Use the {PLATFORM} download manager to download files directly to your "
-#| "{PLATFORM}, wherever you are. The only thing you need is a internet "
-#| "connection and a web browser."
 msgid ""
 "Use the {PLATFORM} download manager to download files directly to your "
 "{PLATFORM}, wherever you are. The only thing you need is a internet "
@@ -39,24 +34,15 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_downloads.html:8
-#, fuzzy
-#| msgid ""
-#| "Surf to www.-your easyfind name-.myown{PLATFORM}.com. Of course if you "
-#| "already are in your home network browse to http://{PLATFORM}/admin."
 msgid ""
 "Surf to www.-your easyfind name-.{EASYFIND}. Of course if you already are in "
 "your home network browse to http://{DEFAULT_HOST}/admin."
 msgstr ""
-"Surfen Sie zu www.-your easyfind name-.myownb3.com. Wenn Sie sich bereits in "
-"Ihrem Heimnetzwerk befinden, navigieren Sie zu http://bubba/admin."
+"Surfen Sie zu www.-your easyfind name-.{EASYFIND}. Wenn Sie sich bereits in "
+"Ihrem Heimnetzwerk befinden, navigieren Sie zu http://{DEFAULT_HOST}/admin."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_downloads.html:11
-#, fuzzy
-#| msgid ""
-#| "Large, time consuming downloads are handled by {PLATFORM} while your "
-#| "computer is turned off. When you initiate your first download a catalogue "
-#| "is created in your /home/[username]/ folder: /home/[username]/downloads."
 msgid ""
 "Large, time consuming downloads are handled by {PLATFORM} while your "
 "computer is turned off. When you initiate your first download a catalogue is "
@@ -74,16 +60,12 @@ msgstr "So können Sie etwas downloaden:"
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_downloads.html:18
-#, fuzzy
-#| msgid ""
-#| "At home browse to http://{PLATFORM}/admin or away from home www.-your "
-#| "easyfind name-.myown{PLATFORM}.com/admin."
 msgid ""
 "At home browse to http://{DEFAULT_HOST}/admin or away from home www.-your "
 "easyfind name-.{EASYFIND}/admin."
 msgstr ""
-"Navigieren Sie zu http://bubba/admin (im Heimnetzwerk) oder zu www.-your "
-"easyfind name-.myownb3.com/admin."
+"Navigieren Sie zu http://{DEFAULT_HOST}/admin (im Heimnetzwerk) oder zu www.-"
+"your easyfind name-.{EASYFIND}/admin."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_downloads.html:20
@@ -93,15 +75,10 @@ msgstr "Melden Sie sich als Standardbenutzer bei {PLATFORM} an."
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_downloads.html:22
 msgid "Click 'Downloads'."
-msgstr "Klicken Sie auf \\'Downloads\\'."
+msgstr "Klicken Sie auf 'Downloads'."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_downloads.html:24
-#, fuzzy
-#| msgid ""
-#| "To initiate a download you need to copy* the URL to the file (or torrent) "
-#| "you desire to download and paste it into the 'Location' field on your "
-#| "{PLATFORM} and click 'Add'."
 msgid ""
 "To initiate a download you need to copy* the URL to the file (or torrent) "
 "you desire to download and paste it into the 'Location' field on your "
@@ -109,8 +86,7 @@ msgid ""
 msgstr ""
 "Um einen Download zu starten, müssen Sie die URL zu der Datei (oder "
 "torrent), den Sie herunterladen möchten, kopieren* und in das Feld "
-"\\'Speicherort\\' auf Ihrem {PLATFORM} einfügen und auf \\'Hinzufügen\\' "
-"klicken."
+"'Speicherort' auf Ihrem {PLATFORM} einfügen und auf 'Hinzufügen' klicken."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_downloads.html:26
@@ -128,8 +104,8 @@ msgid ""
 msgstr ""
 "*Zum Kopieren der URL klicken Sie einfach mit der rechten Maustaste auf die "
 "Datei (oder torrent). Je nach Browser und Datei wählen Sie im Rechtsklick-"
-"Menü die entsprechende Option: \\'Shortcut kopieren\\', \\'Link-Ort kopieren"
-"\\', \\'Bildort kopieren\\'"
+"Menü die entsprechende Option: 'Shortcut kopieren', 'Link-Ort kopieren', "
+"'Bildort kopieren'"
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/user_downloads.html:34
@@ -138,12 +114,6 @@ msgstr "Weitere Informationen"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_downloads.html:37
-#, fuzzy
-#| msgid ""
-#| "As you add files for download, {PLATFORM} allocates disk space for the "
-#| "files. If you look in the /home/[username]/downloads/ catalogue it seems "
-#| "as if the files exist but as long as the progress bar still not has "
-#| "reached 100% the files are not complete."
 msgid ""
 "As you add files for download, {PLATFORM} allocates disk space for the "
 "files. If you look in the /home/[username]/downloads/ catalogue it seems as "
@@ -177,5 +147,4 @@ msgid ""
 "continue to share the file until you press 'Cancel' or 'Clear'."
 msgstr ""
 "HINWEIS: Beachten Sie beim Herunterladen von bittorrents, dass der Download-"
-"Manager die Dateien freigibt, bis Sie \\'Abbrechen\\' oder \\'Löschen\\' "
-"drücken."
+"Manager die Dateien freigibt, bis Sie 'Abbrechen' oder 'Löschen' drücken."

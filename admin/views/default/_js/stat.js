@@ -92,12 +92,12 @@ $(document).ready(function() {
 		var message;
 		var title;
 		if (action == "shutdown") {
-			button_label = _("Shut down");
-			message = _("Proceed to shut down {PLATFORM}?");
+			button_label = pgettext("confirmation button","Shut down");
+			message = sprintf(_("Proceed to shut down %s?"), config.name);
 			title = _("Shut down");
 		} else {
-			button_label = _("Restart");
-			message = _("Proceed to restart {PLATFORM}?");
+			button_label = pgettext("confirmation button","Restart");
+			message = $.sprintf(_("Proceed to restart %s?"), config.name);
 			title = _("Restart");
 		}
 		buttons[button_label] = function() {

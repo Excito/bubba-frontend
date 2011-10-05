@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 14:48+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,46 +23,37 @@ msgstr "Datum und Uhrzeit"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_datetime.html:5
-#, fuzzy
-#| msgid "- Shows the selected timezon."
 msgid "<strong>Current timezone is</strong> - Shows the selected timezon."
-msgstr "- Zeigt die ausgewählte Zeitzone."
+msgstr "<strong>Aktuelle Zeitzone</strong> - Zeigt die ausgewählte Zeitzone."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_datetime.html:8
-#, fuzzy
-#| msgid "- Select your timezone in the drop down list."
 msgid ""
 "<strong>Select timezone</strong> - Select your timezone in the drop down "
 "list."
-msgstr "- Wählen Sie Ihre Zeitzone in der Dropdown-Liste aus."
+msgstr ""
+"<strong>Zeitzone auswählen</strong> - Wählen Sie Ihre Zeitzone in der "
+"Dropdown-Liste aus."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_datetime.html:11
-#, fuzzy
-#| msgid ""
-#| "- This enables {PLATFORM} to set the date and time automatically via an "
-#| "internet server."
 msgid ""
 "<strong>Set time automatically</strong> - This enables {PLATFORM} to set the "
 "date and time automatically via an internet server."
 msgstr ""
-"- Diese Einstellung erlaubt {PLATFORM}, das Datum und die Uhrzeit "
-"automatisch über einen Internetserver abzurufen."
+"<strong>Zeit automatisch einstellen</strong> - Diese Einstellung erlaubt "
+"{PLATFORM}, das Datum und die Uhrzeit automatisch über einen Internetserver "
+"abzurufen."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_datetime.html:14
-#, fuzzy
-#| msgid "- Set the system date manually."
 msgid "<strong>Date</strong> - Set the system date manually."
-msgstr "- Manuelle Einstellung des Systemdatums."
+msgstr "<strong>Datum</strong> - Manuelle Einstellung des Systemdatums."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_datetime.html:17
-#, fuzzy
-#| msgid "- Set the system time manually."
 msgid "<strong>Time</strong> - Set the system time manually."
-msgstr "- Manuelle Einstellung der Systemzeit."
+msgstr "<strong>Uhrzeit</strong> - Manuelle Einstellung der Systemzeit."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/settings_datetime.html:20
@@ -71,8 +62,6 @@ msgstr "Dummy header"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_datetime.html:23
-#, fuzzy
-#| msgid "- Select language for the user interface."
 msgid ""
 "<strong>System language</strong> - Select language for the user interface."
-msgstr "- dummy."
+msgstr ""

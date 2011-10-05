@@ -88,7 +88,7 @@ class Album extends Controller {
 				|| $password1 != $password2
 				|| $this->album_model->album_user_exists( $username )
 			) {
-				$error = _('album-users-add-account-validation-error');
+				$error = _('Validation failed when adding user account');
 			} else {
 				$res = $this->album_model->album_add_user( $username, $password1 );
 			}
@@ -118,7 +118,7 @@ class Album extends Controller {
 			if (
 				$password1 != $password2
 			) {
-				$error = _('album-users-add-account-validation-error');
+				$error = _('Validation failed when editing user account');
 			} else {
 				try {
 					$res = $this->album_model->album_modify_user( $uid, $username, $password1 );

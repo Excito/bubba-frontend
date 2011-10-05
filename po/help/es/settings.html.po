@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
 "POT-Creation-Date: 2011-08-22 21:04+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-10-06 15:42+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,6 @@ msgstr "Asistente de configuración"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:5
-#, fuzzy
-#| msgid ""
-#| "Use the integrated Setup wizard to make the very first important settings "
-#| "on your {PLATFORM} such as language, time and date, add users and choose "
-#| "an Easyfind name. You can run the wizard at any time."
 msgid ""
 "Use the integrated Setup wizard to make the very first important settings on "
 "your {PLATFORM} such as language, time and date, add users and choose an "
@@ -40,10 +35,8 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:8
-#, fuzzy
-#| msgid "Step 1 - Select default language"
 msgid "<strong>Step 1 - Select default language</strong>"
-msgstr "Paso 1 - Selecciona el idioma por defecto"
+msgstr "<strong>Paso 1 - Selecciona el idioma por defecto</strong>"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:11
@@ -54,10 +47,8 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:14
-#, fuzzy
-#| msgid "Step 2 - Time and date"
 msgid "<strong>Step 2 - Time and date</strong>"
-msgstr "Paso 2 - Hora y fecha"
+msgstr "<strong>Paso 2 - Hora y fecha</strong>"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:17
@@ -74,10 +65,8 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:21
-#, fuzzy
-#| msgid "Step 3 - Create user"
 msgid "<strong>Step 3 - Create user</strong>"
-msgstr "Paso 3 - Crear usuarios"
+msgstr "<strong>Paso 3 - Crear usuarios</strong>"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:24
@@ -90,18 +79,11 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:27
-#, fuzzy
-#| msgid "Step 4 - Network setup"
 msgid "<strong>Step 4 - Network setup</strong>"
-msgstr "Paso 4 - Configuración de red"
+msgstr "<strong>Paso 4 - Configuración de red</strong>"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:30
-#, fuzzy
-#| msgid ""
-#| "Choose if you would like to register for a free Easyfind name. You will "
-#| "reach your {PLATFORM} by surfing to www.-your easyfind name-."
-#| "myown{PLATFORM}.com. Click 'Next' to continue."
 msgid ""
 "Choose if you would like to register for a free Easyfind name. You will "
 "reach your {PLATFORM} by surfing to www.-your easyfind name-.{EASYFIND}. "
@@ -113,10 +95,8 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:33
-#, fuzzy
-#| msgid "Setup complete"
 msgid "<strong>Setup complete</strong>"
-msgstr "Configuración finalizada"
+msgstr "<strong>Configuración finalizada</strong>"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings.html:36

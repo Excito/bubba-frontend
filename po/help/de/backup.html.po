@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: 2011-08-09 16:24+0100\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-05 14:07+0100\n"
 "Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -18,13 +18,6 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/backup.html:2
-#, fuzzy
-#| msgid ""
-#| "This backup service allows you to backup any data on your {PLATFORM} to a "
-#| "USB disk, an eSATA disk or to a remote server supporting FTP or SSH "
-#| "protocols. For instance you can create a backup from one {PLATFORM} to "
-#| "another using the SSH protocol, and using the EasyFind name as the "
-#| "“target server”."
 msgid ""
 "This backup service allows you to backup any data on your {PLATFORM} to a "
 "USB disk, an eSATA disk or to a remote server supporting FTP or SSH "
@@ -94,8 +87,6 @@ msgstr "Datensicherung erstellen"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/backup.html:24
-#, fuzzy
-#| msgid "Click the button “Add new backup job” and follow the wizard"
 msgid "Click the button “Add new backup job” and follow the wizard"
 msgstr ""
 "Wählen Sie die Funktion „Neues Backup erstellen“ und folgen Sie dem Ablauf"
@@ -108,10 +99,6 @@ msgstr "Datensicherung wiederherstellen"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/backup.html:30
-#, fuzzy
-#| msgid ""
-#| "Click the button “Restore” next to the date or time you wish to restore "
-#| "from."
 msgid ""
 "Click the button “Restore” next to the date or time you wish to restore from."
 msgstr ""
@@ -125,13 +112,6 @@ msgstr "Datensicherungen ohne {PLATFORM} wiederherstellen"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/backup.html:36
-#, fuzzy
-#| msgid ""
-#| "If you in the future would like to restore a backup not using {PLATFORM}, "
-#| "this is possible, but only with full backups, and only if the backups are "
-#| "not encrypted. Browse to your backup target. The full backups are "
-#| "available as “snapshots” and compressed using gzip. Use any gzip "
-#| "uncompressor to directly access your data."
 msgid ""
 "If you in the future would like to restore a backup not using {PLATFORM}, "
 "this is possible, but only with full backups, and only if the backups are "

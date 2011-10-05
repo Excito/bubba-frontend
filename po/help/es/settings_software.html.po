@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-08-22 21:04+0300\n"
+"PO-Revision-Date: 2011-10-06 15:42+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,6 @@ msgstr "Actualización de software"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_software.html:5
-#, fuzzy
-#| msgid ""
-#| "{PLATFORM}'s software can easily be updated to gain new functionality. "
-#| "Press 'Update system', and the update is automatically performed. Please "
-#| "have patient, it might take a while to perform an update."
 msgid ""
 "{PLATFORM}'s software can easily be updated to gain new functionality. Press "
 "'Update system', and the update is automatically performed. Please have "
@@ -54,14 +49,6 @@ msgstr "Parches"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_software.html:14
-#, fuzzy
-#| msgid ""
-#| "This feature collects status information from your {PLATFORM} and sends "
-#| "to Excito for automated analysis. The update server can then take "
-#| "appropriate actions if your system has problems. The system information "
-#| "is sent to Excito via an encrypted connection, and server responses are "
-#| "GPG signed to ensure the security and that the content is distributed by "
-#| "Excito."
 msgid ""
 "This feature collects status information from your {PLATFORM} and sends to "
 "Excito for automated analysis. The update server can then take appropriate "
@@ -78,11 +65,6 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_software.html:18
-#, fuzzy
-#| msgid ""
-#| "By default this feature is enabled. Use the switch to disable Hotfixes. "
-#| "If doing so you might not get the most important updates to your "
-#| "{PLATFORM}."
 msgid ""
 "By default this feature is enabled. Use the switch to disable Hotfixes. If "
 "doing so you might not get the most important updates to your {PLATFORM}."
@@ -93,19 +75,15 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_software.html:21
-#, fuzzy
-#| msgid ""
-#| "Any information collected by Excito will never be exposed to any other "
-#| "party than Excito. The information will only be used to pin point errors "
-#| "and perform the best matched updates for your {PLATFORM}."
 msgid ""
 "<strong>Any information collected by Excito will never be exposed to any "
 "other party than Excito. The information will only be used to pin point "
 "errors and perform the best matched updates for your {PLATFORM}.</strong>"
 msgstr ""
-"Cualquier información recogida por Excito no se facilitará nunca a otra "
-"compañia distita de Excito. La información solo se utilizará para recabar "
-"errores y facilitar las actualizaciones más pertinentes para tu {PLATFORM}."
+"<strong>Cualquier información recogida por Excito no se facilitará nunca a "
+"otra compañia distita de Excito. La información solo se utilizará para "
+"recabar errores y facilitar las actualizaciones más pertinentes para tu "
+"{PLATFORM}.</strong>"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_software.html:25
@@ -139,15 +117,11 @@ msgstr "Modelo de CPU"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/settings_software.html:38
-#, fuzzy
-#| msgid "Status for the installed {PLATFORM} specific packages"
 msgid "Status for the installed {PLATFORM} specific packages"
 msgstr "Estado de los paquetes instalados específicamente en {PLATFORM}"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/settings_software.html:40
-#, fuzzy
-#| msgid "The log file /tmp/{PLATFORM}-apt.log if existing"
 msgid "The log file /tmp/{PLATFORM}-apt.log if existing"
 msgstr "El fichero de log /tmp/{PLATFORM}-apt.log de existir"
 
@@ -178,9 +152,6 @@ msgstr "Versiones actuales de paquetes"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_software.html:55
-#, fuzzy
-#| msgid ""
-#| "Detailed information about {PLATFORM} software versions is shown here."
 msgid "Detailed information about {PLATFORM} software versions is shown here."
 msgstr ""
 "Aquí se muestra información detallada sobre las versiones de software de "
