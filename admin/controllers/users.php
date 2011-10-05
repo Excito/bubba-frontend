@@ -155,17 +155,17 @@ class Users extends Controller{
 					|| $password1 == ""
 					|| $password1 != $password2
 				) {
-					$error = _('users-add-account-validation-error');
+					$error = _('User name validation failed');
 				} else {
 					if(add_user($realname,$group,$shell,$password1,$username)){
-						$error = _('users-add-account-error');
+						$error = _('Fatal error when adding user');
 					}
 				}
 				if(!$error) {
 					$this->update_cfg("language",$lang,$username);
 				}
 			} else {
-				$error = _('users-add-account-validation-error');
+				$error = _('Authorization denied');
 			}
 			$data['success'] = !$error;
 			if( $error ) {
@@ -294,24 +294,25 @@ class Users extends Controller{
 
 				// TODO: fix this to only allow users with uid>999 to be deleted
 				if( $username == "root" || $username == "admin" ){		
-					$error = _('users-delete-bad-user-error');
-					exit();
+                    $error = _('Bad username');
+                    echo json_encode( $data );
+                    return;
 				}
 				if(del_user($username)==0){
 					$data["delusersuccess"]=true;
 					if($userdata){
 						if(rm("/home/$username","root")==0){
 						}else{
-							$error = _('users-delete-userdata-error');
+							$error = sprintf(_('Was unabler to remove the home directory for user %s'), $username);
 						}
 						try {
 							purge_horde( $username );
 						} catch( AdminException $e ) {
-							$error = _('users-delete-userdata-error');
+							$error = sprintf(_('Fatal error when trying to purge horde configurations for user %s'),$username);
 						}
 					}
 				}else{
-					$error = _('users-delete-account-error');
+					$error = sprintf(_('Fatal error when trying to remove the user %s'), $username);
 				}
 			} else {
 				$error = _("Permission denied");

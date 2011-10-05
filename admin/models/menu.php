@@ -444,6 +444,7 @@ class Menu extends Model {
 
             $menubar[$menu_value['id']]['class'] = $menu_value['class'] . " " . $menu_value['icon'];
             $menubar[$menu_value['id']]['name'] = "";
+            $menubar[$menu_value['id']]['label'] = $menu_value['label'];
 
             if($menu_value['auth']) $menubar[$menu_value['id']]['class'] .= " fn-require-auth";
 
@@ -484,7 +485,7 @@ class Menu extends Model {
         $mymenu = array();
         foreach($menubar as $id => $tags) {
             /*<a class="ui-login-menubar-a default-icon default-icon-settings fn-login-auth-required <?=$ui_login_user_lock?>" href="<?=FORMPREFIX?>/userinfo/"><span><?=pgettext('menu',"menubar_usersettings")?></span></a>*/
-            $mymenu[] = "<a ".$tags["target"]." class='fn-menubar-link-$id fn-login-dialog-a ".$tags['class']."' href='".$tags['uri']."' name='".$tags['name']."'><div>".pgettext('menu',"menubar-link-".$id)."</div></a>";
+            $mymenu[] = "<a ".$tags["target"]." class='fn-menubar-link-$id fn-login-dialog-a ".$tags['class']."' href='".$tags['uri']."' name='".$tags['name']."'><div>".$tags['label']."</div></a>";
         }
         return $mymenu;
     }

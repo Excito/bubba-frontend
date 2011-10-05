@@ -7,7 +7,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
         "Report-Msgid-Bugs-To: info@excito.com\n"
-        "POT-Creation-Date: 2011-10-04 15:26+0200\n"
+        "POT-Creation-Date: 2011-10-05 16:53+0200\n"
         "PO-Revision-Date: 2011-08-13 18:42+0200\n"
         "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,8 +145,8 @@ msgstr  "Advanced firewall settings"
 msgid   "Advanced wireless settings"
 msgstr  "Advanced wireless settings"
 
-#: admin/views/default/backup/backup_view.php:341
-#: admin/views/default/backup/backup_view.php:687
+#: admin/views/default/backup/backup_view.php:342
+#: admin/views/default/backup/backup_view.php:689
 msgid   "Age of timeline"
 msgstr  "Age of timeline"
 
@@ -180,27 +180,27 @@ msgid   "Albums"
 msgstr  "Album name"
 
 #: admin/views/default/backup/backup_view.php:77
-#: admin/views/default/backup/backup_view.php:423
+#: admin/views/default/backup/backup_view.php:424
 msgid   "All music (/home/storage/music)"
 msgstr  ""
 
 #: admin/views/default/backup/backup_view.php:80
-#: admin/views/default/backup/backup_view.php:426
+#: admin/views/default/backup/backup_view.php:427
 msgid   "All photos (/home/storage/photos)"
 msgstr  ""
 
 #: admin/views/default/backup/backup_view.php:71
-#: admin/views/default/backup/backup_view.php:417
+#: admin/views/default/backup/backup_view.php:418
 msgid   "All user's data (/home/&lt;all users&gt;)"
 msgstr  ""
 
 #: admin/views/default/backup/backup_view.php:74
-#: admin/views/default/backup/backup_view.php:420
+#: admin/views/default/backup/backup_view.php:421
 msgid   "All user's email (/home/&lt;all users&gt;/Mail)"
 msgstr  ""
 
 #: admin/views/default/backup/backup_view.php:83
-#: admin/views/default/backup/backup_view.php:429
+#: admin/views/default/backup/backup_view.php:430
 msgid   "All videos (/home/storage/video)"
 msgstr  ""
 
@@ -236,6 +236,11 @@ msgstr  "Anonymous access not granted to parent album."
 #: admin/views/default/stat/stat_view.php:34
 msgid   "Attached printers"
 msgstr  "Attached printers"
+
+#: admin/controllers/users.php:168
+#, fuzzy
+msgid   "Authorization denied"
+msgstr  "Authorization failed"
 
 #: admin/controllers/mail.php:105 admin/controllers/mail.php:148
 #: admin/controllers/mail.php:191
@@ -284,7 +289,7 @@ msgstr  "Backup"
 msgid   "Backup and restore settings"
 msgstr  "Backup and restore settings"
 
-#: admin/views/default/backup/backup_view.php:467
+#: admin/views/default/backup/backup_view.php:468
 msgid   "Backup destination (step 2 of 4)"
 msgstr  "Backup destination (step 2 of 4)"
 
@@ -292,9 +297,14 @@ msgstr  "Backup destination (step 2 of 4)"
 msgid   "Backup jobs"
 msgstr  "Backup jobs"
 
-#: admin/views/default/backup/backup_view.php:552
+#: admin/views/default/backup/backup_view.php:553
 msgid   "Backup schedule (step 3 of 4)"
 msgstr  "Backup schedule (step 3 of 4)"
+
+#: admin/controllers/users.php:297
+#, fuzzy
+msgid   "Bad username"
+msgstr  "Username"
 
 #: admin/views/default/network/network_wlan_view.php:80
 msgid   "Band"
@@ -309,7 +319,7 @@ msgid   "Broadcast SSID"
 msgstr  "Broadcast SSID"
 
 #: admin/views/default/backup/backup_view.php:110
-#: admin/views/default/backup/backup_view.php:456
+#: admin/views/default/backup/backup_view.php:457
 msgid   "Browse"
 msgstr  "Browse"
 
@@ -466,7 +476,7 @@ msgid   "Current version"
 msgstr  "Current package versions"
 
 #: admin/views/default/backup/backup_view.php:89
-#: admin/views/default/backup/backup_view.php:435
+#: admin/views/default/backup/backup_view.php:436
 msgid   "Custom selection"
 msgstr  ""
 
@@ -482,15 +492,15 @@ msgstr  "DHCP leases"
 msgid   "DLNA streaming"
 msgstr  "DLNA streaming"
 
-#: admin/views/default/backup/backup_view.php:301
-#: admin/views/default/backup/backup_view.php:647
+#: admin/views/default/backup/backup_view.php:302
+#: admin/views/default/backup/backup_view.php:649
 msgid   "Daily at"
 msgstr  "Daily at"
 
 #: admin/views/default/filemanager/filemanager_index_view.php:9
 #: admin/views/default/backup/backup_view.php:30
-#: admin/views/default/backup/backup_view.php:763
-#: admin/views/default/backup/backup_view.php:832
+#: admin/views/default/backup/backup_view.php:765
+#: admin/views/default/backup/backup_view.php:834
 msgid   "Date"
 msgstr  "Date"
 
@@ -499,12 +509,12 @@ msgid   "Date and time"
 msgstr  "Date and time"
 
 #: admin/views/default/backup/backup_view.php:236
-#: admin/views/default/backup/backup_view.php:582
+#: admin/views/default/backup/backup_view.php:583
 msgid   "Day of the month"
 msgstr  "Day of the month"
 
 #: admin/views/default/backup/backup_view.php:271
-#: admin/views/default/backup/backup_view.php:617
+#: admin/views/default/backup/backup_view.php:618
 msgid   "Day of the week"
 msgstr  "Day of the week"
 
@@ -551,12 +561,12 @@ msgid   "Device"
 msgstr  "Device"
 
 #: admin/views/default/backup/backup_view.php:145
-#: admin/views/default/backup/backup_view.php:491
+#: admin/views/default/backup/backup_view.php:492
 msgid   "Device to use as target for the backup"
 msgstr  "Device to use as target for the backup"
 
 #: admin/views/default/backup/backup_view.php:218
-#: admin/views/default/backup/backup_view.php:564
+#: admin/views/default/backup/backup_view.php:565
 #, fuzzy
 msgid   "Disabled (manually run by pressing \"Run now\")"
 msgstr  "Disabled (manually run by pressing \"Run now"
@@ -653,8 +663,8 @@ msgstr  "Easyfind name"
 msgid   "Easyfind options"
 msgstr  "Easyfind options"
 
-#: admin/views/default/backup/backup_view.php:404
-#: admin/views/default/backup/backup_view.php:750
+#: admin/views/default/backup/backup_view.php:405
+#: admin/views/default/backup/backup_view.php:752
 msgid   "Edit backup job"
 msgstr  "Edit backup job"
 
@@ -704,8 +714,8 @@ msgstr  "Enable DNS service"
 msgid   "Enable jumbo frames."
 msgstr  "Enable jumbo frames."
 
-#: admin/views/default/backup/backup_view.php:367
-#: admin/views/default/backup/backup_view.php:713
+#: admin/views/default/backup/backup_view.php:368
+#: admin/views/default/backup/backup_view.php:715
 msgid   "Encrypt the backup on target for increased security"
 msgstr  "Encrypt the backup on target for increased security"
 
@@ -771,35 +781,35 @@ msgstr  "Error updating user access"
 msgid   "Error updating user access to public"
 msgstr  "Error updating user access to public"
 
-#: admin/controllers/users.php:407
+#: admin/controllers/users.php:408
 msgid   "Error, illegal characters in password"
 msgstr  "Error, illegal characters in password"
 
-#: admin/controllers/users.php:403
+#: admin/controllers/users.php:404
 msgid   "Error, illegal characters in username"
 msgstr  "Error, illegal characters in username"
 
-#: admin/controllers/users.php:399
+#: admin/controllers/users.php:400
 msgid   "Error, no username"
 msgstr  "Error, no username"
 
-#: admin/controllers/users.php:409
+#: admin/controllers/users.php:410
 msgid   "Error, passwords do not match"
 msgstr  "Error, passwords do not match"
 
-#: admin/controllers/users.php:401
+#: admin/controllers/users.php:402
 msgid   "Error, space in username"
 msgstr  "Error, space in username"
 
-#: admin/controllers/users.php:397
+#: admin/controllers/users.php:398
 msgid   "Error, uppercase letters in username"
 msgstr  "Error, uppercase letters in username"
 
-#: admin/controllers/users.php:395
+#: admin/controllers/users.php:396
 msgid   "Error, user exists"
 msgstr  "Error, user exists"
 
-#: admin/controllers/users.php:405
+#: admin/controllers/users.php:406
 msgid   "Error, username too long"
 msgstr  "Error, username too long"
 
@@ -956,6 +966,20 @@ msgstr  "Failed to unmount %s"
 msgid   "Failed to upload file(s), aborting."
 msgstr  "Failed to upload file(s), aborting."
 
+#: admin/controllers/users.php:161
+msgid   "Fatal error when adding user"
+msgstr  ""
+
+#: admin/controllers/users.php:311
+#, php-format
+msgid   "Fatal error when trying to purge horde configurations for user %s"
+msgstr  ""
+
+#: admin/controllers/users.php:315
+#, php-format
+msgid   "Fatal error when trying to remove the user %s"
+msgstr  ""
+
 #: admin/views/default/services/services_view.php:4
 msgid   "File sharing"
 msgstr  "File sharing"
@@ -966,7 +990,7 @@ msgctxt "menu"
 msgid   "Filemanager"
 msgstr  "filemanager"
 
-#: admin/views/default/backup/backup_view.php:412
+#: admin/views/default/backup/backup_view.php:413
 msgid   "Files to backup (step 1 of 4)"
 msgstr  "Files to backup (step 1 of 4)"
 
@@ -1047,17 +1071,17 @@ msgid   "Hostname"
 msgstr  "Hostname"
 
 #: admin/views/default/backup/backup_view.php:247
-#: admin/views/default/backup/backup_view.php:282
-#: admin/views/default/backup/backup_view.php:306
-#: admin/views/default/backup/backup_view.php:593
-#: admin/views/default/backup/backup_view.php:628
-#: admin/views/default/backup/backup_view.php:652
+#: admin/views/default/backup/backup_view.php:283
+#: admin/views/default/backup/backup_view.php:307
+#: admin/views/default/backup/backup_view.php:594
+#: admin/views/default/backup/backup_view.php:630
+#: admin/views/default/backup/backup_view.php:654
 msgid   "Hour of the day"
 msgstr  "Hour of the day"
 
 #: admin/controllers/ajax_backup.php:45
-#: admin/views/default/backup/backup_view.php:326
-#: admin/views/default/backup/backup_view.php:672
+#: admin/views/default/backup/backup_view.php:327
+#: admin/views/default/backup/backup_view.php:674
 msgid   "Hourly"
 msgstr  "Hourly"
 
@@ -1158,8 +1182,8 @@ msgstr  "Invalid user/password combination."
 msgid   "Job name"
 msgstr  "Job name"
 
-#: admin/views/default/backup/backup_view.php:335
-#: admin/views/default/backup/backup_view.php:681
+#: admin/views/default/backup/backup_view.php:336
+#: admin/views/default/backup/backup_view.php:683
 msgid   "Keep timeline length of"
 msgstr  "Keep timeline length of"
 
@@ -1301,7 +1325,7 @@ msgid   "Mode"
 msgstr  "Mode"
 
 #: admin/views/default/backup/backup_view.php:231
-#: admin/views/default/backup/backup_view.php:577
+#: admin/views/default/backup/backup_view.php:578
 msgid   "Monthly on the"
 msgstr  ""
 
@@ -1318,8 +1342,8 @@ msgstr  ""
 #: admin/views/default/filemanager/filemanager_index_view.php:70
 #: admin/views/default/filemanager/filemanager_index_view.php:83
 #: admin/views/default/backup/backup_view.php:8
-#: admin/views/default/backup/backup_view.php:762
-#: admin/views/default/backup/backup_view.php:831
+#: admin/views/default/backup/backup_view.php:764
+#: admin/views/default/backup/backup_view.php:833
 msgid   "Name"
 msgstr  "Name"
 
@@ -1496,16 +1520,16 @@ msgstr  "Partitions"
 #: admin/views/default/mail/mail_server_view.php:70
 #: admin/views/default/mail/mail_retrieve_view.php:60
 #: admin/views/default/network/network_wlan_view.php:54
-#: admin/views/default/backup/backup_view.php:372
-#: admin/views/default/backup/backup_view.php:718
+#: admin/views/default/backup/backup_view.php:373
+#: admin/views/default/backup/backup_view.php:720
 #: admin/views/default/login_view.php:35
 msgid   "Password"
 msgstr  "Password"
 
-#: admin/controllers/users.php:317 admin/controllers/filemanager.php:107
+#: admin/controllers/users.php:318 admin/controllers/filemanager.php:107
 #: admin/views/default/filemanager/filemanager_index_view.php:17
-#: admin/views/default/backup/backup_view.php:774
-#: admin/views/default/backup/backup_view.php:844
+#: admin/views/default/backup/backup_view.php:776
+#: admin/views/default/backup/backup_view.php:846
 msgid   "Permission denied"
 msgstr  "Permission denied"
 
@@ -1590,7 +1614,9 @@ msgstr  "Profile"
 #: admin/views/default/network/network_fw_view.php:218
 #: admin/views/default/network/network_fw_view.php:290
 #: admin/views/default/backup/backup_view.php:125
-#: admin/views/default/backup/backup_view.php:471
+#: admin/views/default/backup/backup_view.php:129
+#: admin/views/default/backup/backup_view.php:472
+#: admin/views/default/backup/backup_view.php:476
 msgid   "Protocol"
 msgstr  "Protocol"
 
@@ -1713,10 +1739,15 @@ msgstr  "Remove selected image from album?"
 msgid   "Rename"
 msgstr  "Rename"
 
-#: admin/views/default/backup/backup_view.php:384
-#: admin/views/default/backup/backup_view.php:730
+#: admin/views/default/backup/backup_view.php:385
+#: admin/views/default/backup/backup_view.php:732
 msgid   "Repeat password"
 msgstr  "Repeat password"
+
+#: admin/controllers/filemanager.php:79
+#, php-format
+msgid   "Requested file %s to rename doesn't exists"
+msgstr  ""
 
 #: admin/views/default/services/services_view.php:54
 msgid   "Required for webmail access"
@@ -1739,11 +1770,11 @@ msgstr  "Restarting %s"
 msgid   "Restore"
 msgstr  "Restore"
 
-#: admin/views/default/backup/backup_view.php:796
+#: admin/views/default/backup/backup_view.php:798
 msgid   "Restore file to it’s original place"
 msgstr  "Restore file to it’s original place"
 
-#: admin/views/default/backup/backup_view.php:809
+#: admin/views/default/backup/backup_view.php:811
 msgid   "Restore to other place"
 msgstr  "Restore to other place"
 
@@ -1778,11 +1809,11 @@ msgstr  "SSH"
 msgid   "Schedule"
 msgstr  "Schedule"
 
-#: admin/views/default/backup/backup_view.php:703
+#: admin/views/default/backup/backup_view.php:705
 msgid   "Security (step 4 of 4)"
 msgstr  "Security (step 4 of 4)"
 
-#: admin/views/default/backup/backup_view.php:357
+#: admin/views/default/backup/backup_view.php:358
 msgid   "Security (step 5 of 5)"
 msgstr  "Security (step 5 of 5)"
 
@@ -1894,7 +1925,7 @@ msgstr  "Shutting down %s"
 
 #: admin/views/default/downloads/downloads_list_view.php:50
 #: admin/views/default/filemanager/filemanager_index_view.php:10
-#: admin/views/default/backup/backup_view.php:833
+#: admin/views/default/backup/backup_view.php:835
 msgid   "Size"
 msgstr  "Size"
 
@@ -1960,7 +1991,7 @@ msgid   "Step 4/4: Network setup"
 msgstr  "Step 4/4: Network setup"
 
 #: admin/views/default/backup/backup_view.php:86
-#: admin/views/default/backup/backup_view.php:432
+#: admin/views/default/backup/backup_view.php:433
 msgid   "Storage (/home/storage)"
 msgstr  ""
 
@@ -1978,7 +2009,7 @@ msgctxt "menu"
 msgid   "System backup"
 msgstr  "System default"
 
-#: admin/controllers/users.php:353
+#: admin/controllers/users.php:354
 msgid   "System default"
 msgstr  "System default"
 
@@ -2017,27 +2048,27 @@ msgid   "Target"
 msgstr  "Target"
 
 #: admin/views/default/backup/backup_view.php:140
-#: admin/views/default/backup/backup_view.php:486
+#: admin/views/default/backup/backup_view.php:487
 msgid   "Target device"
 msgstr  "Target device"
 
 #: admin/views/default/backup/backup_view.php:191
-#: admin/views/default/backup/backup_view.php:537
+#: admin/views/default/backup/backup_view.php:538
 msgid   "Target directory"
 msgstr  "Target directory"
 
 #: admin/views/default/backup/backup_view.php:152
-#: admin/views/default/backup/backup_view.php:498
+#: admin/views/default/backup/backup_view.php:499
 msgid   "Target server"
 msgstr  "Target server"
 
 #: admin/views/default/backup/backup_view.php:178
-#: admin/views/default/backup/backup_view.php:524
+#: admin/views/default/backup/backup_view.php:525
 msgid   "Target server password"
 msgstr  "Target server password"
 
 #: admin/views/default/backup/backup_view.php:165
-#: admin/views/default/backup/backup_view.php:511
+#: admin/views/default/backup/backup_view.php:512
 msgid   "Target server username"
 msgstr  "Target server username"
 
@@ -2052,8 +2083,8 @@ msgid   "The external RAID disk (<strong>%s</strong>) in the RAID array has "
 msgstr  "The external RAID disk (<strong>%s</strong>) in the RAID array has "
         "malfunctioned"
 
-#: admin/views/default/backup/backup_view.php:350
-#: admin/views/default/backup/backup_view.php:696
+#: admin/views/default/backup/backup_view.php:351
+#: admin/views/default/backup/backup_view.php:698
 msgid   "The longer timeline the more space will be required on target"
 msgstr  "The longer timeline the more space will be required on target"
 
@@ -2356,6 +2387,11 @@ msgstr  "User language"
 msgid   "User name"
 msgstr  "User name"
 
+#: admin/controllers/users.php:158
+#, fuzzy
+msgid   "User name validation failed"
+msgstr  "User information updated"
+
 #: admin/models/menu.php:76 admin/models/menu.php:255
 #: admin/models/menu.php:274
 #, fuzzy
@@ -2382,6 +2418,14 @@ msgstr  "Users"
 msgctxt "menu"
 msgid   "Users"
 msgstr  "Users"
+
+#: admin/controllers/album.php:91
+msgid   "Validation failed when adding user account"
+msgstr  ""
+
+#: admin/controllers/album.php:121
+msgid   "Validation failed when editing user account"
+msgstr  ""
 
 #: admin/controllers/mail.php:113 admin/controllers/mail.php:167
 #: admin/controllers/mail.php:199
@@ -2433,8 +2477,13 @@ msgstr  "WWW"
 msgid   "Warning"
 msgstr  "Warning"
 
+#: admin/controllers/users.php:306
+#, fuzzy, php-format
+msgid   "Was unabler to remove the home directory for user %s"
+msgstr  "Failed to remove fstab entry for %s with %s"
+
 #: admin/views/default/backup/backup_view.php:266
-#: admin/views/default/backup/backup_view.php:612
+#: admin/views/default/backup/backup_view.php:613
 msgid   "Weekly each"
 msgstr  "Weekly each"
 
@@ -2466,46 +2515,37 @@ msgstr  "Workgroup"
 msgid   "YYYYMMDD"
 msgstr  "YYYYMMDD"
 
-#: admin/views/default/backup/backup_view.php:343
-#: admin/views/default/backup/backup_view.php:689
+#: admin/views/default/backup/backup_view.php:344
+#: admin/views/default/backup/backup_view.php:691
 msgid   "a day"
 msgstr  "a day"
 
-#: admin/views/default/backup/backup_view.php:348
-#: admin/views/default/backup/backup_view.php:694
+#: admin/views/default/backup/backup_view.php:349
+#: admin/views/default/backup/backup_view.php:696
 msgid   "a decade"
 msgstr  "a decade"
 
-#: admin/views/default/backup/backup_view.php:345
-#: admin/views/default/backup/backup_view.php:691
+#: admin/views/default/backup/backup_view.php:346
+#: admin/views/default/backup/backup_view.php:693
 msgid   "a month"
 msgstr  "a month"
 
-#: admin/views/default/backup/backup_view.php:344
-#: admin/views/default/backup/backup_view.php:690
+#: admin/views/default/backup/backup_view.php:345
+#: admin/views/default/backup/backup_view.php:692
 msgid   "a week"
 msgstr  "a week"
 
-#: admin/views/default/backup/backup_view.php:347
-#: admin/views/default/backup/backup_view.php:693
+#: admin/views/default/backup/backup_view.php:348
+#: admin/views/default/backup/backup_view.php:695
 msgid   "a year"
 msgstr  "a year"
 
-#: admin/controllers/album.php:91 admin/controllers/album.php:121
-msgid   "album-users-add-account-validation-error"
-msgstr  "album-users-add-account-validation-error"
-
 #: admin/views/default/backup/backup_view.php:242
-#: admin/views/default/backup/backup_view.php:277
-#: admin/views/default/backup/backup_view.php:588
-#: admin/views/default/backup/backup_view.php:623
+#: admin/views/default/backup/backup_view.php:278
+#: admin/views/default/backup/backup_view.php:589
+#: admin/views/default/backup/backup_view.php:625
 msgid   "at"
 msgstr  "at"
-
-#: admin/views/default/backup/backup_view.php:129
-#: admin/views/default/backup/backup_view.php:475
-msgid   "backup-title-protocol"
-msgstr  "backup-title-protocol"
 
 #: admin/views/default/stat/stat_view.php:29
 msgid   "days"
@@ -2515,24 +2555,14 @@ msgstr  "days"
 msgid   "filemanager"
 msgstr  "filemanager"
 
-#: admin/controllers/filemanager.php:79
-msgid   "filemanager-rename-file-not-exists-error"
-msgstr  "filemanager-rename-file-not-exists-error"
-
-#: admin/views/default/backup/backup_view.php:346
-#: admin/views/default/backup/backup_view.php:692
+#: admin/views/default/backup/backup_view.php:347
+#: admin/views/default/backup/backup_view.php:694
 msgid   "half a year"
 msgstr  "half a year"
 
 #: admin/views/default/services/services_view.php:37
 msgid   "here"
 msgstr  "here"
-
-#: admin/models/menu.php:487
-#, fuzzy
-msgctxt "menu"
-msgid   "menubar-link-"
-msgstr  "menubar-link-"
 
 #: admin/controllers/settings.php:446 admin/controllers/settings.php:447
 msgid   "n/a"
@@ -2557,26 +2587,6 @@ msgstr  "seeds"
 #: admin/views/default/services/services_view.php:37
 msgid   "to install squeezecenter"
 msgstr  "to install squeezecenter"
-
-#: admin/controllers/users.php:161
-msgid   "users-add-account-error"
-msgstr  "users-add-account-error"
-
-#: admin/controllers/users.php:158 admin/controllers/users.php:168
-msgid   "users-add-account-validation-error"
-msgstr  "users-add-account-validation-error"
-
-#: admin/controllers/users.php:314
-msgid   "users-delete-account-error"
-msgstr  "users-delete-account-error"
-
-#: admin/controllers/users.php:297
-msgid   "users-delete-bad-user-error"
-msgstr  "users-delete-bad-user-error"
-
-#: admin/controllers/users.php:305 admin/controllers/users.php:310
-msgid   "users-delete-userdata-error"
-msgstr  "users-delete-userdata-error"
 
 #: admin/views/default/disk/disk_lvm_view.php:19
 msgid   "with"
@@ -2608,14 +2618,43 @@ msgstr  "your-easyfind-name"
 #~ msgid        "Welcome to %s"
 #~ msgstr       "Welcome to %s"
 
+#~ msgid        "album-users-add-account-validation-error"
+#~ msgstr       "album-users-add-account-validation-error"
+
+#~ msgid        "backup-title-protocol"
+#~ msgstr       "backup-title-protocol"
+
 #~ msgid        "disk_action_title_"
 #~ msgstr       "disk_action_title_"
+
+#~ msgid        "filemanager-rename-file-not-exists-error"
+#~ msgstr       "filemanager-rename-file-not-exists-error"
+
+#, fuzzy
+#~ msgctxt      "menu"
+#~ msgid        "menubar-link-"
+#~ msgstr       "menubar-link-"
 
 #~ msgid        "title_"
 #~ msgstr       "title_"
 
 #~ msgid        "update system"
 #~ msgstr       "update system"
+
+#~ msgid        "users-add-account-error"
+#~ msgstr       "users-add-account-error"
+
+#~ msgid        "users-add-account-validation-error"
+#~ msgstr       "users-add-account-validation-error"
+
+#~ msgid        "users-delete-account-error"
+#~ msgstr       "users-delete-account-error"
+
+#~ msgid        "users-delete-bad-user-error"
+#~ msgstr       "users-delete-bad-user-error"
+
+#~ msgid        "users-delete-userdata-error"
+#~ msgstr       "users-delete-userdata-error"
 
 #~ msgid        "wizard-msg2"
 #~ msgstr       "wizard-msg2"
