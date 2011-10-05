@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-10-05 16:53+0200\n"
+"POT-Creation-Date: 2011-10-05 17:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,6 +229,10 @@ msgstr ""
 
 #: admin/views/default/album/album_album_view.php:274
 msgid "Anonymous access not granted to parent album."
+msgstr ""
+
+#: admin/views/default/disk/disk_raid_view.php:94
+msgid "Array name"
 msgstr ""
 
 #: admin/views/default/stat/stat_view.php:34
@@ -542,6 +546,7 @@ msgstr ""
 msgid "Destination"
 msgstr ""
 
+#: admin/views/default/disk/disk_raid_view.php:87
 #: admin/views/default/settings/settings_software_view.php:6
 msgid "Detailed information"
 msgstr ""
@@ -566,6 +571,7 @@ msgid "Disconnect"
 msgstr ""
 
 #: admin/views/default/disk/disk_view.php:6
+#: admin/views/default/disk/disk_raid_view.php:116
 msgid "Disk"
 msgstr ""
 
@@ -1231,6 +1237,18 @@ msgstr ""
 msgid "Legacy mode (802.11g)"
 msgstr ""
 
+#: admin/views/default/disk/disk_raid_view.php:95
+msgid "Level"
+msgstr ""
+
+#: admin/views/default/disk/disk_raid_view.php:91
+msgid "List of RAID arrays"
+msgstr ""
+
+#: admin/views/default/disk/disk_raid_view.php:113
+msgid "List of RAID disks"
+msgstr ""
+
 #: admin/views/default/backup/backup_view.php:133
 msgid "Local (USB/eSATA)"
 msgstr ""
@@ -1416,6 +1434,10 @@ msgstr ""
 msgid "None"
 msgstr ""
 
+#: admin/views/default/disk/disk_raid_view.php:77
+msgid "Normal operation"
+msgstr ""
+
 #: admin/views/default/filemanager/filemanager_index_view.php:51
 #: admin/views/default/main_view.php:279
 msgid "Not logged in"
@@ -1476,6 +1498,10 @@ msgstr ""
 msgid "Package version"
 msgstr ""
 
+#: admin/views/default/disk/disk_raid_view.php:117
+msgid "Parent"
+msgstr ""
+
 #: admin/views/default/disk/disk_view.php:63
 msgid "Partition"
 msgstr ""
@@ -1525,7 +1551,9 @@ msgid "Please read the users manual for advice."
 msgstr ""
 
 #: admin/views/default/disk/disk_raid_view.php:65
-msgid "Please replace the disk (also press \"Remove"
+msgid ""
+"Please replace the disk (also press \"Remove\" below to acknowledge the "
+"removal of the disk)"
 msgstr ""
 
 #: admin/controllers/ajax_network.php:41 admin/controllers/ajax_network.php:42
@@ -1622,6 +1650,10 @@ msgstr ""
 
 #: admin/views/default/disk/disk_raid_view.php:48
 msgid "RAID array degraded"
+msgstr ""
+
+#: admin/views/default/disk/disk_raid_view.php:81
+msgid "RAID not activated"
 msgstr ""
 
 #: admin/views/default/filemanager/filemanager_index_view.php:35
@@ -1893,6 +1925,8 @@ msgstr ""
 msgid "Shutting down %s"
 msgstr ""
 
+#: admin/views/default/disk/disk_raid_view.php:98
+#: admin/views/default/disk/disk_raid_view.php:119
 #: admin/views/default/downloads/downloads_list_view.php:50
 #: admin/views/default/filemanager/filemanager_index_view.php:10
 #: admin/views/default/backup/backup_view.php:835
@@ -1936,6 +1970,11 @@ msgstr ""
 
 #: admin/views/default/upload/upload_index_view.php:155
 msgid "Start upload"
+msgstr ""
+
+#: admin/views/default/disk/disk_raid_view.php:96
+#: admin/views/default/disk/disk_raid_view.php:118
+msgid "State"
 msgstr ""
 
 #: admin/views/default/stat/stat_view.php:4
@@ -2451,6 +2490,12 @@ msgstr ""
 #: admin/views/default/shutdown_view.php:8
 #, php-format
 msgid "When the LED light is solid blue, %s is ready to be used again"
+msgstr ""
+
+#: admin/views/default/disk/disk_raid_view.php:68
+msgid ""
+"When the disk has been replaced, press \"Recover RAID array\" to add the new "
+"disk to the array"
 msgstr ""
 
 #: admin/views/default/network/network_wlan_view.php:13

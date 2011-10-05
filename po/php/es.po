@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
         "Report-Msgid-Bugs-To: info@excito.com\n"
-        "POT-Creation-Date: 2011-10-05 16:53+0200\n"
+        "POT-Creation-Date: 2011-10-05 17:31+0200\n"
         "PO-Revision-Date: 2011-08-13 18:42+0200\n"
         "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -234,6 +234,11 @@ msgstr  "Acceso FTP an&oacute;nimo"
 #: admin/views/default/album/album_album_view.php:274
 msgid   "Anonymous access not granted to parent album."
 msgstr  "No permitido acceso an&oacute;nimo al &Aacute;lbum padre."
+
+#: admin/views/default/disk/disk_raid_view.php:94
+#, fuzzy
+msgid   "Array name"
+msgstr  "Nombre real"
 
 #: admin/views/default/stat/stat_view.php:34
 msgid   "Attached printers"
@@ -555,6 +560,7 @@ msgstr  "Descripci&oacute;n"
 msgid   "Destination"
 msgstr  "Destino"
 
+#: admin/views/default/disk/disk_raid_view.php:87
 #: admin/views/default/settings/settings_software_view.php:6
 #, fuzzy
 msgid   "Detailed information"
@@ -580,6 +586,7 @@ msgid   "Disconnect"
 msgstr  "Desconectar"
 
 #: admin/views/default/disk/disk_view.php:6
+#: admin/views/default/disk/disk_raid_view.php:116
 msgid   "Disk"
 msgstr  "Disco"
 
@@ -1256,6 +1263,19 @@ msgstr  "Modo compatible (802.11a)"
 msgid   "Legacy mode (802.11g)"
 msgstr  "Modo compatible (802.11g)"
 
+#: admin/views/default/disk/disk_raid_view.php:95
+msgid   "Level"
+msgstr  ""
+
+#: admin/views/default/disk/disk_raid_view.php:91
+#, fuzzy
+msgid   "List of RAID arrays"
+msgstr  "A&ntilde;ade disco al grupo RAID"
+
+#: admin/views/default/disk/disk_raid_view.php:113
+msgid   "List of RAID disks"
+msgstr  ""
+
 #: admin/views/default/backup/backup_view.php:133
 msgid   "Local (USB/eSATA)"
 msgstr  ""
@@ -1442,6 +1462,11 @@ msgstr  "No se encuentra disco utilizable"
 msgid   "None"
 msgstr  ""
 
+#: admin/views/default/disk/disk_raid_view.php:77
+#, fuzzy
+msgid   "Normal operation"
+msgstr  "partici&oacute;n Home"
+
 #: admin/views/default/filemanager/filemanager_index_view.php:51
 #: admin/views/default/main_view.php:279
 msgid   "Not logged in"
@@ -1502,6 +1527,10 @@ msgstr  "Nombre de paquete"
 msgid   "Package version"
 msgstr  "Versi&oacute;n de paquete"
 
+#: admin/views/default/disk/disk_raid_view.php:117
+msgid   "Parent"
+msgstr  ""
+
 #: admin/views/default/disk/disk_view.php:63
 msgid   "Partition"
 msgstr  "Partici&oacute;n"
@@ -1551,7 +1580,8 @@ msgid   "Please read the users manual for advice."
 msgstr  "Por favor lee el manual de usuarios para consejos."
 
 #: admin/views/default/disk/disk_raid_view.php:65
-msgid   "Please replace the disk (also press \"Remove"
+msgid   "Please replace the disk (also press \"Remove\" below to acknowledge "
+        "the removal of the disk)"
 msgstr  ""
 
 #: admin/controllers/ajax_network.php:41 admin/controllers/ajax_network.php:42
@@ -1652,6 +1682,10 @@ msgstr  "Estado del RAID"
 #: admin/views/default/disk/disk_raid_view.php:48
 msgid   "RAID array degraded"
 msgstr  "Grupo RAID degradado"
+
+#: admin/views/default/disk/disk_raid_view.php:81
+msgid   "RAID not activated"
+msgstr  ""
 
 #: admin/views/default/filemanager/filemanager_index_view.php:35
 #: admin/views/default/filemanager/filemanager_index_view.php:44
@@ -1932,6 +1966,8 @@ msgstr  "Apagado"
 msgid   "Shutting down %s"
 msgstr  "Apagando %s"
 
+#: admin/views/default/disk/disk_raid_view.php:98
+#: admin/views/default/disk/disk_raid_view.php:119
 #: admin/views/default/downloads/downloads_list_view.php:50
 #: admin/views/default/filemanager/filemanager_index_view.php:10
 #: admin/views/default/backup/backup_view.php:835
@@ -1977,6 +2013,12 @@ msgstr  "Iniciar asistente de ajuste"
 #: admin/views/default/upload/upload_index_view.php:155
 msgid   "Start upload"
 msgstr  "Comenzar subida"
+
+#: admin/views/default/disk/disk_raid_view.php:96
+#: admin/views/default/disk/disk_raid_view.php:118
+#, fuzzy
+msgid   "State"
+msgstr  "Estado"
 
 #: admin/views/default/stat/stat_view.php:4
 #: admin/views/default/backup/backup_view.php:11
@@ -2504,6 +2546,11 @@ msgstr  ""
 msgid   "When the LED light is solid blue, %s is ready to be used again"
 msgstr  "Cuando la luz del LED est&Aacute; completamente azul, %s esta listo "
         "para usarse de nuevo"
+
+#: admin/views/default/disk/disk_raid_view.php:68
+msgid   "When the disk has been replaced, press \"Recover RAID array\" to add "
+        "the new disk to the array"
+msgstr  ""
 
 #: admin/views/default/network/network_wlan_view.php:13
 msgid   "Wireless"
