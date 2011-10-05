@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
 "POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-10-05 15:24+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,37 +23,29 @@ msgstr "Benutzer hinzufügen"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_album_users.html:5
-msgid ""
-"Public album can be seen by anyone, you do not have to add any album users."
-msgstr ""
-"Öffentliche Alben können von jedem angesehen werden; Sie brauchen keine "
-"Albumbenutzer erstellen."
+msgid "Public album can be seen by anyone, you do not have to add any album users."
+msgstr "Öffentliche Alben können von jedem angesehen werden; Sie brauchen keine Albumbenutzer erstellen."
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_album_users.html:7
 msgid "Private albums is password protected, add users here."
-msgstr ""
-"Nicht öffentliche Alben sind passwortgeschützt; hier müssen Benutzer "
-"hinzugefügt werden."
+msgstr "Nicht öffentliche Alben sind passwortgeschützt; hier müssen Benutzer hinzugefügt werden."
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_album_users.html:9
-#, fuzzy
 #| msgid ""
 #| "Remember that the {PLATFORM} users and photo album viewers are not the "
 #| "same."
-msgid ""
-"Remember that the {PLATFORM} users and photo album viewers are not the same."
-msgstr ""
-"Denken Sie daran, dass {PLATFORM}-Benutzer und Albumbetrachter nicht "
-"identisch sind."
+msgid "Remember that the {PLATFORM} users and photo album viewers are not the same."
+msgstr "Denken Sie daran, dass {PLATFORM}-Benutzer und Albumbetrachter nicht identisch sind."
 
 #. type: Content of: <ul><li><ol><li>
 #: admin/views/default/help/en/user_album_users.html:13
 msgid "Click 'Add viewer'."
-msgstr "Klicken Sie auf \\'Betrachter hinzufügen\\'."
+msgstr "Klicken Sie auf 'Betrachter hinzufügen'."
 
 #. type: Content of: <ul><li><ol><li>
 #: admin/views/default/help/en/user_album_users.html:15
 msgid "Fill in the required information."
 msgstr "Geben Sie die erforderlichen Daten ein."
+
