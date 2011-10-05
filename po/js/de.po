@@ -1,503 +1,490 @@
 # German translations for bubba-frontend package.
 # Copyright (C) 2011 Excito Electronics AB
 # This file is distributed under the same license as the bubba-frontend package.
-# Carl Fürstenberg <carl@excito.com>, 2011.
 #
-msgid   ""
-msgstr  "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
-        "Report-Msgid-Bugs-To: info@excito.com\n"
-        "POT-Creation-Date: 2011-10-04 15:26+0200\n"
-        "PO-Revision-Date: 2011-08-12 22:22+0200\n"
-        "Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
-        "Language-Team: LANGUAGE <LL@li.org>\n"
-        "Language: de\n"
-        "MIME-Version: 1.0\n"
-        "Content-Type: text/plain; charset=UTF-8\n"
-        "Content-Transfer-Encoding: 8bit\n"
-        "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+# Carl Fürstenberg <carl@excito.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
+"Report-Msgid-Bugs-To: info@excito.com\n"
+"POT-Creation-Date: 2011-10-04 15:26+0200\n"
+"PO-Revision-Date: 2011-10-05 18:29+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: admin/views/default/_js/mail_server.js:20
-msgid   "' on server '"
-msgstr  ""
+msgid "' on server '"
+msgstr ""
 
 #: admin/views/default/_js/filemanager.js:141
 #: admin/views/default/_js/filemanager.js:143
 msgctxt "button"
-msgid   "Abort"
-msgstr  "Abbrechen"
+msgid "Abort"
+msgstr "Abbrechen"
 
 #: admin/views/default/_js/mail_retrieve.js:167
-msgid   "Add email account"
-msgstr  "E-Mail-Konto hinzufügen"
+msgid "Add email account"
+msgstr "E-Mail-Konto hinzufügen"
 
 #: admin/views/default/_js/mail_retrieve.js:232
-msgid   "Add new email account"
-msgstr  "Neues E-Mail-Konto hinzufügen"
+msgid "Add new email account"
+msgstr "Neues E-Mail-Konto hinzufügen"
 
 #: admin/views/default/_js/user.js:300
-msgid   "Add new user"
-msgstr  "Neuen Benutzer hinzufügen"
+msgid "Add new user"
+msgstr "Neuen Benutzer hinzufügen"
 
 #: admin/views/default/_js/user.js:388
-msgid   "Add new user to the system"
-msgstr  "Neuen Benutzer an das System hinzufügen"
+msgid "Add new user to the system"
+msgstr "Neuen Benutzer an das System hinzufügen"
 
 #: admin/views/default/_js/album_users.js:156
-#, fuzzy
-msgid   "Add new viewer"
-msgstr  "Neuen Viewer hinzufügen"
+msgid "Add new viewer"
+msgstr "Neuen Viewer hinzufügen"
 
 #: admin/views/default/_js/album_users.js:245
-#, fuzzy
-msgid   "Add new viewer to the photo album"
-msgstr  "Neuen Benutzer an das System hinzufügen"
+msgid "Add new viewer to the photo album"
+msgstr "Neuen Viewer an das Fotoalbum hinzufügen"
 
 #: admin/views/default/_js/filemanager.js:364
-#, fuzzy
-msgid   "Add to album"
-msgstr  "Zu Fotoalben hinzufügen"
+msgid "Add to album"
+msgstr "Zu Fotoalben hinzufügen"
 
 #: admin/views/default/_js/filemanager.js:147
 msgctxt "button"
-msgid   "Add to album"
-msgstr  "Zu Fotoalben hinzufügen"
+msgid "Add to album"
+msgstr "Zu Fotoalben hinzufügen"
 
 #: admin/views/default/_js/backup.js:539
-msgid   "Are you sure you want to permanently remove this backup job?"
-msgstr  "Sind Sie sicher, dass Sie die Ausführung dieses Backups entfernen "
-        "wollen?"
+msgid "Are you sure you want to permanently remove this backup job?"
+msgstr "Sind Sie sicher, dass Sie die Ausführung dieses Backups entfernen wollen?"
 
 #: admin/views/default/_js/backup.js:577
-msgid   "Are you sure you want to run this backup job now?"
-msgstr  "Sind Sie sicher, dass Sie das Backup nun starten wollen?"
+msgid "Are you sure you want to run this backup job now?"
+msgstr "Sind Sie sicher, dass Sie das Backup nun starten wollen?"
 
 #: admin/views/default/_js/backup.js:660
-msgid   "Are you sure? Any existing files will be overwritten."
-msgstr  "Sind Sie sicher, dass Sie die Daten wiederherstellen wollen? Dies "
-        "wird die aktuellen Daten mit denen des Backups überschreiben"
+msgid "Are you sure? Any existing files will be overwritten."
+msgstr "Sind Sie sicher, dass Sie die Daten wiederherstellen wollen? Dies wird die aktuellen Daten mit denen des Backups überschreiben"
 
-#: admin/views/default/_js/backup.js:32 admin/views/default/_js/backup.js:46
-msgid   "Back"
-msgstr  "Zurück"
+#: admin/views/default/_js/backup.js:32
+#: admin/views/default/_js/backup.js:46
+msgid "Back"
+msgstr "Zurück"
 
 #: admin/views/default/_js/backup.js:141
 #, fuzzy, javascript-format
-msgid   "Backup job %s failed"
-msgstr  "Datensicherung abgebrochen"
+msgid "Backup job %s failed"
+msgstr "Datensicherung %s abgebrochen"
 
 #: admin/views/default/_js/backup.js:594
-msgid   "Backup job has been initialized to be executed at this particlular "
-        "moment in time."
-msgstr  "Die Ausführung des Backups wurde entsprechend terminiert."
+msgid "Backup job has been initialized to be executed at this particlular moment in time."
+msgstr "Die Ausführung des Backups wurde entsprechend terminiert."
 
 #: admin/views/default/_js/backup.js:556
-msgid   "Backup job was removed from the system"
-msgstr  "Die Ausführung des Backups wurde verworfen"
+msgid "Backup job was removed from the system"
+msgstr "Die Ausführung des Backups wurde verworfen"
 
 #: admin/views/default/_js/mail_server.js:14
-msgid   "Cancel"
-msgstr  ""
+msgid "Cancel"
+msgstr "Abbrechen"
 
 #: admin/views/default/_js/filemanager.js:354
-#, fuzzy
-msgid   "Change permissions"
-msgstr  "Zugriffsrechte ändern"
+msgid "Change permissions"
+msgstr "Zugriffsrechte ändern"
 
 #: admin/views/default/_js/filemanager.js:148
-#, fuzzy
 msgctxt "button"
-msgid   "Change permissions"
-msgstr  "Zugriffsrechte ändern"
+msgid "Change permissions"
+msgstr "Berechtigungen ändern"
 
 #: admin/views/default/_js/disk_progress.js:41
 #: admin/views/default/_js/filemanager.js:128
-msgid   "Close"
-msgstr  "Schließen"
+msgid "Close"
+msgstr "Schließen"
 
-#: admin/views/default/_js/backup.js:255 admin/views/default/_js/backup.js:369
+#: admin/views/default/_js/backup.js:255
+#: admin/views/default/_js/backup.js:369
 #, fuzzy
-msgid   "Complete"
-msgstr  "Fertigstellen"
+msgid "Complete"
+msgstr "Fertigstellen"
 
 #: admin/views/default/_js/backup.js:661
-#, fuzzy
-msgid   "Confirm restore"
-msgstr  "Wiederherstellen bestätigen"
+msgid "Confirm restore"
+msgstr "Wiederherstellen bestätigen"
 
 #: admin/views/default/_js/filemanager.js:142
 msgctxt "button"
-msgid   "Copy"
-msgstr  "Kopieren"
+msgid "Copy"
+msgstr "Kopieren"
 
 #: admin/views/default/_js/filemanager.js:334
-msgid   "Copy files"
-msgstr  "Dateien kopieren"
+msgid "Copy files"
+msgstr "Dateien kopieren"
 
 #: admin/views/default/_js/backup.js:56
-#, fuzzy
 msgctxt "button"
-msgid   "Create"
-msgstr  "Neuen Ordner"
+msgid "Create"
+msgstr "Ordner erstellen"
 
 #: admin/views/default/_js/filemanager.js:272
-#, fuzzy
-msgid   "Create folder"
-msgstr  "Neuen Ordner"
+msgid "Create folder"
+msgstr "Neuen Ordner"
 
 #: admin/views/default/_js/filemanager.js:144
-#, fuzzy
 msgctxt "button"
-msgid   "Create folder"
-msgstr  "Neuen Ordner"
+msgid "Create folder"
+msgstr "Ordner erstellen"
 
 #: admin/views/default/_js/filemanager.js:374
 #: admin/views/default/_js/mail_retrieve.js:123
 #: admin/views/default/_js/mail_retrieve.js:185
 #, fuzzy
-msgid   "Delete"
-msgstr  "Löschen"
+msgid "Delete"
+msgstr "Löschen"
 
 #: admin/views/default/_js/filemanager.js:145
 msgctxt "button"
-msgid   "Delete"
-msgstr  "Löschen"
+msgid "Delete"
+msgstr "Löschen"
 
 #: admin/views/default/_js/mail_server.js:13
 #, fuzzy
-msgid   "Delete account"
-msgstr  "E-Mail-Konto löschen?"
+msgid "Delete account"
+msgstr "E-Mail-Konto löschen?"
 
 #: admin/views/default/_js/mail_server.js:20
-#, fuzzy
-msgid   "Delete account for user '"
-msgstr  "E-Mail-Konto löschen?"
+msgid "Delete account for user '"
+msgstr "Konto für Benutzer ' löschen"
 
 #: admin/views/default/_js/mail_retrieve.js:120
-msgid   "Delete email account?"
-msgstr  "E-Mail-Konto löschen?"
+msgid "Delete email account?"
+msgstr "E-Mail-Konto löschen?"
 
 #: admin/views/default/_js/mail_server.js:20
-#, fuzzy
-msgid   "Delete mail account"
-msgstr  "E-Mail-Konto löschen?"
+msgid "Delete mail account"
+msgstr "E-Mail-Konto löschen"
 
 #: admin/views/default/_js/album_users.js:113
-msgid   "Delete photo album viewer"
-msgstr  "Fotoalbum-Viewer löschen"
+msgid "Delete photo album viewer"
+msgstr "Fotoalbum-Viewer löschen"
 
 #: admin/views/default/_js/album_users.js:112
-msgid   "Delete this photo album viewer?"
-msgstr  "Diesen Fotoalbum-Viewer löschen?"
+msgid "Delete this photo album viewer?"
+msgstr "Diesen Fotoalbum-Viewer löschen?"
 
 #: admin/views/default/_js/user.js:245
-msgid   "Delete this user from the system?"
-msgstr  "Diesen Benutzer aus dem System löschen?"
+msgid "Delete this user from the system?"
+msgstr "Diesen Benutzer aus dem System löschen?"
 
-#: admin/views/default/_js/user.js:257 admin/views/default/_js/user.js:258
+#: admin/views/default/_js/user.js:257
+#: admin/views/default/_js/user.js:258
 #: admin/views/default/_js/user.js:322
 #, fuzzy
-msgid   "Delete user"
-msgstr  "Viewer löschen"
+msgid "Delete user"
+msgstr "Viewer löschen"
 
 #: admin/views/default/_js/user.js:254
 #, fuzzy
-msgid   "Delete userdata?"
-msgstr  "Viewer löschen"
+msgid "Delete userdata?"
+msgstr "Viewer löschen"
 
 #: admin/views/default/_js/album_users.js:116
 #: admin/views/default/_js/album_users.js:178
-msgid   "Delete viewer"
-msgstr  "Viewer löschen"
+msgid "Delete viewer"
+msgstr "Viewer löschen"
 
 #: admin/views/default/_js/filemanager.js:292
 #, fuzzy
-msgid   "Download as zip"
-msgstr  "Als ZIP herunterladen"
+msgid "Download as zip"
+msgstr "Als ZIP herunterladen"
 
 #: admin/views/default/_js/album_users.js:30
 #: admin/views/default/_js/backup.js:161
 #: admin/views/default/_js/mail_retrieve.js:150
 #: admin/views/default/_js/user.js:100
-msgid   "Edit"
-msgstr  "Bearbeiten"
+msgid "Edit"
+msgstr "Bearbeiten"
 
 #: admin/views/default/_js/album_users.js:44
 #, fuzzy
-msgid   "Edit album viewer"
-msgstr  "Fotoalbum-Viewer löschen"
+msgid "Edit album viewer"
+msgstr "Fotoalbum-Viewer löschen"
 
 #: admin/views/default/_js/mail_retrieve.js:14
 #, javascript-format
-msgid   "Edit email account information for host <em>%s</em>"
-msgstr  "E-Mail-Kontoinformation für Host <em>%s</em> bearbeiten"
+msgid "Edit email account information for host <em>%s</em>"
+msgstr "E-Mail-Kontoinformation für Host <em>%s</em> bearbeiten"
 
 #: admin/views/default/_js/user.js:112
 #, fuzzy
-msgid   "Edit user"
-msgstr  "Neuen Benutzer hinzufügen"
+msgid "Edit user"
+msgstr "Neuen Benutzer hinzufügen"
 
 #: admin/views/default/_js/mail_retrieve.js:69
-msgid   "Email account updated"
-msgstr  "E-Mail-Konto aktualisiert"
+msgid "Email account updated"
+msgstr "E-Mail-Konto aktualisiert"
 
 #: admin/views/default/_js/backup.js:133
-msgid   "Failed"
-msgstr  "Fehler"
+msgid "Failed"
+msgstr "Fehler"
 
 #: admin/views/default/_js/backup.js:759
-msgid   "File/Directory selector"
-msgstr  ""
+msgid "File/Directory selector"
+msgstr ""
 
-#: admin/views/default/_js/login.js:55 admin/views/default/_js/login.js:113
-msgid   "Login"
-msgstr  "Anmelden"
+#: admin/views/default/_js/login.js:55
+#: admin/views/default/_js/login.js:113
+msgid "Login"
+msgstr "Anmelden"
 
 #: admin/views/default/_js/main.js:143
-msgid   "Logout"
-msgstr  "Abmelden"
+msgid "Logout"
+msgstr "Abmelden"
 
 #: admin/views/default/_js/filemanager.js:140
 msgctxt "button"
-msgid   "Move"
-msgstr  "Verschieben"
+msgid "Move"
+msgstr "Verschieben"
 
 #: admin/views/default/_js/filemanager.js:324
-msgid   "Move files"
-msgstr  "Dateien verschieben"
+msgid "Move files"
+msgstr "Dateien verschieben"
 
-#: admin/views/default/_js/backup.js:26 admin/views/default/_js/backup.js:40
-msgid   "Next"
-msgstr  "Weiter"
+#: admin/views/default/_js/backup.js:26
+#: admin/views/default/_js/backup.js:40
+msgid "Next"
+msgstr "Weiter"
 
 #: admin/views/default/_js/backup.js:684
 #: admin/views/default/_js/mail_retrieve.js:142
 #: admin/views/default/_js/mail_retrieve.js:143
 #: admin/views/default/_js/user.js:96
-msgid   "No"
-msgstr  "Nein"
+msgid "No"
+msgstr "Nein"
 
 #: admin/views/default/_js/stat.js:79
-msgid   "No more system messages available"
-msgstr  ""
+msgid "No more system messages available"
+msgstr ""
 
 #: admin/views/default/_js/backup.js:239
-msgid   "Only alphanumreric values are allowed for the name"
-msgstr  ""
+msgid "Only alphanumreric values are allowed for the name"
+msgstr ""
 
 #: admin/views/default/_js/filemanager.js:128
-msgid   "Pictures added"
-msgstr  "Bilder hinzugefügt"
+msgid "Pictures added"
+msgstr "Bilder hinzugefügt"
 
 #: admin/views/default/_js/backup.js:245
-msgid   "Please enter a valid hostname or IPv4 address"
-msgstr  ""
+msgid "Please enter a valid hostname or IPv4 address"
+msgstr ""
 
 #: admin/views/default/_js/stat.js:100
-msgid   "Proceed to restart {PLATFORM}?"
-msgstr  ""
+msgid "Proceed to restart {PLATFORM}?"
+msgstr ""
 
 #: admin/views/default/_js/stat.js:96
-msgid   "Proceed to shut down {PLATFORM}?"
-msgstr  ""
+msgid "Proceed to shut down {PLATFORM}?"
+msgstr ""
 
 #: admin/views/default/_js/main.js:150
-msgid   "Proceed with logout?"
-msgstr  "Mit Abmeldung fortfahren?"
+msgid "Proceed with logout?"
+msgstr "Mit Abmeldung fortfahren?"
 
 #: admin/views/default/_js/backup.js:157
-msgid   "Remove"
-msgstr  "Entfernen"
+msgid "Remove"
+msgstr "Entfernen"
 
-#: admin/views/default/_js/backup.js:540 admin/views/default/_js/backup.js:543
+#: admin/views/default/_js/backup.js:540
+#: admin/views/default/_js/backup.js:543
 #, fuzzy
-msgid   "Remove backup job"
-msgstr  "Yea"
+msgid "Remove backup job"
+msgstr "Yea"
 
 #: admin/views/default/_js/filemanager.js:146
 #, fuzzy
 msgctxt "button"
-msgid   "Rename"
-msgstr  "Umbenennen"
+msgid "Rename"
+msgstr "Umbenennen"
 
 #: admin/views/default/_js/filemanager.js:344
-msgid   "Rename files"
-msgstr  "Dateien umbenennen"
+msgid "Rename files"
+msgstr "Dateien umbenennen"
 
-#: admin/views/default/_js/stat.js:99 admin/views/default/_js/stat.js:101
+#: admin/views/default/_js/stat.js:99
+#: admin/views/default/_js/stat.js:101
 #, fuzzy
-msgid   "Restart"
-msgstr  "Wiederherstellen"
+msgid "Restart"
+msgstr "Wiederherstellen"
 
 #: admin/views/default/_js/backup.js:107
-msgid   "Restore"
-msgstr  "Wiederherstellen"
+msgid "Restore"
+msgstr "Wiederherstellen"
 
 #: admin/views/default/_js/backup.js:644
-msgid   "Restore backed up data"
-msgstr  "Daten des Backups wiederherstellen"
+msgid "Restore backed up data"
+msgstr "Daten des Backups wiederherstellen"
 
 #: admin/views/default/_js/backup.js:647
 #, fuzzy
-msgid   "Restore selected files and directories"
-msgstr  "Ausgewählte Daten und Ordner wiederherstellen"
+msgid "Restore selected files and directories"
+msgstr "Ausgewählte Daten und Ordner wiederherstellen"
 
 #: admin/views/default/_js/backup.js:581
 #, fuzzy
-msgid   "Run backup job"
-msgstr  "Backup starten"
+msgid "Run backup job"
+msgstr "Backup starten"
 
 #: admin/views/default/_js/backup.js:578
-msgid   "Run backup job now"
-msgstr  "Backup starten"
+msgid "Run backup job now"
+msgstr "Backup starten"
 
 #: admin/views/default/_js/backup.js:165
-msgid   "Run now"
-msgstr  "Starten"
+msgid "Run now"
+msgstr "Starten"
 
 #: admin/views/default/_js/backup.js:762
 msgctxt "button"
-msgid   "Select"
-msgstr  ""
+msgid "Select"
+msgstr ""
 
-#: admin/views/default/_js/stat.js:95 admin/views/default/_js/stat.js:97
-msgid   "Shut down"
-msgstr  ""
+#: admin/views/default/_js/stat.js:95
+#: admin/views/default/_js/stat.js:97
+msgid "Shut down"
+msgstr ""
 
 #: admin/views/default/_js/filemanager.js:210
 #, fuzzy
-msgid   "Succeeded to copy the file or folder"
-msgid_plural    "Succeeded to copy the files and folders"
-msgstr[0]       "Datei/Ordner erfolgreich umbenannt"
-msgstr[1]       "Datei/Ordner erfolgreich umbenannt"
+msgid "Succeeded to copy the file or folder"
+msgid_plural "Succeeded to copy the files and folders"
+msgstr[0] "Datei/Ordner erfolgreich umbenannt"
+msgstr[1] "Datei/Ordner erfolgreich umbenannt"
 
 #: admin/views/default/_js/filemanager.js:212
 #, fuzzy
-msgid   "Succeeded to move the file or folder"
-msgid_plural    "Succeeded to move the files and folders"
-msgstr[0]       "Datei/Ordner erfolgreich umbenannt"
-msgstr[1]       "Datei/Ordner erfolgreich umbenannt"
+msgid "Succeeded to move the file or folder"
+msgid_plural "Succeeded to move the files and folders"
+msgstr[0] "Datei/Ordner erfolgreich umbenannt"
+msgstr[1] "Datei/Ordner erfolgreich umbenannt"
 
 #: admin/views/default/_js/mail_retrieve.js:43
-msgid   "Successfully added new email account"
-msgstr  "Neues E-Mail-Konto erfolgreich hinzugefügt"
+msgid "Successfully added new email account"
+msgstr "Neues E-Mail-Konto erfolgreich hinzugefügt"
 
 #: admin/views/default/_js/user.js:181
-msgid   "Successfully added new user"
-msgstr  "Neuen Benutzer erfolgreich hinzugefügt"
+msgid "Successfully added new user"
+msgstr "Neuen Benutzer erfolgreich hinzugefügt"
 
 #: admin/views/default/_js/filemanager.js:88
 #, fuzzy
-msgid   "Successfully changed permission on the given files/folders"
-msgstr  "Die Dateien/Ordner wurden erfolgreich gelöscht"
+msgid "Successfully changed permission on the given files/folders"
+msgstr "Die Dateien/Ordner wurden erfolgreich gelöscht"
 
 #: admin/views/default/_js/filemanager.js:57
-msgid   "Successfully created a folder"
-msgstr  "Erfolgreich einen Ordner erstellt"
+msgid "Successfully created a folder"
+msgstr "Erfolgreich einen Ordner erstellt"
 
 #: admin/views/default/_js/mail_retrieve.js:93
-msgid   "Successfully deleted email account"
-msgstr  "E-Mail-Konto erfolgreich gelöscht"
+msgid "Successfully deleted email account"
+msgstr "E-Mail-Konto erfolgreich gelöscht"
 
 #: admin/views/default/_js/filemanager.js:105
-msgid   "Successfully deleted the files/folders"
-msgstr  "Die Dateien/Ordner wurden erfolgreich gelöscht"
+msgid "Successfully deleted the files/folders"
+msgstr "Die Dateien/Ordner wurden erfolgreich gelöscht"
 
 #: admin/views/default/_js/filemanager.js:73
-msgid   "Successfully renamed the file/folder"
-msgstr  "Datei/Ordner erfolgreich umbenannt"
+msgid "Successfully renamed the file/folder"
+msgstr "Datei/Ordner erfolgreich umbenannt"
 
 #: admin/views/default/_js/filemanager.js:128
 #, javascript-format
-msgid   "Sucessfully added %d pictures to the album"
-msgstr  "%d Bilder wurden erfolgreich zum Album hinzugefügt"
+msgid "Sucessfully added %d pictures to the album"
+msgstr "%d Bilder wurden erfolgreich zum Album hinzugefügt"
 
 #: admin/views/default/_js/filemanager.js:121
-msgid   "Sucessfully added pictures to the album"
-msgstr  "Bilder wurden erfolgreich zum Album hinzugefügt"
+msgid "Sucessfully added pictures to the album"
+msgstr "Bilder wurden erfolgreich zum Album hinzugefügt"
 
 #: admin/views/default/_js/mail_retrieve.js:180
 #: admin/views/default/_js/user.js:313
-msgid   "Update"
-msgstr  "Aktualisieren"
+msgid "Update"
+msgstr "Aktualisieren"
 
 #: admin/views/default/_js/user.js:21
 #, fuzzy
-msgid   "Update settings"
-msgstr  "Einstellungen aktualisieren"
+msgid "Update settings"
+msgstr "Einstellungen aktualisieren"
 
 #: admin/views/default/_js/album_users.js:169
-msgid   "Update viewer"
-msgstr  "Viewer aktualisieren"
+msgid "Update viewer"
+msgstr "Viewer aktualisieren"
 
 #: admin/views/default/_js/filemanager.js:282
-#, fuzzy
-msgid   "Upload file"
-msgstr  "Dateien zu B3 hochladen"
+msgid "Upload file"
+msgstr "Dateien zu B3 hochladen"
 
 #: admin/views/default/_js/user.js:280
 #, fuzzy
-msgid   "User deleted"
-msgstr  "Viewer gelöscht"
+msgid "User deleted"
+msgstr "Viewer gelöscht"
 
 #: admin/views/default/_js/user.js:222
-msgid   "User information updated"
-msgstr  "Die Benutzerinformation wurde aktualisiert"
+msgid "User information updated"
+msgstr "Die Benutzerinformation wurde aktualisiert"
 
 #: admin/views/default/_js/album_users.js:65
 #, fuzzy
-msgid   "Viewer added"
-msgstr  "Viewer hinzugefügt"
+msgid "Viewer added"
+msgstr "Viewer hinzugefügt"
 
 #: admin/views/default/_js/album_users.js:133
-msgid   "Viewer deleted"
-msgstr  "Viewer gelöscht"
+msgid "Viewer deleted"
+msgstr "Viewer gelöscht"
 
 #: admin/views/default/_js/album_users.js:90
 #, fuzzy
-msgid   "Viewer updated"
-msgstr  "Viewer gelöscht"
+msgid "Viewer updated"
+msgstr "Viewer gelöscht"
 
 #: admin/views/default/_js/backup.js:664
 #: admin/views/default/_js/mail_retrieve.js:142
 #: admin/views/default/_js/mail_retrieve.js:143
 #: admin/views/default/_js/user.js:96
-msgid   "Yes"
-msgstr  "Ja"
+msgid "Yes"
+msgstr "Ja"
 
 #: admin/views/default/_js/filemanager.js:255
 #, javascript-format
-msgid   "You are about to copy one item. Go to the desired folder and press "
-        "<span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to "
-        "confirm copy"
-msgid_plural    "You are about to copy %d items. Go to the desired folder and "
-        "press <span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> "
-        "to confirm copy"
-msgstr[0]       ""
-msgstr[1]       ""
+msgid "You are about to copy one item. Go to the desired folder and press <span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to confirm copy"
+msgid_plural "You are about to copy %d items. Go to the desired folder and press <span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to confirm copy"
+msgstr[0] ""
+msgstr[1] ""
 
 #: admin/views/default/_js/filemanager.js:251
 #, javascript-format
-msgid   "You are about to move one item. Go to the desired folder and press "
-        "<span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to "
-        "confirm move"
-msgid_plural    "You are about to move %d items. Go to the desired folder and "
-        "press <span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> "
-        "to confirm move"
-msgstr[0]       ""
-msgstr[1]       ""
+msgid "You are about to move one item. Go to the desired folder and press <span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to confirm move"
+msgid_plural "You are about to move %d items. Go to the desired folder and press <span class=\"ui-icon ui-icon-check ui-helper-inline\"></span> to confirm move"
+msgstr[0] ""
+msgstr[1] ""
 
 #: admin/views/default/_js/backup.js:57
 msgctxt "button"
-msgid   "edit"
-msgstr  ""
+msgid "edit"
+msgstr ""
 
 #: admin/views/default/_js/backup.js:136
-msgid   "why?"
-msgstr  "Warum?"
+msgid "why?"
+msgstr "Warum?"
 
 #: admin/views/default/_js/backup.js:437
-msgid   "{0} is already in use"
-msgstr  ""
+msgid "{0} is already in use"
+msgstr ""
 
 #, fuzzy
 #~ msgid        "Add new backup job"
@@ -521,6 +508,7 @@ msgstr  ""
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "Backup"
 #~ msgstr       "Zurück"
 
@@ -546,6 +534,7 @@ msgstr  ""
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "Disk information"
 #~ msgstr       "Die Benutzerinformation wurde aktualisiert"
 
@@ -571,6 +560,7 @@ msgstr  ""
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "Downloads"
 #~ msgstr       "Als ZIP herunterladen"
 
@@ -630,11 +620,13 @@ msgstr  ""
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "Server settings"
 #~ msgstr       "Einstellungen aktualisieren"
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "Settings"
 #~ msgstr       "Einstellungen aktualisieren"
 
@@ -644,16 +636,19 @@ msgstr  ""
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "Software update"
 #~ msgstr       "Viewer aktualisiert"
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "System backup"
 #~ msgstr       "Yea"
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "System settings"
 #~ msgstr       "Einstellungen aktualisieren"
 
@@ -691,6 +686,7 @@ msgstr  ""
 
 #, fuzzy
 #~ msgctxt      "menu"
+
 #~ msgid        "User information"
 #~ msgstr       "Die Benutzerinformation wurde aktualisiert"
 
