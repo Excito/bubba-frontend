@@ -42,7 +42,7 @@ msgstr "La configuración automática funcionará en la mayoría de los casos, y
 #| "- {PLATFORM} will automatically try to set an appropriate network "
 #| "configuration."
 msgid "<strong>Automatic network settings</strong> - {PLATFORM} will automatically try to set an appropriate network configuration."
-msgstr "<strong>Configuraci&oacute;n de red autom&aacute;tica</strong> - {PLATFORM} intentará establecer una configuración de red adecuada."
+msgstr "<strong>Configuración de red automática</strong> - {PLATFORM} intentará establecer una configuración de red adecuada."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/network.html:11
@@ -59,7 +59,7 @@ msgstr "<strong>Router + Firewall + Servidor</strong> - {PLATFORM} obtendrá aut
 #| "- {PLATFORM} will automatically try to retreive network settings on LAN "
 #| "(local network) and the WAN port should be left unconnected."
 msgid "<strong>Server only</strong> - {PLATFORM} will automatically try to retreive network settings on LAN (local network) and the WAN port should be left unconnected."
-msgstr "<strong>Servidor &uacute;nicamente</strong> - {PLATFORM} obtendrá automáticamente la configuración de red para LAN (local network) y el puerto WAN debe quedar desconectado."
+msgstr "<strong>Servidor únicamente</strong> - {PLATFORM} obtendrá automáticamente la configuración de red para LAN (local network) y el puerto WAN debe quedar desconectado."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/network.html:18

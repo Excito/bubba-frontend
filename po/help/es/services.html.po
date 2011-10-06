@@ -38,7 +38,7 @@ msgstr "<strong>FTP</strong> - El servidor FTP de {PLATFORM}."
 #: admin/views/default/help/en/services.html:8
 #| msgid "- Allow users to log in to FTP server without a password."
 msgid "<strong>Anonymous FTP access</strong> - Allow users to log in to FTP server without a password."
-msgstr "<strong>Acceso FTP an&oacute;nimo</strong> - Permite conexión de usuarios al servidor FTP sin contraseña."
+msgstr "<strong>Acceso FTP anónimo</strong> - Permite conexión de usuarios al servidor FTP sin contraseña."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/services.html:11
@@ -70,7 +70,7 @@ msgstr "Difusión"
 #| "because otherwise you are able to browse the whole file system via "
 #| "Mediatomb's web interface which could be a security risk."
 msgid "<strong>UPnP streaming</strong> - Universal Plug and Play (UPnP) server. The server shares/streams media data like audio/video/picture/files to UPnP-clients on the network. Please notice that if you are located in a unsecure network; disable UPnP because otherwise you are able to browse the whole file system via Mediatomb's web interface which could be a security risk."
-msgstr "<strong>Difusi&oacute;n UPnP</strong> - Servidor para Universal Plug and Play (UPnP). Comparte/difunde datos como audio/video/fotos/ficheros a clientes-UPnP en la red. Ojo, si te encuentras en una red no segura, desabilita UPnP porque todo el sistema puede navegarse mediante la interface web de Mediatomb, lo que puede ser un riesgo de seguridad."
+msgstr "<strong>Difusión UPnP</strong> - Servidor para Universal Plug and Play (UPnP). Comparte/difunde datos como audio/video/fotos/ficheros a clientes-UPnP en la red. Ojo, si te encuentras en una red no segura, desabilita UPnP porque todo el sistema puede navegarse mediante la interface web de Mediatomb, lo que puede ser un riesgo de seguridad."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/services.html:24
@@ -78,7 +78,7 @@ msgstr "<strong>Difusi&oacute;n UPnP</strong> - Servidor para Universal Plug and
 #| "- Digital Audio Access Protocol (DAAP) server. Media server for the Roku "
 #| "SoundBridge and iTunes."
 msgid "<strong>DAAP streaming</strong> - Digital Audio Access Protocol (DAAP) server. Media server for the Roku SoundBridge and iTunes."
-msgstr "<strong>Difusi&oacute;n DAAP</strong> - Servidor para Digital Audio Access Protocol (DAAP). Sirve media para el Roku SoundBridge e iTunes."
+msgstr "<strong>Difusión DAAP</strong> - Servidor para Digital Audio Access Protocol (DAAP). Sirve media para el Roku SoundBridge e iTunes."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/services.html:27
@@ -107,7 +107,7 @@ msgstr "<strong>IMAP</strong> - Para el servidor IMAP dovecot. Se requiere para 
 #: admin/views/default/help/en/services.html:39
 #| msgid "- This is for fetchmail, a daemon that collects emails to {PLATFORM}"
 msgid "<strong>Email retrieval</strong> - This is for fetchmail, a daemon that collects emails to {PLATFORM}"
-msgstr "<strong>Recuperaci&oacute;n de correos</strong> - Para fetchmail, un demonio que recolecta correos electrónicos para {PLATFORM}"
+msgstr "<strong>Recuperación de correos</strong> - Para fetchmail, un demonio que recolecta correos electrónicos para {PLATFORM}"
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/services.html:42
@@ -118,7 +118,7 @@ msgstr "Otros"
 #: admin/views/default/help/en/services.html:45
 #| msgid "- {PLATFORM} print server."
 msgid "<strong>Printing</strong> - {PLATFORM} print server."
-msgstr "<strong>Impresi&oacute;n</strong> - servidor de impresión en {PLATFORM}."
+msgstr "<strong>Impresión</strong> - servidor de impresión en {PLATFORM}."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/services.html:48

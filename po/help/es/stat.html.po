@@ -47,11 +47,11 @@ msgstr "Las notificaciones importantes del sistema se muestran aquí"
 #| "the backside of the unit. To start up again, press the button on the "
 #| "backside."
 msgid "The '<strong>Shutdown</strong>' button powers off {PLATFORM} in the same way as pressing the button on the backside of the unit. To start up again, press the button on the backside."
-msgstr "El bot&oacute;n '<strong>Apagar</strong>' desconecta {PLATFORM} de la misma forma que apretando el interruptor trasero del equipo. Para iniciar de nuevo, presiona el interruptor trasero."
+msgstr "El botón '<strong>Apagar</strong>' desconecta {PLATFORM} de la misma forma que apretando el interruptor trasero del equipo. Para iniciar de nuevo, presiona el interruptor trasero."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/stat.html:17
 #| msgid "' button reboots {PLATFORM}."
 msgid "The '<strong>Restart</strong>' button reboots {PLATFORM}."
-msgstr "El bot&oacute;n '<strong>Reiniciar</strong>' rearranca {PLATFORM}."
+msgstr "El botón '<strong>Reiniciar</strong>' rearranca {PLATFORM}."
 

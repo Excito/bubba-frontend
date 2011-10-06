@@ -57,7 +57,7 @@ msgstr "<strong>Obtain IP-address automatically (DHCP)</strong> - El protocolo D
 #| "manually assigned to {PLATFORM} by the administrator. Use this option if "
 #| "your internet provider requires you to manually enter the values."
 msgid "<strong>Use static IP address settings</strong> - Static IP address, Netmask, Default gateway and Primary DNS are manually assigned to {PLATFORM} by the administrator. Use this option if your internet provider requires you to manually enter the values."
-msgstr "<strong>Usa configuraci&oacute;n est&aacute;tica de IP</strong> - Dirección IP, Netmask, Gateway y DNS primario se asignan manualmente a {PLATFORM} por el administrador. Usa esta opción si tu proveedor de internet requiere que introduzcas los valores manualmente."
+msgstr "<strong>Usa configuración estática de IP</strong> - Dirección IP, Netmask, Gateway y DNS primario se asignan manualmente a {PLATFORM} por el administrador. Usa esta opción si tu proveedor de internet requiere que introduzcas los valores manualmente."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/network_wan.html:16

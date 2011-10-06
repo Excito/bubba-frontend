@@ -122,7 +122,7 @@ msgstr "<strong>IP origen</strong> - La dirección IP origen en el lado WAN a la
 #| "- The port number on the WAN side. You can input a single port or a range "
 #| "of ports (ex. 4001:4005)."
 msgid "<strong>Public port</strong> - The port number on the WAN side. You can input a single port or a range of ports (ex. 4001:4005)."
-msgstr "<strong>Puerto p&uacute;blico</strong> - El número de puerto en el lado WAN. Puedes poner un puerto único o un rango de puertos (p.e. 4001:4005)."
+msgstr "<strong>Puerto público</strong> - El número de puerto en el lado WAN. Puedes poner un puerto único o un rango de puertos (p.e. 4001:4005)."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/network_fw.html:43

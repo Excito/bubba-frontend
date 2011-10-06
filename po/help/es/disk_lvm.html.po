@@ -52,7 +52,7 @@ msgstr "<strong>Por favor se consciente de que esta es una operación no reversi
 #| "connect the disk to a already running {PLATFORM}. Then choose 'Format' in "
 #| "the 'Disk -&gt; Information' menu."
 msgid "<strong>An old LVM disk will automatically be connected and included into the {PLATFORM} system upon boot, even though you have not set up your {PLATFORM} for an LVM extension. It is impossible to remove the extension without reinstallation. To format an old external LVM extended disk, connect the disk to a already running {PLATFORM}. Then choose 'Format' in the 'Disk -&gt; Information' menu.</strong>"
-msgstr "<strong>Un disco tipo LVM será conectado automáticamente e incluído en el sistema {PLATFORM} para el arranque, incluso aunque no hayas configurado tu {PLATFORM} para una extensión LVM. Es imposible eliminar la extensión sin reinstalación. Para formatear un disco tipo LVM extendido, conecta el disco a un {PLATFORM} que esté arrancado. Entonces elige 'Formatear' en el menú 'Información-&gt;de disco'.</strong>"
+msgstr "<strong>Un disco tipo LVM será conectado automáticamente e incluído en el sistema {PLATFORM} para el arranque, incluso aunque no hayas configurado tu {PLATFORM} para una extensión LVM. Es imposible eliminar la extensión sin reinstalación. Para formatear un disco tipo LVM extendido, conecta el disco a un {PLATFORM} que esté arrancado. Entonces elige 'Formatear' en el menú 'Información->de disco'.</strong>"
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/disk_lvm.html:20

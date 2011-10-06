@@ -45,7 +45,7 @@ msgstr "Configura {PLATFORM} para recuperar correo electrónico"
 #: admin/views/default/help/en/mail.html:14
 #: admin/views/default/help/en/user_mail.html:14
 msgid "<strong>Add new email account</strong> - To start fetching email from an external account, click here. Fill in the information given to you by your email account provider."
-msgstr "<strong>A&ntilde;ade nueva cuenta de correo</strong> - Para comenzar a descargar el correo desde una cuenta externa, entra aqu&iacute;. Rellena la informaci&oacute;n facilitada por tu proveedor de correo."
+msgstr "<strong>Añade nueva cuenta de correo</strong> - Para comenzar a descargar el correo desde una cuenta externa, entra aquí. Rellena la información facilitada por tu proveedor de correo."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/mail.html:17

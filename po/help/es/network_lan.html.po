@@ -39,7 +39,7 @@ msgstr "Aquí configuras como acceder a {PLATFORM} desde ordenadores en tu LAN. 
 #| "LAN, for example a router or gateway. {PLATFORM} will obtain an IP "
 #| "address automatically."
 msgid "<strong>Obtain IP-address automatically</strong> - Use this option if you use another DHCP server than {PLATFORM} in your LAN, for example a router or gateway. {PLATFORM} will obtain an IP address automatically."
-msgstr "<strong>Obtener direci&oacute;n IP autom&aacute;ticamente</strong> - Usa esta opción si utilizas otro servidor DHCP que {PLATFORM} en tu LAN, por ejemplo un router o gateway. {PLATFORM} obtendrá una dirección IP automáticamente."
+msgstr "<strong>Obtener direción IP automáticamente</strong> - Usa esta opción si utilizas otro servidor DHCP que {PLATFORM} en tu LAN, por ejemplo un router o gateway. {PLATFORM} obtendrá una dirección IP automáticamente."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/network_lan.html:13
@@ -47,7 +47,7 @@ msgstr "<strong>Obtener direci&oacute;n IP autom&aacute;ticamente</strong> - Usa
 #| "Your {PLATFORM} will be reached on this static IP address in your LAN. "
 #| "The default fall back IP is :"
 msgid "<strong>Use static IP address settings -</strong> Your {PLATFORM} will be reached on this static IP address in your LAN. The default fall back IP is : <a href='http://192.168.10.1' target= '_blank'>192.168.10.1</a>."
-msgstr "<strong>Usar configuraci&oacute;n IP est&aacute;tica</strong> - Tu {PLATFORM} es accesible en esta dirección IP en tu LAN. La IP último recurso es:"
+msgstr "<strong>Usar configuración IP estática</strong> - Tu {PLATFORM} es accesible en esta dirección IP en tu LAN. La IP último recurso es:"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/network_lan.html:18
@@ -74,7 +74,7 @@ msgstr "<strong>Enable DHCP server</strong> - El servidor DHCP facilita direccio
 #| "address that will automatically be assigned to the clients (for example "
 #| "computers, media players) on the network."
 msgid "<strong>Lease range</strong> - The DHCP address pool (Lease range) contains the range of the IP address that will automatically be assigned to the clients (for example computers, media players)  on the network."
-msgstr "<strong>Rango de pr&eacute;stamo</strong> - El pool de direcciones DHCP(Lease range) contiene el rango de las direcciones IP que serán asignadas automáticamente a los clientes (por ejemplo ordenadores, difusores de media) en la red."
+msgstr "<strong>Rango de préstamo</strong> - El pool de direcciones DHCP(Lease range) contiene el rango de las direcciones IP que serán asignadas automáticamente a los clientes (por ejemplo ordenadores, difusores de media) en la red."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/network_lan.html:31

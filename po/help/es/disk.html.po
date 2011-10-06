@@ -32,13 +32,13 @@ msgstr "Aquí se muestra el estado de los discos interno y externo y dispositivo
 #| "- Shows disk name, size, disk type and a graphical overview of the "
 #| "partitions."
 msgid "<strong>Disk information</strong> - Shows disk name, size, disk type and a graphical overview of the partitions."
-msgstr "<strong>Informaci&oacute;n de disco</strong> - Muestra nombre de disco, tamaño, tipo y disposición gráfica de las particiones."
+msgstr "<strong>Información de disco</strong> - Muestra nombre de disco, tamaño, tipo y disposición gráfica de las particiones."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/disk.html:11
 #| msgid "- Description of the partitions."
 msgid "<strong>Partition information</strong> - Description of the partitions."
-msgstr "<strong>Informaci&oacute;n de partici&oacute;n</strong>  - Descripción de las particiones."
+msgstr "<strong>Información de partición</strong>  - Descripción de las particiones."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/disk.html:14

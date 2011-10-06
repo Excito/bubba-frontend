@@ -35,13 +35,13 @@ msgstr "Aquí están todos los usuarios registrados en tu {PLATFORM}. Marca en '
 #| "To allow the administrator to lok in remote (via the WAN port) edit the "
 #| "adminitrator user and click '"
 msgid "To allow the administrator to lok in remote (via the WAN port) edit the adminitrator user and click '<strong>Allow remote access to system settings</strong>'."
-msgstr "Para permitir al administrador acceso remoto (via el puerto WAN) edita el usuario administrador marca '<strong>Permitir acceso remoto a configuraci&oacute;n del sistema</strong>'."
+msgstr "Para permitir al administrador acceso remoto (via el puerto WAN) edita el usuario administrador marca '<strong>Permitir acceso remoto a configuración del sistema</strong>'."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/users.html:11
 #| msgid "permitts a user to log in via SSH"
 msgid "<strong>Allow shell login</strong> permitts a user to log in via SSH."
-msgstr "<strong>Permitir conexi&oacute;n shell</strong> permite a un usuario conexión mediante SSH"
+msgstr "<strong>Permitir conexión shell</strong> permite a un usuario conexión mediante SSH"
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/users.html:14
@@ -52,7 +52,7 @@ msgstr "Añadir usuarior"
 #: admin/views/default/help/en/users.html:17
 #| msgid "' and fill in the information to add a new user."
 msgid "Click '<strong>Add new user</strong>' and fill in the information to add a new user."
-msgstr "Marca '<strong>A&ntilde;adir nuevo usuario</strong>' y rellena la información para añadir al nuevo usuario."
+msgstr "Marca '<strong>Añadir nuevo usuario</strong>' y rellena la información para añadir al nuevo usuario."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/users.html:20
@@ -80,7 +80,7 @@ msgstr "<strong>Nombre real</strong> - Para añadir el auténtico nombre del usu
 #| "possibility to change their own password via their own log in. It is "
 #| "strongly suggested that the"
 msgid "<strong>Change password</strong> - The administrator can change every users password. Every user has the possibility to change their own password via their own log in. It is strongly suggested that the <strong>admin password is changed</strong> from the default password."
-msgstr "<strong>Cambiar contrase&ntilde;a</strong> - El administrador puede cambiar la contraseña de todos los usuarios. Cada usuario puede cambiar su propia contraseña una vez conectado. Se sugiere vívamente que la"
+msgstr "<strong>Cambiar contraseña</strong> - El administrador puede cambiar la contraseña de todos los usuarios. Cada usuario puede cambiar su propia contraseña una vez conectado. Se sugiere vívamente que la"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/users.html:33

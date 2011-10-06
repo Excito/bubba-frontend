@@ -34,7 +34,7 @@ msgstr "Añadir invitados al álbum"
 #: admin/views/default/help/en/user_album_albums.html:8
 #| msgid "to add users for private viewing of photo albums."
 msgid "Click the menu item <b>Album viewers</b> to add users for private viewing of photo albums."
-msgstr "Selecciona el elemento de men&uacute; <b>invitados a &aacute;lbum</b> para añadir usuarios que puedan ver el álbum de fotos."
+msgstr "Selecciona el elemento de menú <b>invitados a álbum</b> para añadir usuarios que puedan ver el álbum de fotos."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/user_album_albums.html:11
@@ -89,7 +89,7 @@ msgstr ""
 #| ". Decide if the added albums should be public or private. By default all "
 #| "added albums are private."
 msgid "Open the <strong>Album manager</strong>. Decide if the added albums should be public or private. By default all added albums are private."
-msgstr "Abre el <strong>Gestor de &aacute;lbumes</strong>. Decide si los álbumes añadidos deben ser públicos o privados. Por defecto todos los álbumes son privados."
+msgstr "Abre el <strong>Gestor de álbumes</strong>. Decide si los álbumes añadidos deben ser públicos o privados. Por defecto todos los álbumes son privados."
 
 #. type: Content of: <ol><li>
 #: admin/views/default/help/en/user_album_albums.html:31
