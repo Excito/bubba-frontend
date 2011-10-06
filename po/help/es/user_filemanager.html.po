@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
 "POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-10-06 16:16+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -18,16 +18,11 @@ msgstr ""
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:2
-#, fuzzy
 #| msgid ""
 #| "From the File manager you are able to reach your files on {PLATFORM} "
 #| "eaven if you are away from home."
-msgid ""
-"From the File manager you are able to reach your files on {PLATFORM} eaven "
-"if you are away from home."
-msgstr ""
-"Desde el Administrador de archivos puedes acceder a tus ficheros en "
-"{PLATFORM} incluso desde fuera de casa."
+msgid "From the File manager you are able to reach your files on {PLATFORM} eaven if you are away from home."
+msgstr "Desde el Administrador de archivos puedes acceder a tus ficheros en {PLATFORM} incluso desde fuera de casa."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/user_filemanager.html:5
@@ -37,14 +32,8 @@ msgstr "Navegación"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:8
-msgid ""
-"Navigate into a folder by clicking the arrow to the right of the folder name "
-"or double clicking it, navigate up one level by clicking the left arrow or "
-"click the /home/username/ raw."
-msgstr ""
-"Entra en una carpeta haciendo clic en la flecha de la derecha de la carpeta "
-"o haciéndole doble clic, asciende un nivel haciendo clic en la flecha "
-"izquierda o el la línea /home/usuario/"
+msgid "Navigate into a folder by clicking the arrow to the right of the folder name or double clicking it, navigate up one level by clicking the left arrow or click the /home/username/ raw."
+msgstr "Entra en una carpeta haciendo clic en la flecha de la derecha de la carpeta o haciéndole doble clic, asciende un nivel haciendo clic en la flecha izquierda o el la línea /home/usuario/"
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/user_filemanager.html:11
@@ -55,19 +44,8 @@ msgstr "Acciones de fichero y carpeta"
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:14
 #: admin/views/default/help/en/filemanager.html:14
-#, fuzzy
-msgid ""
-"Click files or folders and use the icons in the file function bar to perform "
-"different actions. The functions from left to right are:"
-msgstr ""
-"#-#-#-#-#  filemanager.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Selecciona ficheros o carpetas y utiliza los icones en la barra de funciones "
-"para realizar diferentes acciones. Las funciones de izquierda a derecha "
-"son:\n"
-"#-#-#-#-#  user_filemanager.php.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Haz clic en ficheros or carpetas y utiliza los iconos de la barra de "
-"funcioón de fichero para realizar diferentes acciones. Las funciones de "
-"izquierda a derecha son:"
+msgid "Click files or folders and use the icons in the file function bar to perform different actions. The functions from left to right are:"
+msgstr "Haz clic en ficheros or carpetas y utiliza los iconos de la barra de funcioón de fichero para realizar diferentes acciones. Las funciones de izquierda a derecha son:"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_filemanager.html:17
@@ -131,40 +109,25 @@ msgstr "álbum de fotos"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:40
-#, fuzzy
 #| msgid ""
 #| "To view your photos in {PLATFORM}s photo album you have to place the "
 #| "photos in the home/storage/pictures catalog."
-msgid ""
-"To view your photos in {PLATFORM}s photo album you have to place the photos "
-"in the home/storage/pictures catalog."
-msgstr ""
-"Para ver tus fotos en el álbum de fotos de {PLATFORM} tienes que poner tus "
-"fotos en el catálogo home/storage/pictures."
+msgid "To view your photos in {PLATFORM}s photo album you have to place the photos in the home/storage/pictures catalog."
+msgstr "Para ver tus fotos en el álbum de fotos de {PLATFORM} tienes que poner tus fotos en el catálogo home/storage/pictures."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:43
-#, fuzzy
 #| msgid ""
 #| "Then select the files or folders and use the \"Add to album\" icon in the "
 #| "file function bar to add your photos to the {PLATFORM} photo album."
-msgid ""
-"Then select the files or folders and use the \"Add to album\" icon in the "
-"file function bar to add your photos to the {PLATFORM} photo album."
-msgstr ""
-"Entonces seleccionas los ficheros o carpetas y utilizas el icono \"Añadir a "
-"álbum\" en la barra de funciones para añadir tus fotos al álbum de fotos de "
-"{PLATFORM}."
+msgid "Then select the files or folders and use the \"Add to album\" icon in the file function bar to add your photos to the {PLATFORM} photo album."
+msgstr "Entonces seleccionas los ficheros o carpetas y utilizas el icono \"Añadir a álbum\" en la barra de funciones para añadir tus fotos al álbum de fotos de {PLATFORM}."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/user_filemanager.html:46
-#, fuzzy
 #| msgid ""
 #| "Continue to the Album manager (via {PLATFORM}s start page) to publish the "
 #| "photos."
-msgid ""
-"Continue to the Album manager (via {PLATFORM}s start page) to publish the "
-"photos."
-msgstr ""
-"Sigue con el gestor de álbum (mediante la página de inicio de {PLATFORM}) "
-"para publicar las fotos."
+msgid "Continue to the Album manager (via {PLATFORM}s start page) to publish the photos."
+msgstr "Sigue con el gestor de álbum (mediante la página de inicio de {PLATFORM}) para publicar las fotos."
+

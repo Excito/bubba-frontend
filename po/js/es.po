@@ -6,7 +6,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
         "Report-Msgid-Bugs-To: info@excito.com\n"
-        "POT-Creation-Date: 2011-10-04 15:26+0200\n"
+        "POT-Creation-Date: 2011-10-06 15:42+0200\n"
         "PO-Revision-Date: 2011-08-12 22:30+0200\n"
         "Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,6 @@ msgstr  "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
         "Content-Type: text/plain; charset=UTF-8\n"
         "Content-Transfer-Encoding: 8bit\n"
         "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: admin/views/default/_js/mail_server.js:20
-msgid   "' on server '"
-msgstr  ""
 
 #: admin/views/default/_js/filemanager.js:141
 #: admin/views/default/_js/filemanager.js:143
@@ -158,17 +154,19 @@ msgstr  "Borrar"
 msgid   "Delete account"
 msgstr  "¿Borrar cuenta de correo?"
 
-#: admin/views/default/_js/mail_server.js:20
-#, fuzzy
-msgid   "Delete account for user '"
-msgstr  "Borrar usuario"
+#: admin/views/default/_js/mail_server.js:21
+#, javascript-format
+msgid   "Delete account for user <strong>%s</strong> on server <strong>%s</"
+        "strong>?"
+msgstr  ""
 
 #: admin/views/default/_js/mail_retrieve.js:120
 msgid   "Delete email account?"
 msgstr  "¿Borrar cuenta de correo?"
 
-#: admin/views/default/_js/mail_server.js:20
+#: admin/views/default/_js/mail_server.js:25
 #, fuzzy
+msgctxt "confirmation button"
 msgid   "Delete mail account"
 msgstr  "¿Borrar cuenta de correo?"
 
@@ -472,3 +470,7 @@ msgstr  ""
 #: admin/views/default/_js/backup.js:437
 msgid   "{0} is already in use"
 msgstr  ""
+
+#, fuzzy
+#~ msgid        "Delete account for user '"
+#~ msgstr       "Borrar usuario"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
 "POT-Creation-Date: 2011-08-11 16:07+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-10-06 16:14+0100\n"
+"Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -23,10 +23,8 @@ msgstr "Añadir Invitados"
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_album_users.html:5
-msgid ""
-"Public album can be seen by anyone, you do not have to add any album users."
-msgstr ""
-"álbum público puede ser visto por cualquiera, no necesitas añadir invitados."
+msgid "Public album can be seen by anyone, you do not have to add any album users."
+msgstr "álbum público puede ser visto por cualquiera, no necesitas añadir invitados."
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_album_users.html:7
@@ -35,15 +33,11 @@ msgstr "álbum privado protegido con contraseña, añade aquí invitados."
 
 #. type: Content of: <ul><li>
 #: admin/views/default/help/en/user_album_users.html:9
-#, fuzzy
 #| msgid ""
 #| "Remember that the {PLATFORM} users and photo album viewers are not the "
 #| "same."
-msgid ""
-"Remember that the {PLATFORM} users and photo album viewers are not the same."
-msgstr ""
-"Recuerda que los usuarios de {PLATFORM} y los invitados a álbum de fotos no "
-"son lo mismo."
+msgid "Remember that the {PLATFORM} users and photo album viewers are not the same."
+msgstr "Recuerda que los usuarios de {PLATFORM} y los invitados a álbum de fotos no son lo mismo."
 
 #. type: Content of: <ul><li><ol><li>
 #: admin/views/default/help/en/user_album_users.html:13
@@ -54,3 +48,4 @@ msgstr "Haz clic en 'Añadir invitado'."
 #: admin/views/default/help/en/user_album_users.html:15
 msgid "Fill in the required information."
 msgstr "Rellena la información requerida."
+
