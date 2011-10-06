@@ -23,8 +23,21 @@ msgstr ""
 #: admin/views/default/help/en/network_wan.html:19
 #: admin/views/default/help/en/network.html:21
 #: admin/views/default/help/en/settings_trafficsettings.html:15
+#, fuzzy
 msgid "<i>Update</i> saves your changes."
-msgstr "<i>Actualizar</i> salva tus cambios."
+msgstr ""
+"#-#-#-#-#  network_wan.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Actualiza</i> salva tus cambios.\n"
+"#-#-#-#-#  network_lan.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Actualiza</i> salva tus cambios.\n"
+"#-#-#-#-#  network_wlan.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Actualiza</i> salva tus cambios.\n"
+"#-#-#-#-#  settings_trafficsettings.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Actualizar</i> salva tus cambios.\n"
+"#-#-#-#-#  network.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Actualiza</i> salva tus cambios.\n"
+"#-#-#-#-#  network_fw.html.po (bubba-frontend 2.3)  #-#-#-#-#\n"
+"<i>Actualiza</i>  salva tus cambios."
 
 #. type: Content of: <h3>
 #: admin/views/default/help/en/settings_trafficsettings.html:2
@@ -33,16 +46,26 @@ msgstr "Tráfico"
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_trafficsettings.html:5
-msgid "To control the maximum upload / download speed on your torrents adjust the 'Traffic' setting."
-msgstr "Para controlar la máxima velocidad de subida / descarga de tus torrents ajusta la configuración de 'Tráfico'."
+msgid ""
+"To control the maximum upload / download speed on your torrents adjust the "
+"'Traffic' setting."
+msgstr ""
+"Para controlar la máxima velocidad de subida / descarga de tus torrents "
+"ajusta la configuración de 'Tráfico'."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_trafficsettings.html:8
-msgid "For example if you have a limited broadband connection you do not want to fill your uplink completely. Then set the 'Max upload speed' to a preferred value. Use 'Max download speed' in the same manner."
-msgstr "Por ejemplo, si tienes una conexión de banda ancha limitada no querrás agotar completamente tu capacidad de subida. Establece la 'Velocidad máxima de subida' al valor preferido. Utiliza 'velocidad máxima de descarga' de la misma manera."
+msgid ""
+"For example if you have a limited broadband connection you do not want to "
+"fill your uplink completely. Then set the 'Max upload speed' to a preferred "
+"value. Use 'Max download speed' in the same manner."
+msgstr ""
+"Por ejemplo, si tienes una conexión de banda ancha limitada no querrás "
+"agotar completamente tu capacidad de subida. Establece la 'Velocidad máxima "
+"de subida' al valor preferido. Utiliza 'velocidad máxima de descarga' de la "
+"misma manera."
 
 #. type: Content of: <p>
 #: admin/views/default/help/en/settings_trafficsettings.html:12
 msgid "Using -1 as value = no speed limit."
 msgstr "Usando el valor -1 = sin límite de velocidad."
-
