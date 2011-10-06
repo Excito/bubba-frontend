@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3.0.2-8-g99845c1\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-10-04 15:26+0200\n"
-"PO-Revision-Date: 2011-10-05 18:29+0100\n"
+"POT-Creation-Date: 2011-10-06 13:49+0200\n"
+"PO-Revision-Date: 2011-10-06 14:12+0100\n"
 "Last-Translator: Carl Fürstenberg <carl@excito.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: de\n"
@@ -17,10 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.2\n"
-
-#: admin/views/default/_js/mail_server.js:20
-msgid "' on server '"
-msgstr ""
 
 #: admin/views/default/_js/filemanager.js:141
 #: admin/views/default/_js/filemanager.js:143
@@ -79,9 +75,9 @@ msgid "Back"
 msgstr "Zurück"
 
 #: admin/views/default/_js/backup.js:141
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Backup job %s failed"
-msgstr "Datensicherung %s abgebrochen"
+msgstr ""
 
 #: admin/views/default/_js/backup.js:594
 msgid "Backup job has been initialized to be executed at this particlular moment in time."
@@ -111,7 +107,6 @@ msgstr "Schließen"
 
 #: admin/views/default/_js/backup.js:255
 #: admin/views/default/_js/backup.js:369
-#, fuzzy
 msgid "Complete"
 msgstr "Fertigstellen"
 
@@ -145,7 +140,6 @@ msgstr "Ordner erstellen"
 #: admin/views/default/_js/filemanager.js:374
 #: admin/views/default/_js/mail_retrieve.js:123
 #: admin/views/default/_js/mail_retrieve.js:185
-#, fuzzy
 msgid "Delete"
 msgstr "Löschen"
 
@@ -155,21 +149,22 @@ msgid "Delete"
 msgstr "Löschen"
 
 #: admin/views/default/_js/mail_server.js:13
-#, fuzzy
 msgid "Delete account"
-msgstr "E-Mail-Konto löschen?"
+msgstr "Konto löschen"
 
-#: admin/views/default/_js/mail_server.js:20
-msgid "Delete account for user '"
-msgstr "Konto für Benutzer ' löschen"
+#: admin/views/default/_js/mail_server.js:21
+#, javascript-format
+msgid "Delete account for user <strong>%s</strong> on server <strong>%s</strong>?"
+msgstr ""
 
 #: admin/views/default/_js/mail_retrieve.js:120
 msgid "Delete email account?"
 msgstr "E-Mail-Konto löschen?"
 
-#: admin/views/default/_js/mail_server.js:20
+#: admin/views/default/_js/mail_server.js:25
+msgctxt "confirmation button"
 msgid "Delete mail account"
-msgstr "E-Mail-Konto löschen"
+msgstr ""
 
 #: admin/views/default/_js/album_users.js:113
 msgid "Delete photo album viewer"
@@ -186,14 +181,12 @@ msgstr "Diesen Benutzer aus dem System löschen?"
 #: admin/views/default/_js/user.js:257
 #: admin/views/default/_js/user.js:258
 #: admin/views/default/_js/user.js:322
-#, fuzzy
 msgid "Delete user"
-msgstr "Viewer löschen"
+msgstr "Benutzer löschen"
 
 #: admin/views/default/_js/user.js:254
-#, fuzzy
 msgid "Delete userdata?"
-msgstr "Viewer löschen"
+msgstr "Benutzerdaten löschen?"
 
 #: admin/views/default/_js/album_users.js:116
 #: admin/views/default/_js/album_users.js:178
@@ -201,7 +194,6 @@ msgid "Delete viewer"
 msgstr "Viewer löschen"
 
 #: admin/views/default/_js/filemanager.js:292
-#, fuzzy
 msgid "Download as zip"
 msgstr "Als ZIP herunterladen"
 
@@ -213,9 +205,8 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: admin/views/default/_js/album_users.js:44
-#, fuzzy
 msgid "Edit album viewer"
-msgstr "Fotoalbum-Viewer löschen"
+msgstr "Albumviewer bearbeiten"
 
 #: admin/views/default/_js/mail_retrieve.js:14
 #, javascript-format
@@ -223,9 +214,8 @@ msgid "Edit email account information for host <em>%s</em>"
 msgstr "E-Mail-Kontoinformation für Host <em>%s</em> bearbeiten"
 
 #: admin/views/default/_js/user.js:112
-#, fuzzy
 msgid "Edit user"
-msgstr "Neuen Benutzer hinzufügen"
+msgstr "Benutzer bearbeiten"
 
 #: admin/views/default/_js/mail_retrieve.js:69
 msgid "Email account updated"
@@ -303,12 +293,10 @@ msgstr "Entfernen"
 
 #: admin/views/default/_js/backup.js:540
 #: admin/views/default/_js/backup.js:543
-#, fuzzy
 msgid "Remove backup job"
-msgstr "Yea"
+msgstr ""
 
 #: admin/views/default/_js/filemanager.js:146
-#, fuzzy
 msgctxt "button"
 msgid "Rename"
 msgstr "Umbenennen"
@@ -319,9 +307,8 @@ msgstr "Dateien umbenennen"
 
 #: admin/views/default/_js/stat.js:99
 #: admin/views/default/_js/stat.js:101
-#, fuzzy
 msgid "Restart"
-msgstr "Wiederherstellen"
+msgstr "Neustart"
 
 #: admin/views/default/_js/backup.js:107
 msgid "Restore"
@@ -332,12 +319,10 @@ msgid "Restore backed up data"
 msgstr "Daten des Backups wiederherstellen"
 
 #: admin/views/default/_js/backup.js:647
-#, fuzzy
 msgid "Restore selected files and directories"
 msgstr "Ausgewählte Daten und Ordner wiederherstellen"
 
 #: admin/views/default/_js/backup.js:581
-#, fuzzy
 msgid "Run backup job"
 msgstr "Backup starten"
 
@@ -360,18 +345,16 @@ msgid "Shut down"
 msgstr ""
 
 #: admin/views/default/_js/filemanager.js:210
-#, fuzzy
 msgid "Succeeded to copy the file or folder"
 msgid_plural "Succeeded to copy the files and folders"
-msgstr[0] "Datei/Ordner erfolgreich umbenannt"
-msgstr[1] "Datei/Ordner erfolgreich umbenannt"
+msgstr[0] ""
+msgstr[1] ""
 
 #: admin/views/default/_js/filemanager.js:212
-#, fuzzy
 msgid "Succeeded to move the file or folder"
 msgid_plural "Succeeded to move the files and folders"
-msgstr[0] "Datei/Ordner erfolgreich umbenannt"
-msgstr[1] "Datei/Ordner erfolgreich umbenannt"
+msgstr[0] ""
+msgstr[1] ""
 
 #: admin/views/default/_js/mail_retrieve.js:43
 msgid "Successfully added new email account"
@@ -382,9 +365,8 @@ msgid "Successfully added new user"
 msgstr "Neuen Benutzer erfolgreich hinzugefügt"
 
 #: admin/views/default/_js/filemanager.js:88
-#, fuzzy
 msgid "Successfully changed permission on the given files/folders"
-msgstr "Die Dateien/Ordner wurden erfolgreich gelöscht"
+msgstr "Die Berechtigung zu den angegebenen Dateien/Ordner wurde erfolgreich geändert"
 
 #: admin/views/default/_js/filemanager.js:57
 msgid "Successfully created a folder"
@@ -417,7 +399,6 @@ msgid "Update"
 msgstr "Aktualisieren"
 
 #: admin/views/default/_js/user.js:21
-#, fuzzy
 msgid "Update settings"
 msgstr "Einstellungen aktualisieren"
 
@@ -430,16 +411,14 @@ msgid "Upload file"
 msgstr "Dateien zu B3 hochladen"
 
 #: admin/views/default/_js/user.js:280
-#, fuzzy
 msgid "User deleted"
-msgstr "Viewer gelöscht"
+msgstr "Benutzer gelöscht"
 
 #: admin/views/default/_js/user.js:222
 msgid "User information updated"
 msgstr "Die Benutzerinformation wurde aktualisiert"
 
 #: admin/views/default/_js/album_users.js:65
-#, fuzzy
 msgid "Viewer added"
 msgstr "Viewer hinzugefügt"
 
@@ -448,9 +427,8 @@ msgid "Viewer deleted"
 msgstr "Viewer gelöscht"
 
 #: admin/views/default/_js/album_users.js:90
-#, fuzzy
 msgid "Viewer updated"
-msgstr "Viewer gelöscht"
+msgstr "Viewer aktualisiert"
 
 #: admin/views/default/_js/backup.js:664
 #: admin/views/default/_js/mail_retrieve.js:142
@@ -486,222 +464,225 @@ msgstr "Warum?"
 msgid "{0} is already in use"
 msgstr ""
 
-#, fuzzy
-#~ msgid        "Add new backup job"
-#~ msgstr       "Yea"
+#~ msgid "Delete account for user '"
+#~ msgstr "Konto für Benutzer ' löschen"
 
 #, fuzzy
-#~ msgid        "Add new download"
-#~ msgstr       "Neuen Viewer hinzufügen"
+#~ msgid "Add new backup job"
+#~ msgstr "Yea"
 
 #, fuzzy
-#~ msgid        "Add selected images/folders to photo album?"
-#~ msgstr       "Neuen Viewer an das Fotoalbum hinzufügen"
+#~ msgid "Add new download"
+#~ msgstr "Neuen Viewer hinzufügen"
 
 #, fuzzy
-#~ msgid        "Album deleted"
-#~ msgstr       "Benutzer gelöscht"
+#~ msgid "Add selected images/folders to photo album?"
+#~ msgstr "Neuen Viewer an das Fotoalbum hinzufügen"
 
 #, fuzzy
-#~ msgid        "Backup"
-#~ msgstr       "Zurück"
+#~ msgid "Album deleted"
+#~ msgstr "Benutzer gelöscht"
 
 #, fuzzy
-#~ msgctxt      "menu"
-
-#~ msgid        "Backup"
-#~ msgstr       "Zurück"
+#~ msgid "Backup"
+#~ msgstr "Zurück"
 
 #, fuzzy
-#~ msgid        "Backup and restore settings"
-#~ msgstr       "Einstellungen aktualisieren"
+#~ msgctxt "menu"
+
+#~ msgid "Backup"
+#~ msgstr "Zurück"
 
 #, fuzzy
-#~ msgid        "Backup jobs"
-#~ msgstr       "Yea"
+#~ msgid "Backup and restore settings"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgid        "Change timezone"
-#~ msgstr       "Zugriffsrechte ändern"
+#~ msgid "Backup jobs"
+#~ msgstr "Yea"
 
 #, fuzzy
-#~ msgid        "Delete album"
-#~ msgstr       "Benutzer löschen"
+#~ msgid "Change timezone"
+#~ msgstr "Zugriffsrechte ändern"
 
 #, fuzzy
-#~ msgid        "Disk information"
-#~ msgstr       "Die Benutzerinformation wurde aktualisiert"
+#~ msgid "Delete album"
+#~ msgstr "Benutzer löschen"
 
 #, fuzzy
-#~ msgctxt      "menu"
-
-#~ msgid        "Disk information"
-#~ msgstr       "Die Benutzerinformation wurde aktualisiert"
+#~ msgid "Disk information"
+#~ msgstr "Die Benutzerinformation wurde aktualisiert"
 
 #, fuzzy
-#~ msgid        "Download failed"
-#~ msgstr       "Als ZIP herunterladen"
+#~ msgctxt "menu"
+
+#~ msgid "Disk information"
+#~ msgstr "Die Benutzerinformation wurde aktualisiert"
 
 #, fuzzy
-#~ msgid        "Download not found"
-#~ msgstr       "Als ZIP herunterladen"
+#~ msgid "Download failed"
+#~ msgstr "Als ZIP herunterladen"
 
 #, fuzzy
-#~ msgid        "Downloader"
-#~ msgstr       "Als ZIP herunterladen"
+#~ msgid "Download not found"
+#~ msgstr "Als ZIP herunterladen"
 
 #, fuzzy
-#~ msgid        "Downloading"
-#~ msgstr       "Als ZIP herunterladen"
+#~ msgid "Downloader"
+#~ msgstr "Als ZIP herunterladen"
 
 #, fuzzy
-#~ msgid        "Downloads"
-#~ msgstr       "Als ZIP herunterladen"
+#~ msgid "Downloading"
+#~ msgstr "Als ZIP herunterladen"
 
 #, fuzzy
-#~ msgctxt      "menu"
-
-#~ msgid        "Downloads"
-#~ msgstr       "Als ZIP herunterladen"
+#~ msgid "Downloads"
+#~ msgstr "Als ZIP herunterladen"
 
 #, fuzzy
-#~ msgid        "Existing users"
-#~ msgstr       "Benutzer bearbeiten"
+#~ msgctxt "menu"
+
+#~ msgid "Downloads"
+#~ msgstr "Als ZIP herunterladen"
 
 #, fuzzy
-#~ msgid        "Existing viewers"
-#~ msgstr       "Albumviewer bearbeiten"
+#~ msgid "Existing users"
+#~ msgstr "Benutzer bearbeiten"
 
 #, fuzzy
-#~ msgid        "Failed to change permission for following files and folders: "
-#~      "%s"
-#~ msgstr       "Die Berechtigung zu den angegebenen Dateien/Ordner wurde "
-#~      "erfolgreich geändert"
+#~ msgid "Existing viewers"
+#~ msgstr "Albumviewer bearbeiten"
 
 #, fuzzy
-#~ msgid        "Failed to create folder"
-#~ msgstr       "Neuen Ordner"
+#~ msgid "Failed to change permission for following files and folders: %s"
+#~ msgstr ""
+#~ "Die Berechtigung zu den angegebenen Dateien/Ordner wurde erfolgreich "
+#~ "geändert"
 
 #, fuzzy
-#~ msgid        "Image name"
-#~ msgstr       "Umbenennen"
+#~ msgid "Failed to create folder"
+#~ msgstr "Neuen Ordner"
 
 #, fuzzy
-#~ msgid        "Image updated"
-#~ msgstr       "Viewer aktualisiert"
+#~ msgid "Image name"
+#~ msgstr "Umbenennen"
 
 #, fuzzy
-#~ msgid        "LAN configuration updated"
-#~ msgstr       "Die Benutzerinformation wurde aktualisiert"
+#~ msgid "Image updated"
+#~ msgstr "Viewer aktualisiert"
 
 #, fuzzy
-#~ msgid        "Max download speed"
-#~ msgstr       "Als ZIP herunterladen"
+#~ msgid "LAN configuration updated"
+#~ msgstr "Die Benutzerinformation wurde aktualisiert"
 
 #, fuzzy
-#~ msgid        "Network settings"
-#~ msgstr       "Einstellungen aktualisieren"
+#~ msgid "Max download speed"
+#~ msgstr "Als ZIP herunterladen"
 
 #, fuzzy
-#~ msgid        "New user"
-#~ msgstr       "Neuen Benutzer hinzufügen"
+#~ msgid "Network settings"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgid        "Package version"
-#~ msgstr       "Zugriffsrechte ändern"
+#~ msgid "New user"
+#~ msgstr "Neuen Benutzer hinzufügen"
 
 #, fuzzy
-#~ msgid        "Real name"
-#~ msgstr       "Umbenennen"
+#~ msgid "Package version"
+#~ msgstr "Zugriffsrechte ändern"
 
 #, fuzzy
-#~ msgid        "Remote user"
-#~ msgstr       "Benutzer löschen"
+#~ msgid "Real name"
+#~ msgstr "Umbenennen"
 
 #, fuzzy
-#~ msgctxt      "menu"
-
-#~ msgid        "Server settings"
-#~ msgstr       "Einstellungen aktualisieren"
+#~ msgid "Remote user"
+#~ msgstr "Benutzer löschen"
 
 #, fuzzy
-#~ msgctxt      "menu"
+#~ msgctxt "menu"
 
-#~ msgid        "Settings"
-#~ msgstr       "Einstellungen aktualisieren"
-
-#, fuzzy
-#~ msgid        "Software update"
-#~ msgstr       "Viewer aktualisiert"
+#~ msgid "Server settings"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgctxt      "menu"
+#~ msgctxt "menu"
 
-#~ msgid        "Software update"
-#~ msgstr       "Viewer aktualisiert"
-
-#, fuzzy
-#~ msgctxt      "menu"
-
-#~ msgid        "System backup"
-#~ msgstr       "Yea"
+#~ msgid "Settings"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgctxt      "menu"
-
-#~ msgid        "System settings"
-#~ msgstr       "Einstellungen aktualisieren"
+#~ msgid "Software update"
+#~ msgstr "Viewer aktualisiert"
 
 #, fuzzy
-#~ msgid        "Update Easyfind"
-#~ msgstr       "Einstellungen aktualisieren"
+#~ msgctxt "menu"
+
+#~ msgid "Software update"
+#~ msgstr "Viewer aktualisiert"
 
 #, fuzzy
-#~ msgid        "Update system"
-#~ msgstr       "Einstellungen aktualisieren"
+#~ msgctxt "menu"
+
+#~ msgid "System backup"
+#~ msgstr "Yea"
 
 #, fuzzy
-#~ msgid        "Updating settings falied"
-#~ msgstr       "Einstellungen aktualisieren"
+#~ msgctxt "menu"
+
+#~ msgid "System settings"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgid        "Upload complete"
-#~ msgstr       "Dateien zu B3 hochladen"
+#~ msgid "Update Easyfind"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgid        "Upload to"
-#~ msgstr       "Dateien zu B3 hochladen"
+#~ msgid "Update system"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgid        "Uploading"
-#~ msgstr       "Dateien zu B3 hochladen"
+#~ msgid "Updating settings falied"
+#~ msgstr "Einstellungen aktualisieren"
 
 #, fuzzy
-#~ msgid        "Uploading to"
-#~ msgstr       "Dateien zu B3 hochladen"
+#~ msgid "Upload complete"
+#~ msgstr "Dateien zu B3 hochladen"
 
 #, fuzzy
-#~ msgid        "User information"
-#~ msgstr       "Die Benutzerinformation wurde aktualisiert"
+#~ msgid "Upload to"
+#~ msgstr "Dateien zu B3 hochladen"
 
 #, fuzzy
-#~ msgctxt      "menu"
-
-#~ msgid        "User information"
-#~ msgstr       "Die Benutzerinformation wurde aktualisiert"
+#~ msgid "Uploading"
+#~ msgstr "Dateien zu B3 hochladen"
 
 #, fuzzy
-#~ msgid        "User name"
-#~ msgstr       "Umbenennen"
+#~ msgid "Uploading to"
+#~ msgstr "Dateien zu B3 hochladen"
 
 #, fuzzy
-#~ msgid        "Username"
-#~ msgstr       "Umbenennen"
+#~ msgid "User information"
+#~ msgstr "Die Benutzerinformation wurde aktualisiert"
 
 #, fuzzy
-#~ msgid        "Viewer"
-#~ msgstr       "Viewer hinzugefügt"
+#~ msgctxt "menu"
+
+#~ msgid "User information"
+#~ msgstr "Die Benutzerinformation wurde aktualisiert"
 
 #, fuzzy
-#~ msgid        "users-delete-userdata-error"
-#~ msgstr       "Benutzerdaten löschen?"
+#~ msgid "User name"
+#~ msgstr "Umbenennen"
+
+#, fuzzy
+#~ msgid "Username"
+#~ msgstr "Umbenennen"
+
+#, fuzzy
+#~ msgid "Viewer"
+#~ msgstr "Viewer hinzugefügt"
+
+#, fuzzy
+#~ msgid "users-delete-userdata-error"
+#~ msgstr "Benutzerdaten löschen?"

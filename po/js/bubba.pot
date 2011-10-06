@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-10-05 18:31+0200\n"
+"POT-Creation-Date: 2011-10-06 13:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#: admin/views/default/_js/mail_server.js:20
-msgid "' on server '"
-msgstr ""
 
 #: admin/views/default/_js/filemanager.js:141
 #: admin/views/default/_js/filemanager.js:143
@@ -156,15 +152,18 @@ msgstr ""
 msgid "Delete account"
 msgstr ""
 
-#: admin/views/default/_js/mail_server.js:20
-msgid "Delete account for user '"
+#: admin/views/default/_js/mail_server.js:21
+#, javascript-format
+msgid ""
+"Delete account for user <strong>%s</strong> on server <strong>%s</strong>?"
 msgstr ""
 
 #: admin/views/default/_js/mail_retrieve.js:120
 msgid "Delete email account?"
 msgstr ""
 
-#: admin/views/default/_js/mail_server.js:20
+#: admin/views/default/_js/mail_server.js:25
+msgctxt "confirmation button"
 msgid "Delete mail account"
 msgstr ""
 
