@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bubba-frontend 2.3\n"
 "Report-Msgid-Bugs-To: info@excito.com\n"
-"POT-Creation-Date: 2011-10-06 15:42+0200\n"
+"POT-Creation-Date: 2011-10-06 17:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -274,11 +274,13 @@ msgid "Please enter a valid hostname or IPv4 address"
 msgstr ""
 
 #: admin/views/default/_js/stat.js:100
-msgid "Proceed to restart {PLATFORM}?"
+#, javascript-format
+msgid "Proceed to restart %s?"
 msgstr ""
 
 #: admin/views/default/_js/stat.js:96
-msgid "Proceed to shut down {PLATFORM}?"
+#, javascript-format
+msgid "Proceed to shut down %s?"
 msgstr ""
 
 #: admin/views/default/_js/main.js:150
@@ -302,7 +304,12 @@ msgstr ""
 msgid "Rename files"
 msgstr ""
 
-#: admin/views/default/_js/stat.js:99 admin/views/default/_js/stat.js:101
+#: admin/views/default/_js/stat.js:101
+msgid "Restart"
+msgstr ""
+
+#: admin/views/default/_js/stat.js:99
+msgctxt "confirmation button"
 msgid "Restart"
 msgstr ""
 
@@ -335,7 +342,12 @@ msgctxt "button"
 msgid "Select"
 msgstr ""
 
-#: admin/views/default/_js/stat.js:95 admin/views/default/_js/stat.js:97
+#: admin/views/default/_js/stat.js:97
+msgid "Shut down"
+msgstr ""
+
+#: admin/views/default/_js/stat.js:95
+msgctxt "confirmation button"
 msgid "Shut down"
 msgstr ""
 
