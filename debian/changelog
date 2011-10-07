@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre15) vincent; urgency=low
+
+  * Fix regressing with undefined EASYFINDDOMAIN
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 07 Oct 2011 15:48:03 +0200
+
 bubba-frontend (2.4~pre14) vincent; urgency=low
 
   * readding english message catalog (needed for javascript)
