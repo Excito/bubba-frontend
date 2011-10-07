@@ -1,3 +1,9 @@
+bubba-frontend (2.4~pre13) vincent; urgency=low
+
+  * Adding tor support
+
+ -- Carl Fürstenberg <carl@excito.com>  Fri, 07 Oct 2011 15:24:29 +0200
+
 bubba-frontend (2.4~pre12) vincent; urgency=low
 
   * Update translations
