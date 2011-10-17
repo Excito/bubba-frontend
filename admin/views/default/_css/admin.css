@@ -97,6 +97,14 @@ input[type=submit],input[type=button],button.submit {
   font-weight: bold;
 }
 
+.ui-dialog-content .ui-buttonset .ui-button.ui-state-default {
+	display: inline;
+	height: 29px;
+	margin: 0;
+	min-width: 0;
+	padding: 0;
+}
+
 input[type=submit]:hover,input[type=button]:hover, button.submit:hover {
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50)!important;
   border: 0;
@@ -242,6 +250,11 @@ button:hover {
 	padding-left : 33px !important;
 }
 
+.ui-div-small-header {
+    font-size: 12px;
+    padding: 0.25em 1.2em;
+}
+
 label.error {
   -moz-border-radius-bottomleft: 1.5em !important;
   -moz-border-radius-topleft: 1.5em !important;
@@ -324,6 +337,11 @@ div.progress-warn {
 div.progress-notice {
   color: #000;
   font-weight: 500;
+}
+
+div.progress-text {
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 body {
@@ -1960,4 +1978,22 @@ input.ui-input-text, .ui-dialog-title {
 
 .ui-printer-unplugged {
 	color: #333;
+}
+#content table.inline {
+    margin-bottom: 0;
+}
+#content table.inline > tbody > tr {
+    border-top: 0 none;
+}
+
+table.ui-table-form input[type=text], table.ui-table-form select {
+    width: 100%;
+}
+
+td.ui-cell-table {
+    padding: 0;
+}
+
+.ro-text-field {
+    padding: .3em;
 }

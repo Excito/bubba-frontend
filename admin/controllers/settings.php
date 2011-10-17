@@ -11,7 +11,6 @@ class Settings extends Controller{
 
 		$this->Auth_model->enforce_policy('web_admin','administer', 'admin');
 
-		load_lang("bubba",THEME.'/i18n/'.LANGUAGE);
 	}
 	
 	function _renderfull($content,$head=null){
@@ -132,19 +131,19 @@ class Settings extends Controller{
 		if(!isset($path) || !$path) {
 			$data['update'] = array(
 				'success' => false,
-				'message' => t('settings_backup_error_no_path'),
+				'message' => _("Failed to set up mount point for backup"),
 			);
 		} else {
 			set_time_limit(5*60);		
 			if(!backup_config($path)) {
 				$data['update'] = array(
 					'success' => true,
-					'message' => t('settings_backup_success'),
+					'message' => _("System settings backup was sucessfully created"),
 				);
 			} else {
 				$data['update'] = array(
 					'success' => false,
-					'message' => t('settings_backup_error_failed'),
+					'message' => _("The system was unable to create a backup"),
 				);
 			}
 			if(!isset($allready_mounted) || !$allready_mounted) {
@@ -179,19 +178,19 @@ class Settings extends Controller{
 		if(!isset($path) || !$path) {
 			$data['update'] = array(
 				'success' => false,
-				'message' => t('settings_restore_error_no_path'),
+				'message' => _("Failed to set up mount point for restore"),
 			);
 		} else {
 			set_time_limit(5*60);
 			if(!restore_config($path)) {
 				$data['update'] = array(
 					'success' => true,
-					'message' => t('settings_restore_success'),
+					'message' => _("System settings was sucessfully restored"),
 				);
 			} else {
 				$data['update'] = array(
 					'success' => false,
-					'message' => t('settings_restore_error_failed'),
+					'message' => _("The system was unable to restore the system from an backup"),
 				);
 			}
 			
@@ -227,22 +226,22 @@ class Settings extends Controller{
 				$this->output->set_output( json_encode( array( 'done' => 1, 'stop' => 0, 'statusMessage' => 'Hotfix check disabled per request' ) ) );
 				return;
 			}
-			hotfix_run();
-			$output = hotfix_query_progress();
+			old_hotfix_run();
+			$output = old_hotfix_query_progress();
 			break;
 		case 'hotfix_progress':
-			$output = hotfix_query_progress();
+			$output = old_hotfix_query_progress();
 			break;
 		case 'upgrade':
-			apt_upgrade_packages();
-			$output = apt_query_progress();
+			old_apt_upgrade_packages();
+			$output = old_apt_query_progress();
 			break;
 		case 'install':
-			apt_install_package( $this->input->post( 'package' ) );
-			$output = apt_query_progress();
+			old_apt_install_package( $this->input->post( 'package' ) );
+			$output = old_apt_query_progress();
 			break;
 		case 'progress':
-			$output = apt_query_progress();
+			$output = old_apt_query_progress();
 			break;
 		case 'get_versions':
 			$versions = get_package_version(array("bubba","bubba3-kernel","bubba-frontend","bubba-backend","bubba-album","filetransferdaemon","squeezecenter"));
@@ -339,7 +338,7 @@ class Settings extends Controller{
 				$error = true;
 				$data['update'] = array(
 					'success' => false,
-					'message' => t("settings_datetime_error_set_timezone", $user_tz),
+					'message' => sprintf(_("Failed to set timezone <strong>%s</strong>"), $user_tz),
 				);
 			}
 		}
@@ -358,7 +357,7 @@ class Settings extends Controller{
 				$error = true;
 				$data['update'] = array(
 					'success' => false,
-					'message' => t("settings_datetime_error_set_date_time", $date, $time),
+					'message' => sprintf(_("Failed to set date <strong>%s</strong> and time <strong>%s</strong>"), $date, $time),
 				);				
 				$data['date'] = $date;
 				$data['time'] = $time;
@@ -384,7 +383,7 @@ class Settings extends Controller{
 		if(!$error) {
 			$data['update'] = array(
 				'success' => true,
-				'message' => t("settings_datetime_success"),
+				'message' => _("Timezone, date and/or time was successfully updated"),
 			);
 		}
 
@@ -404,18 +403,24 @@ class Settings extends Controller{
 			$wizard_call=true;	
 		}
 		if($lang) {
-			update_bubbacfg("admin","default_lang",$lang);
-			$conf = parse_ini_file(ADMINCONFIG);
-			if(! (isset($conf['language']) && $conf['language'])) {
-				$this->session->set_userdata('language',$lang);
-				if(!$wizard_call) {
-					redirect('settings/datetime');
-				}
-			}
-			$data['update'] = array(
-					'success' => true,
-					'message' => t("settings_defaultlang_success"),
-			);
+            $languages = $this->gettext->get_languages();
+            if(isset($languages[$lang])) {
+                $locale = $languages[$lang]['locale'];
+                update_bubbacfg("admin","default_lang",$lang);
+                update_bubbacfg("admin","default_locale",$locale);
+                $conf = parse_ini_file(ADMINCONFIG);
+                if(! (isset($conf['language']) && $conf['language'])) {
+                    $this->session->set_userdata('language',$lang);
+                    $this->session->set_userdata('locale',$locale);
+                    if(!$wizard_call) {
+                        redirect('settings/datetime');
+                    }
+                }
+                $data['update'] = array(
+                    'success' => true,
+                    'message' => _("Default system language updated"),
+                );
+            }
 		} else {
 			// no update
 			$data = array();
@@ -438,8 +443,8 @@ class Settings extends Controller{
 				$trafdata["btdl_throttle"]=$trafdata["btdl_throttle"]/1024;
 			}
 		}else{
-			$trafdata["btul_throttle"]=t('n/a');
-			$trafdata["btdl_throttle"]=t('n/a');
+			$trafdata["btul_throttle"]=_('n/a');
+			$trafdata["btdl_throttle"]=_('n/a');
 		}
 		
 		if($strip){
@@ -453,7 +458,7 @@ class Settings extends Controller{
 
 		$data = $this->_datetime($data);
 		
-		$data["available_languages"] = get_languages();
+		$data["available_languages"] = $this->gettext->get_languages();
 		
 		if($strip){
 			$this->load->view(THEME.'/settings/settings_datetime_view');		
@@ -494,11 +499,8 @@ class Settings extends Controller{
 	function software($action = 'upgrade', $package = null ){
 		$data['action'] = $action;
 		$data['package'] = $package;
-		$hotfix_enabled = query_bubbacfg( 'admin', 'hotfix' );
-		if( is_null( $hotfix_enabled ) ) {
-			$hotfix_enabled = true;
-		}
-		$data['hotfix_enabled'] = $hotfix_enabled;
+        $data['version'] = file_get_contents(BUBBA_VERSION);
+
 		$this->_renderfull(
 			$this->load->view(THEME.'/settings/settings_software_view',$data,true),
 			$this->load->view(THEME.'/settings/settings_software_head_view',$data,true)
@@ -541,6 +543,7 @@ class Settings extends Controller{
 				'xferlog' => 'proftpd/xferlog',
 				'xferreport' => 'proftpd/xferreport',
 			),
+            'tor' => 'tor/notices.log'
 
 
 		);
@@ -627,7 +630,7 @@ class Settings extends Controller{
 			} else {
 				// --- PREPROCESSING SETTINGS ----
 				//print_r("PREPROCESS: settings");
-				$data['wiz_data']['available_languages'] = get_languages();
+				$data['wiz_data']['available_languages'] = $this->gettext->get_languages();
 			}
 
 			// --- LOADING view SETTINGS ----
@@ -779,12 +782,7 @@ class Settings extends Controller{
 					# easyfind selected to be enabled
 					$valid = $this->networkmanager->easyfind_validate($easyfind_name);
 					if($valid) {
-						if(isB3()) {
-							$domain = B3_EASYFINDDOMAIN;
-						} else {
-							$domain = DEFAULT_EASYFINDDOMAIN;
-						}
-						$server_response = $this->networkmanager->easyfind_setname($easyfind_name.".".$domain);
+						$server_response = $this->networkmanager->easyfind_setname($easyfind_name.".".EASYFIND);
                         $this->networkmanager->enable_igd_easyfind(true);
 						if($server_response['error']) {
 							$msg = $this->networkmanager->decode_easyfindmsg($server_response);
@@ -798,7 +796,7 @@ class Settings extends Controller{
 						}
 						
 					} else {
-						$msg = t("Name '%s' is not valid",$easyfind_name);
+						$msg = sprintf(_("Name '%s' is not valid"), $easyfind_name);
 						$data['easyfind']['name'] = $easyfind_name;
 						$errors[$msg] = true;
 					}

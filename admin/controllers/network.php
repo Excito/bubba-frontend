@@ -9,7 +9,6 @@ class Network extends Controller{
 		require_once(ADMINFUNCS);
 
 		$this->Auth_model->enforce_policy('web_admin','administer', 'admin');
-		load_lang("bubba",THEME.'/i18n/'.LANGUAGE);
 		$this->load->helper('network');
 		$this->load->model('networkmanager');
 	}
@@ -285,9 +284,9 @@ class Network extends Controller{
 
 		$data["dhcpd"]=!$data['dhcp'];
 		if(!$data["success"]) {
-			$data['update_msg'] = t("Error applying settings");
+			$data['update_msg'] = _("Error applying settings");
 		} else {
-			$data['update_msg'] = t("LAN configuration updated");
+			$data['update_msg'] = _("LAN configuration updated");
 		}
 		if($strip){
 			$this->load->view(THEME.'/network/network_lan_view.php',$data);
@@ -492,7 +491,7 @@ class Network extends Controller{
 						$oct_index=0;
 						foreach($ip as $oct) {
 							if(!( ((int)$oct & (int)$mask[$oct_index]) == ((int)$port_ip[$oct_index] & (int)$mask[$oct_index])) ) {
-								$errmsg["to_ip"] = t("Invalid private IP.")."<br>".t("LAN is on")." "."$ifc[0] / $ifc[1]";
+								$errmsg["to_ip"] = _("Invalid private IP.")."<br>"._("LAN is on")." "."$ifc[0] / $ifc[1]";
 								break;
 							}
 							$oct_index++;
@@ -1033,11 +1032,7 @@ class Network extends Controller{
 		if(isset($data['wiz_data']['back'])) {
 			redirect("/users/wizard");
 		}
-		if(isB3()) {
-			$data['wiz_data']['easyfind']['domain'] = B3_EASYFINDDOMAIN;
-		} else {
-			$data['wiz_data']['easyfind']['domain'] = DEFAULT_EASYFINDDOMAIN;
-		}
+		$data['wiz_data']['easyfind']['domain'] = EASYFIND;
 
 		if(isset($data['wiz_data']['cancel'])) {
 			exit_wizard();
@@ -1065,7 +1060,7 @@ class Network extends Controller{
 						if(!$data['wiz_data']['easyfind_name']) {
 							$data['wiz_data']['err_easyfind_empty'] = 1;
 						}
-						$data['wiz_data']['err_easyfind'] = t("Invalid characters in name %s",$data['wiz_data']['easyfind_name']);
+						$data['wiz_data']['err_easyfind'] = sprintf(_("Invalid characters in name %s"), $data['wiz_data']['easyfind_name']);
 						$data['wiz_data']['easyfind']['name'] = $data['wiz_data']['easyfind_name']; 
 					}
 				} else {
@@ -1101,11 +1096,7 @@ class Network extends Controller{
 				if(preg_match("/(.*)\.([\d\w]+\.\w+)$/",$data['wiz_data']['easyfind']['name'],$host)) {
 					$data['wiz_data']['easyfind']['name'] = $host[1];
 				}
-				if(isB3()) {
-					$data['wiz_data']['easyfind']['domain'] = B3_EASYFINDDOMAIN;
-				} else {
-					$data['wiz_data']['easyfind']['domain'] = DEFAULT_EASYFINDDOMAIN;
-				}
+				$data['wiz_data']['easyfind']['domain'] = EASYFIND;
 				
 				if($strip){
 					$this->load->view($this->load->view(THEME.'/network/network_wizard_view',$data));
@@ -1113,6 +1104,94 @@ class Network extends Controller{
 					$this->_renderfull($this->load->view(THEME.'/network/network_wizard_view',$data,true));
 				}
 			}
+		}
+	}
+
+	# Below are two functions for Tor
+	function tor($strip="", $msg="") {
+		# Check that avalid timezone has been set
+        $data['tor_configurable'] = get_current_tz() != "UTC";
+
+		# Is Tor enabled?
+		$data['enabled'] = $this->networkmanager->tor_enabled();
+
+		# If the user is running a bridge, we will want to
+		# display the bridge IP:Port
+        $data['type'] = $this->networkmanager->get_tor_type();
+
+
+		$data['bridge_address'] = $data['type'] == 'bridge' ? $this->networkmanager->get_tor_bridge_address() : '';
+		$data['public_bridge'] = $data['type'] == 'bridge' ? $this->networkmanager->get_tor_public_bridge() : true;
+
+		# Let the user read values from /etc/tor/torrc
+		$data['nickname'] = $this->networkmanager->get_tor_nickname();
+		$data['contact'] = $this->networkmanager->get_tor_contact();
+		$data['relay_port'] = $this->networkmanager->get_tor_relay_port();
+		$data['dir_port'] = $this->networkmanager->get_tor_dir_port();
+		$data['bandwidth_rate'] = $this->networkmanager->get_tor_bandwidth_rate();
+		$data['bandwidth_burst'] = $this->networkmanager->get_tor_bandwidth_burst();
+
+        $bw = 'custom';
+        if(preg_match("#(?P<rate>\d+) KB(?:ytes) (?P<burst>\d+) KB(?:ytes)#", "$data[bandwidth_rate] $data[bandwidth_burst]", $m)) {
+            switch("$m[rate]-$m[burst]") {
+            case '32-64':
+                $bw = '256';
+                break;
+            case '64-128':
+                $bw = '512';
+                break;
+            case '92-192':
+                $bw = '768';
+                break;
+            case '192-384':
+                $bw = 't1';
+                break;
+            case '5120-10240':
+                $bw = 'highbw';
+                break;
+            }
+        }
+        $data['bwtype'] = $bw;
+        unset($bw);
+
+		# Define ports for exit policies
+		#
+		# Ports represented by the "Websites" checkbox
+		$data['ports_http'] = "80";
+
+		# Ports represented by the "Secure Websites" checkbox
+		$data['ports_https'] = "443";
+
+		# Ports represented by the "Retrieve Mail" checkbox
+		$data['ports_mail'] = array("110", "143", "993", "995");
+
+		# Ports represented by the "Instant Messaging" checkbox
+		$data['ports_im'] = array("706", "1863", "5050", "5190", "5222", "5223", "8300", "8888");
+
+		# Ports represented by the "IRC" checkbox
+		$data['ports_irc'] = array("6660-6669", "6697", "7000-7001");
+
+        if($data['type'] == 'exit') {
+            $data['exit_policies'] = $this->networkmanager->tor_get_exit_policies();
+        } else {
+            $data['exit_policies'] = array(
+                'http' => true,
+                'https' => true,
+                'mail' => true,
+                'im' => true,
+                'irc' => true,
+                'misc' => false
+            );
+        }
+
+		# Small note about the "misc" checkbox: when ticked, it
+		# does *not* add "reject *:*" after the accepts
+
+		# Load the view
+		if($strip) {
+			$this->load->view(THEME.'/network/network_tor_view.php',$data);
+		} else {
+			$this->_renderfull($this->load->view(THEME.'/network/network_tor_view.php',$data,true));
 		}
 	}
 }

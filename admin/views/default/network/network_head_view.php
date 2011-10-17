@@ -1,5 +1,9 @@
+<script type="text/javascript" src="<?=FORMPREFIX.'/views/'.THEME?>/_js/jquery.form.js?v='<?=$this->session->userdata('version')?>'"></script>
+<script type="text/javascript" src="<?=FORMPREFIX.'/views/'.THEME?>/_js/jquery.validate.js?v='<?=$this->session->userdata('version')?>'"></script>
 <script type="text/javascript" src="<?=FORMPREFIX.'/views/'.THEME?>/_js/network.js?v='<?=$this->session->userdata('version')?>'"></script>
+<script type="text/javascript" src="<?=FORMPREFIX.'/views/'.THEME?>/_js/tor.js?v='<?=$this->session->userdata('version')?>'"></script>
 <script type="text/javascript">
+data = <?=json_encode($exit_policies)?>;
 
 
 function disable_leasefields() {
@@ -27,13 +31,13 @@ $(document).ready(function(){
 				if( data.show_alert ) {
 					$.confirm( 
 						data.alert_msg, 
-						"<?=t("Network configuration")?>", {
+						"<?=_("Network configuration")?>", {
 
-						<?=t('button_label_continue')?>: function() {
+						<?=_("Continue")?>: function() {
 								$(this).dialog('close');
 								cursor_wait();
 								$("#OTHCFG").submit(); 
-							},<?=t('button_label_cancel')?>: function() {
+							},<?=_("Cancel")?>: function() {
 								$(this).dialog('close');
 							}
 						}
@@ -113,7 +117,8 @@ $(document).ready(function(){
 	});
 
 	disable_leasefields();
-	
+
+
 });
 
 </script>
