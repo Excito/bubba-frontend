@@ -113,7 +113,7 @@
         </div>
             <tr class="ui-header">
                 <td>
-                    <?=sprintf(_("To locate %s from the internet, use 'Easyfind' location service"), NAME)?>
+                    <?=_("Enable easyfind")?>
                 </td>
                 <td>
                     <input
