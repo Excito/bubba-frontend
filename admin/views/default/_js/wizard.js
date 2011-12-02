@@ -29,12 +29,11 @@ function do_run_wizard(){
 
 
     wizard_element = $('<div/>');
-    wizard_dialog = $.dialog(wizard_element, "", butts, {
+    wizard_dialog = $.dialog(wizard_element, _("Startup wizard"), butts, {
         'width': 600,
-        'minWidth': 600,
-        'minHeight': 300,
-        'resizable': true,
-        'position': ['center',200],
+        'height': 300,
+        'resizable': false,
+        'position': 'center',
         'close': function(event, ui) {
             $.post(config.prefix + "/wizard/mark_dirty");
         }
