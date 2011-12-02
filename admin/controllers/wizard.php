@@ -192,7 +192,12 @@ class wizard extends Controller {
         }
         $wanif = $this->networkmanager->get_wan_interface();
         $mac = $this->networkmanager->get_mac($wanif);
-        $this->output->set_output(json_encode($this->networkmanager->easyfind_available($name, $mac) === true));
+        try {
+            $available = $this->networkmanager->easyfind_available($name, $mac);
+        } catch( Exception $e ) {
+            $available = false;
+        }
+        $this->output->set_output(json_encode($available === true));
     }
 
     public function username_is_available() {
