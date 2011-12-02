@@ -113,6 +113,7 @@ function do_run_wizard(){
                     'dataType': 'json',
                     'reset': false,
                     'success': function( data ) {
+                        $.throbber.hide();
                         if(data.error) {
                             $.alert(
                                 _("Following errors where encountered when trying to apply the changes: ") + data.messages.join(", "),
