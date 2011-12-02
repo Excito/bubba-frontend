@@ -106,7 +106,11 @@
     <div id="fn-wizard-step-5" class="step">
         <h3><?=_("Choose easyfind name (step 5 of 5)")?></h3>
         <table>
-
+        <div>
+            <em>
+                <?=sprintf(_("To locate %s from the internet, use 'Easyfind' location service"), NAME)?>
+            </em>
+        </div>
             <tr class="ui-header">
                 <td>
                     <?=sprintf(_("To locate %s from the internet, use 'Easyfind' location service"), NAME)?>
