@@ -35,7 +35,7 @@ function do_run_wizard(){
     wizard_element = $('<div/>');
     wizard_dialog = $.dialog(wizard_element, _("Startup wizard"), butts, {
         'width': 600,
-        'height': 300,
+        'height': 400,
         'resizable': false,
         'position': 'center',
         'close': function(event, ui) {
