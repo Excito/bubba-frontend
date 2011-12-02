@@ -134,6 +134,9 @@
                     name="easyfind_name"
                     type="text"
                     value="<?=$easyfind_name?>"
+                    <?if(!$enabled_easyfind):?>
+                    disabled="disabled"
+                    <?endif?>
                     /> <span>(http://<span id="fn-current-easyfind-name"><?=$easyfind_display_name?></span>.<?=EASYFIND?>)</span>
                 </tr>
             </table>

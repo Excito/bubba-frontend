@@ -10,15 +10,6 @@ $('#fn-wizard-easyfind-name').live('keyup',function(){
     $('#fn-current-easyfind-name').text($(this).val());
 });
 
-$('#fn-wizard-enable-easyfind').live('change', function(){
-    if($(this).is(':enabled')) {
-        $("#fn-wizard-easyfind-name").removeAttr('disabled');
-    } else {
-        $("#fn-wizard-easyfind-name").attr('disabled', 'disabled');
-    }
-});
-
-
 function do_run_wizard(){
     butts = [
         {
@@ -56,7 +47,27 @@ function do_run_wizard(){
 
             selected_language=$('#fn-wizard-language option:selected').val();
             wizard_element.load(config.prefix + "/wizard/get_wizard", {language: selected_language}, function(){
-                $('#fn-wizard-enable-easyfind').triggerHandler('change');
+
+                // FIXME should be global option, taken from main
+                var iCheckbox_options = {
+                    switch_container_src: config.prefix+'/views/'+config.theme+'/_img/bubba_switch_container.png',
+                    class_container: 'ui-icon-bubba-switch-container',
+                    class_switch: 'ui-icon-bubba-switch',
+                    switch_speed: 50,
+                    switch_swing: -65,
+                    checkbox_hide: true,
+                    switch_height: 21,
+                    switch_width: 127
+                };
+
+                wizard_element.find('.slide').iCheckbox( iCheckbox_options );
+                wizard_element.find('#fn-wizard-enable-easyfind').change(function(){
+                    if($(this).is(':checked')) {
+                        $("#fn-wizard-easyfind-name").removeAttr('disabled');
+                    } else {
+                        $("#fn-wizard-easyfind-name").attr('disabled', 'disabled');
+                    }
+                });
 
                 wizard_dialog.bind('dialogclose', function(event, ui) {
                     wizard_dialog.remove();
@@ -68,7 +79,12 @@ function do_run_wizard(){
                     formPluginEnabled: true,
                     back: buttonpane.find('.ui-prev-button'),
                     next: buttonpane.find('.ui-next-button'),
-                    textSubmit: "Complete"
+                    textSubmit: "Complete",
+                    afterNext: function(wizardData) {
+                        if( wizardData.currentStep == "fn-wizard-step-5" ) {
+                            wizard_element.find('#fn-wizard-enable-easyfind').change();
+                        }
+                    }
                 },
                 {
                     rules: {
