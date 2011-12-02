@@ -7,6 +7,10 @@
 <script type="text/javascript" src="<?=FORMPREFIX.'/views/'.THEME?>/_js/wizard.js?v='<?=$this->session->userdata('version')?>'"></script>
 
 <script type="text/javascript">
+    placeholder_easyfind_name=<?=_("your-easyfind-name")?>;
+</script>
+
+<script type="text/javascript">
 run_wizard=<?=json_encode(isset($run_wizard) ? $run_wizard : false)?>;
 
 $(function(){

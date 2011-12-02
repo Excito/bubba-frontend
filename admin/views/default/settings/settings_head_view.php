@@ -4,6 +4,10 @@
 <script type="text/javascript" src="<?=FORMPREFIX.'/views/'.THEME?>/_js/jquery.ba-throttle-debounce.js?v='<?=$this->session->userdata('version')?>'"></script>
 <script type="text/javascript" src="<?=FORMPREFIX.'/views/'.THEME?>/_js/wizard.js?v='<?=$this->session->userdata('version')?>'"></script>
 
+<script type="text/javascript">
+    placeholder_easyfind_name=<?=_("your-easyfind-name")?>;
+</script>
+
 <script>
 $(function(){
     $("#fn-wizard-button").click(do_run_wizard);

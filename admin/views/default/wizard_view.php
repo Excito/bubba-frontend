@@ -133,7 +133,7 @@
                     id="fn-wizard-easyfind-name"
                     name="easyfind_name"
                     type="text"
-                    value="<?=$easyfind_name?>"
+                    value="<?=$easyfind_display_name?>"
                     <?if(!$enabled_easyfind):?>
                     disabled="disabled"
                     <?endif?>

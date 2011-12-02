@@ -8,7 +8,12 @@ $.validator.addMethod('valid_password', function(value, element, params) {
 jQuery.format("not a valid password"));
 $('#fn-wizard-easyfind-name').live('keyup',function(){
     $('#fn-current-easyfind-name').text($(this).val());
+}).live('focus', function(){
+    if($(this).val() == placeholder_easyfind_name) {
+        $(this).val("");
+    }
 });
+
 
 function do_run_wizard(){
     butts = [
