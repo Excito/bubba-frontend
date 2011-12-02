@@ -3,33 +3,23 @@
 
     <div id="fn-wizard-step-2" class="step">
         <h3><?=_("Set timezone (step 2 of 5)")?></h3>
-        <table>
-            <tr class="ui-header">
-                <td>
-                    <label for="fn-wizard-timezone"><?=_("Select timezone")?>:</label>
-                </td>
-                <td>
-                    <select name="timezone" id="fn-wizard-timezone">
-                        <?foreach($timezones as $country => $region):?>
-                        <option
-                        id="timezone-option-<?=$country?>"
-                        value="<?=$region?"$region/$country":"$country"?>"
-                        <?if($current_timezone == $country || $current_timezone == "$region/$country"):?>
-                        selected="selected"
-                        <?endif?>
-                        >
-                        <?if($region):?>
-                        <?=sprintf("%s (%s)", str_replace('_',' ',$country), str_replace('_',' ',$region))?>
-                        <?else:?>
-                        <?=str_replace('_',' ',$country)?>
-                        <?endif?>
-                        </option>
-                        <?endforeach?>
-                    </select>
-                </td>
-            </tr>
-        </table>
-
+        <select name="timezone" id="fn-wizard-timezone">
+            <?foreach($timezones as $country => $region):?>
+            <option
+            id="timezone-option-<?=$country?>"
+            value="<?=$region?"$region/$country":"$country"?>"
+            <?if($current_timezone == $country || $current_timezone == "$region/$country"):?>
+            selected="selected"
+            <?endif?>
+            >
+            <?if($region):?>
+            <?=sprintf("%s (%s)", str_replace('_',' ',$country), str_replace('_',' ',$region))?>
+            <?else:?>
+            <?=str_replace('_',' ',$country)?>
+            <?endif?>
+            </option>
+            <?endforeach?>
+        </select>
     </div>
 
     <div id="fn-wizard-step-3" class="step">
