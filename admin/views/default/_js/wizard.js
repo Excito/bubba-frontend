@@ -144,6 +144,7 @@ function do_run_wizard(){
                     'reset': false,
                     'success': function( data ) {
                         $.throbber.hide();
+                        wizard_dialog.dialog('close');
                         if(data.error) {
                             $.alert(
                                 _("Following errors where encountered when trying to apply the changes: ") + data.messages.join(", "),
