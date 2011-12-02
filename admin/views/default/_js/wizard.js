@@ -9,7 +9,7 @@ jQuery.format("not a valid password"));
 $('#fn-wizard-easyfind-name').live('keyup',function(){
     $('#fn-current-easyfind-name').text($(this).val());
 }).live('focus', function(){
-    if($(this).val() == placeholder_easyfind_name) {
+    if($(this).val() == _("your-easyfind-name")) {
         $(this).val("");
     }
 });
