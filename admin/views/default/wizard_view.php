@@ -24,6 +24,11 @@
 
     <div id="fn-wizard-step-3" class="step">
         <h3><?=_("Change Administrator password (step 3 of 5)")?></h3>
+        <div>
+            <em>
+                <?=_("It's highly recommended to change the admin password for security reasons!")?>
+            </em>
+        </div>
         <table>
 
             <tr class="ui-header">
