@@ -24,11 +24,11 @@
 
     <div id="fn-wizard-step-3" class="step">
         <h3><?=_("Change Administrator password (step 3 of 5)")?></h3>
-        <div>
+        <p>
             <em>
                 <?=_("It's highly recommended to change the admin password for security reasons!")?>
             </em>
-        </div>
+        </p>
         <table>
 
             <tr class="ui-header">
@@ -55,11 +55,11 @@
 
     <div id="fn-wizard-step-4" class="step">
         <h3><?=_("Create initial user (step 4 of 5)")?></h3>
-        <div>
+        <p>
             <em>
                 <?=sprintf(_("For day-to-day operations it's recommended to use a regular user. You can later add more users for every person using the %s"), NAME)?>
             </em>
-        </div>
+        </p>
 
         <table>
 
@@ -106,11 +106,11 @@
     <div id="fn-wizard-step-5" class="step">
         <h3><?=_("Choose easyfind name (step 5 of 5)")?></h3>
         <table>
-        <div>
+        <p>
             <em>
                 <?=sprintf(_("To locate %s from the internet, use 'Easyfind' location service"), NAME)?>
             </em>
-        </div>
+        </p>
             <tr class="ui-header">
                 <td>
                     <?=_("Enable easyfind")?>
