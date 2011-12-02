@@ -148,8 +148,7 @@ function do_run_wizard(){
                         if(data.error) {
                             $.alert(
                                 _("Following errors where encountered when trying to apply the changes: ") + data.messages.join(", "),
-                                "Error applying changes",
-                                null,
+                                _("Error applying changes"),
                                 null,
                                 function() {
                                     window.location.reload(true);
