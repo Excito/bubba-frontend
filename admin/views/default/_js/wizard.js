@@ -10,6 +10,14 @@ $('#fn-wizard-easyfind-name').live('keyup',function(){
     $('#fn-current-easyfind-name').text($(this).val());
 });
 
+$('#fn-wizard-enable-easyfind').live('change', function(){
+    if($(this).is(':enabled')) {
+        $("#fn-wizard-easyfind-name").removeAttr('disabled');
+    } else {
+        $("#fn-wizard-easyfind-name").attr('disabled', 'disabled');
+    }
+});
+
 
 function do_run_wizard(){
     butts = [
@@ -48,6 +56,7 @@ function do_run_wizard(){
 
             selected_language=$('#fn-wizard-language option:selected').val();
             wizard_element.load(config.prefix + "/wizard/get_wizard", {language: selected_language}, function(){
+                $('#fn-wizard-enable-easyfind').triggerHandler('change');
 
                 wizard_dialog.bind('dialogclose', function(event, ui) {
                     wizard_dialog.remove();
