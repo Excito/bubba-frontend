@@ -1,9 +1,9 @@
 $.validator.addMethod('valid_username', function(value, element, params) {
-    return value.length == 0 || (/^[^-][a-z0-9 _-]+$/.test(value) && value != 'web' && value != 'storage' && value != 'root');
+    return value.length === 0 || (/^[^\-][a-z0-9 _\-]+$/.test(value) && value != 'web' && value != 'storage' && value != 'root');
 },
 jQuery.format("not a valid username"));
 $.validator.addMethod('valid_password', function(value, element, params) {
-    return /^\w*$/.test(value);
+    return (/^\w*$/).test(value);
 },
 jQuery.format("not a valid password"));
 $('#fn-wizard-easyfind-name').live('keyup',function(){
@@ -110,7 +110,7 @@ function do_run_wizard(){
                             'remote': {
                                 url: config.prefix + "/wizard/validate_easyfind",
                                 type: "post"
-                            },
+                            }
                         }
 
                     }
