@@ -1,5 +1,5 @@
 <div>
-    <h3><?=_("Select language")?></h3>
+    <h3><?=_("Select language (step 1 of 5)")?></h3>
     <select
         name="language"
         id="fn-wizard-language"
