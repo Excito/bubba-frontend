@@ -154,7 +154,9 @@ function do_run_wizard(){
                                     window.location.reload(true);
                                 });
                         } else {
-                            window.location.reload(true);
+                            $.alert(_("Setup complete. Enjoy!"),null,null,function(){
+                                window.location.reload(true);
+                            });
                         }
                     },
                     'beforeSubmit': function(arr, $form, options) {
