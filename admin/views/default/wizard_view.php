@@ -26,7 +26,7 @@
         <h3><?=_("Change Administrator password (step 3 of 5)")?></h3>
         <p>
             <em>
-                <?=_("It's highly recommended to change the admin password for security reasons!")?>
+                <?=_("It's highly recommended to change the admin password for security reasons")?>
             </em>
         </p>
         <table>
