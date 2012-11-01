@@ -1,3 +1,9 @@
+bubba-frontend (2.5.1.6teletwo1) unstable; urgency=low
+
+  * switch logo for tele2
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 01 Nov 2012 11:29:31 +0100
+
 bubba-frontend (2.5.1.6) vincent hugo; urgency=low
 
   * Fix bug in throbber (closes: 293)

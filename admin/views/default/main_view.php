@@ -289,11 +289,10 @@ if(isset($head)) {
                 
                 	<?if(isB3()) :?>
                 		<div id="main-excito-logo">
-					<a href="http://www.excito.com" target="_tab" class="ui-excito-link"><img id="ex_logo" src="<?=FORMPREFIX.'/views/'.THEME?>/_img/purple-X.png" alt="<?=_("Excito")?>" /></a>
                 			<span id="ui-main-byExcito">by Excito Sweden</span>
                 		</div>
 		                <a href="#" id="a_logo" onclick="location.href='<?=FORMPREFIX?>'">
-				<img id="img_logo" src="<?=FORMPREFIX.'/views/'.THEME?>/_img/B3_logo.png" alt="<?=_("B3 start page")?>" title="<?=_("B3 start page")?>" />
+				<img id="img_logo" src="<?=FORMPREFIX.'/views/'.THEME?>/_img/tele2-logo.png" alt="<?=_("B3 start page")?>" title="<?=_("B3 start page")?>" />
                 		</a>
 					<?else:?>                	
 		                <a href="#" id="a_logo" onclick="location.href='<?=FORMPREFIX?>'">

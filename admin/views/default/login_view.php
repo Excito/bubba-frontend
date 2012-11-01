@@ -10,7 +10,7 @@
     <span><?=_("For more information")?>:</span>
     <a href="/manual/index.php?lang=<?=LANGUAGE?>" target="_blank"><?=_("Manual")?></a>|
     <a href="http://forum.excito.net" target="_blank">Forum</a>|
-    <a href="http://www.excito.com/bubba/support/" target="_blank"><?=_("Support")?> &amp; <?=_("Contact")?></a>
+    <a href="http://www.tele2.se/kundservice/kontakt/kontakta-oss.aspx" target="_blank"><?=_("Support")?> &amp; <?=_("Contact")?></a>
     <a href="http://www.excito.com" alt="Excito homepage" target="_blank"><img id="" src="<?=FORMPREFIX.'/views/'.THEME?>/_img/bubba_heart.png"/></a>
 </div>
 
