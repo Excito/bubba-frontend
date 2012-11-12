@@ -428,6 +428,11 @@ class NetworkManager extends Model {
 		    stop_service("minidlna");
 		    start_service("minidlna");
 	    }
+
+	    if(query_service("beehive")){
+		    stop_service("beehive");
+		    start_service("beehive");
+	    }
 	}
 }
 
@@ -492,6 +497,7 @@ class NetworkManager extends Model {
 
 		_system( FIREWALL, 'set_lanif', $if );
 		_system( BACKEND, 'set_interface', $if );
+    _system( 'python', '/usr/share/beehive/updateinterface.py', $if );
 
         $this->igd_set_interface($if);
 
