@@ -1,3 +1,10 @@
+bubba-frontend (2.5.1.6teletwo2) unstable; urgency=low
+
+  * restart beehive and update it's config on change of interface
+  * Switching tele2 logo (closes: #512)
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 27 Nov 2012 15:21:01 +0100
+
 bubba-frontend (2.5.1.6teletwo1) unstable; urgency=low
 
   * switch logo for tele2
