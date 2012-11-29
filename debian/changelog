@@ -1,3 +1,9 @@
+bubba-frontend (2.5.1.6teletwo3) unstable; urgency=low
+
+  * update logo
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 29 Nov 2012 11:15:24 +0100
+
 bubba-frontend (2.5.1.6teletwo2) unstable; urgency=low
 
   * restart beehive and update it's config on change of interface
