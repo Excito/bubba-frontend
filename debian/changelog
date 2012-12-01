@@ -1,3 +1,9 @@
+bubba-frontend (2.5.1.6teletwo4) unstable; urgency=low
+
+  * change BUBBA_VERION to use /usr instead
+
+ -- Carl Fürstenberg <carl@excito.com>  Sat, 01 Dec 2012 12:59:58 +0100
+
 bubba-frontend (2.5.1.6teletwo3) unstable; urgency=low
 
   * update logo
