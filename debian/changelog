@@ -1,3 +1,10 @@
+bubba-frontend (2.5.1.6teletwo5) unstable; urgency=low
+
+  * don't bail on bad session_start (closes: #552)
+  * make it possible to change language for users
+  * select "default" per default for edit user (closes: #509)
+
+ -- Carl Fürstenberg <carl@excito.com>  Mon, 03 Dec 2012 15:48:28 +0100
 bubba-frontend (2.5.1.6teletwo4) unstable; urgency=low
 
   * change BUBBA_VERION to use /usr instead
