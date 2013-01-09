@@ -1,3 +1,11 @@
+bubba-frontend (2.5.1.6teletwo6) unstable; urgency=low
+
+  * Show correct default ssid (closes: #511)
+  * updating codeigniter
+  * no slash in $caller anymore
+
+ -- Carl Fürstenberg <carl@excito.com>  Wed, 09 Jan 2013 09:27:01 +0100
+
 bubba-frontend (2.5.1.6teletwo5) unstable; urgency=low
 
   * don't bail on bad session_start (closes: #552)
