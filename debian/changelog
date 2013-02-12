@@ -1,3 +1,9 @@
+bubba-frontend (2.5.1.6+teletwo7) unstable testing; urgency=low
+
+  * update version format, no changes
+
+ -- Carl Fürstenberg <carl@excito.com>  Tue, 12 Feb 2013 11:33:50 +0100
+
 bubba-frontend (2.5.1.6teletwo6) unstable; urgency=low
 
   * Show correct default ssid (closes: #511)
