@@ -497,7 +497,7 @@ class NetworkManager extends CI_Model {
 
 		_system( FIREWALL, 'set_lanif', $if );
 		_system( BACKEND, 'set_interface', $if );
-    _system( 'python', '/usr/share/beehive/updateinterface.py', $if );
+    _system( 'python', '/usr/share/beehive/updateinterface.py', '--interface', $if );
 
         $this->igd_set_interface($if);
 
