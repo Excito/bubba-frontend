@@ -1,3 +1,9 @@
+bubba-frontend (2.5.1.6+teletwo8) unstable testing; urgency=low
+
+  * add missing argument to updateinterface.py
+
+ -- Carl Fürstenberg <carl@excito.com>  Thu, 21 Feb 2013 17:12:17 +0100
+
 bubba-frontend (2.5.1.6+teletwo7) unstable testing; urgency=low
 
   * update version format, no changes
