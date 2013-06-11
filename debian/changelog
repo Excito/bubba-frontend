@@ -1,3 +1,9 @@
+bubba-frontend (2.6.0.0+teletwo1) unstable testing; urgency=low
+
+  * updating version to 2.6
+
+ -- Andreas Lestrëus <andreas.lestreus@excito.com>  Tue, 11 Jun 2013 11:27:17 +0100
+
 bubba-frontend (2.5.1.6+teletwo8) unstable testing; urgency=low
 
   * add missing argument to updateinterface.py
